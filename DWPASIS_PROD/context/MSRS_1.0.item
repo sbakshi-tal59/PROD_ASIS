@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><talendfile:ContextType xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmlns:xmi="http://www.omg.org/XMI" confirmationNeeded="false" name="Default" xmi:id="_65BjkN_CEeuqf6-Jf_6QQw" xmi:version="2.0">
+  <contextParameter comment="" name="msrs_staging_host" prompt="msrs_staging_host?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="10.96.132.211" xmi:id="_65Bjkd_CEeuqf6-Jf_6QQw"/>
+  <contextParameter comment="" name="msrs_staging_port" prompt="msrs_staging_port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="1522" xmi:id="_65Bjkt_CEeuqf6-Jf_6QQw"/>
+  <contextParameter comment="" name="msrs_staging_database" prompt="msrs_staging_database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="DMISI1" xmi:id="_65Bjk9_CEeuqf6-Jf_6QQw"/>
+  <contextParameter comment="" name="msrs_staging_username" prompt="msrs_staging_username?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="MSRS_STAGING" xmi:id="_65BjlN_CEeuqf6-Jf_6QQw"/>
+  <contextParameter comment="" name="msrs_staging_password" prompt="msrs_staging_password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:ProOAQ4AUey9T/wDtcdS1JpDDXuvkYVrtG/C2AGNKtkB0xRIFhg=" xmi:id="_65Bjld_CEeuqf6-Jf_6QQw"/>
+  <contextParameter comment="" name="msrs_staging_schema" prompt="msrs_staging_schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="MSRS_STAGING" xmi:id="_65Bjlt_CEeuqf6-Jf_6QQw"/>
+  <contextParameter comment="" name="msrs_misown_host" prompt="msrs_misown_host?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="10.96.132.211" xmi:id="_65Bjl9_CEeuqf6-Jf_6QQw"/>
+  <contextParameter comment="" name="msrs_misown_port" prompt="msrs_misown_port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="1522" xmi:id="_65BjmN_CEeuqf6-Jf_6QQw"/>
+  <contextParameter comment="" name="msrs_misown_database" prompt="msrs_misown_database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="DMISI1" xmi:id="_65Bjmd_CEeuqf6-Jf_6QQw"/>
+  <contextParameter comment="" name="msrs_misown_username" prompt="msrs_misown_username?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="MISOWN" xmi:id="_65Bjmt_CEeuqf6-Jf_6QQw"/>
+  <contextParameter comment="" name="msrs_misown_password" prompt="msrs_misown_password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:04aAQ5fxEU7n5apAzkHDD4w35VZ4uzbScUknoYFH76N4z7i6baA=" xmi:id="_65Bjm9_CEeuqf6-Jf_6QQw"/>
+  <contextParameter comment="" name="msrs_misown_schema" prompt="msrs_misown_schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="MISOWN" xmi:id="_65BjnN_CEeuqf6-Jf_6QQw"/>
+  <contextParameter comment="" name="msrs_filepath" prompt="msrs_filepath?" promptNeeded="false" repositoryContextId="built-in" type="id_Directory" value="D:\ASIS\Contexts\PROD\MSRS\" xmi:id="_m0XZ8OY6EeugR71WDZgvBA"/>
+  <contextParameter comment="" name="msrs_source_host" prompt="msrs_source_host?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="10.96.132.211" xmi:id="_9HixIPNsEeub07Lr4cCRmw"/>
+  <contextParameter comment="" name="msrs_source_port" prompt="msrs_source_port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="1522" xmi:id="_9HixIfNsEeub07Lr4cCRmw"/>
+  <contextParameter comment="" name="msrs_source_database" prompt="msrs_source_database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="DMS1I1" xmi:id="_9HixIvNsEeub07Lr4cCRmw"/>
+  <contextParameter comment="" name="msrs_source_username" prompt="msrs_source_username?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="MIS_VIEWS" xmi:id="_ZCuCkPNtEeub07Lr4cCRmw"/>
+  <contextParameter comment="" name="msrs_source_password" prompt="msrs_source_password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:R+3yQHub61uc8LQVb4B4AMn6Sxi/5N0Z8lQg23JbeJN4O4AS" xmi:id="_ZCuCkfNtEeub07Lr4cCRmw"/>
+  <contextParameter comment="" name="msrs_source_schema" prompt="msrs_source_schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="MIS_VIEWS" xmi:id="_ZCuCkvNtEeub07Lr4cCRmw"/>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_6c3d5c0f-6a41-437b-a639-182cdc5a707d"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>/pabpZ3Y5hUYJ7/0fZio9iwV90TruEq2d8RUGV2Ex8oho/rSbt1ZXYeEniLHtY0splCpF+S0i8le&#13;
+pTp2FrygYg==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_77ebdcb3-a62d-442b-a7da-272683042f08"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>7LmCsziCGn9WqsOR7rSaJnCWAPwJA6DVx3mrG0B/hjTZlLZBegF5IeULTMuBGp0sWHCEESHGI8Ql&#13;
+qY3y+Fih6A==</DigestValue></Reference></SignedInfo><SignatureValue>cxPDMX/iT/mXh485UkB+cIiscQClySqh4ACV90ORQJdXw4rt21NVmODdwd3bmfM52oM97vDqvl+M&#13;
+ZSHkkmpldv2Fc5Lse2ywE+X9R+pdrS1arutTwxtHawbIgqR4zcE9h0vJYB+eFzWVb6ZeYfiquPda&#13;
+CKYHmcQLrg0lS96RashyvmGeeIDfGlyUEPjFgqiCaHmgfF680KP6K3OqcnhVQtyJXDRf2Ed7xbPQ&#13;
+DjC54UMWBfwVIUmL5G+hzfaI+Uc5JkarQaCMijAYw/gplxZ0LpLbdJTR4X0+OGRBqDcUpUdh8LHk&#13;
+ZscirYLbj0mtJRadoAPM+uh3mkqdlIHiS7O3Mw==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_77ebdcb3-a62d-442b-a7da-272683042f08" Target="#_6c3d5c0f-6a41-437b-a639-182cdc5a707d"><Timestamp>2024-06-10 12:07:46</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ContextType>
