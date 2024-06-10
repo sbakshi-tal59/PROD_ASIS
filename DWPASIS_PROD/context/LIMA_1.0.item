@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><talendfile:ContextType xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmlns:xmi="http://www.omg.org/XMI" confirmationNeeded="false" name="Default" xmi:id="_65BjkN_CEeuqf6-Jf_6QQw" xmi:version="2.0">
+  <contextParameter comment="" name="lima_staging_host" prompt="lima_staging_host?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="10.96.132.211" xmi:id="_65Bjkd_CEeuqf6-Jf_6QQw"/>
+  <contextParameter comment="" name="lima_staging_port" prompt="lima_staging_port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="1522" xmi:id="_65Bjkt_CEeuqf6-Jf_6QQw"/>
+  <contextParameter comment="" name="lima_staging_database" prompt="lima_staging_database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="DMISI1" xmi:id="_65Bjk9_CEeuqf6-Jf_6QQw"/>
+  <contextParameter comment="" name="lima_staging_username" prompt="lima_staging_username?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="LIMA_STAGING" xmi:id="_65BjlN_CEeuqf6-Jf_6QQw"/>
+  <contextParameter comment="" name="lima_staging_password" prompt="lima_staging_password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:QXCG/4n/g1J0zhUIP1KJFwwboloDbn4SAloZIFgW1dp5oP6F1BH+9Dc=" xmi:id="_65Bjld_CEeuqf6-Jf_6QQw"/>
+  <contextParameter comment="" name="lima_staging_schema" prompt="lima_staging_schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="LIMA_STAGING" xmi:id="_65Bjlt_CEeuqf6-Jf_6QQw"/>
+  <contextParameter comment="" name="lima_misown_host" prompt="lima_misown_host?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="10.96.132.211" xmi:id="_65Bjl9_CEeuqf6-Jf_6QQw"/>
+  <contextParameter comment="" name="lima_misown_port" prompt="lima_misown_port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="1522" xmi:id="_65BjmN_CEeuqf6-Jf_6QQw"/>
+  <contextParameter comment="" name="lima_misown_database" prompt="lima_misown_database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="DMISI1" xmi:id="_65Bjmd_CEeuqf6-Jf_6QQw"/>
+  <contextParameter comment="" name="lima_misown_username" prompt="lima_misown_username?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="MISOWN" xmi:id="_65Bjmt_CEeuqf6-Jf_6QQw"/>
+  <contextParameter comment="" name="lima_misown_password" prompt="lima_misown_password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:ONtA9MMQhC5i9QeXd8beJxTCeBdK4TLk63hJg9AKpqUNJjZERJY=" xmi:id="_65Bjm9_CEeuqf6-Jf_6QQw"/>
+  <contextParameter comment="" name="lima_misown_schema" prompt="lima_misown_schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="MISOWN" xmi:id="_65BjnN_CEeuqf6-Jf_6QQw"/>
+  <contextParameter comment="" name="lima_filepath" prompt="lima_filepath?" promptNeeded="false" repositoryContextId="built-in" type="id_Directory" value="D:\ASIS\Contexts\PROD\LIMA\" xmi:id="_m0XZ8OY6EeugR71WDZgvBA"/>
+  <contextParameter comment="" name="lima_source_host" prompt="lima_source_host?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="10.102.16.220" xmi:id="_9HixIPNsEeub07Lr4cCRmw"/>
+  <contextParameter comment="" name="lima_source_port" prompt="lima_source_port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="65328" xmi:id="_9HixIfNsEeub07Lr4cCRmw"/>
+  <contextParameter comment="" name="lima_source_database" prompt="lima_source_database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="LIMA_ARCHIVE" xmi:id="_9HixIvNsEeub07Lr4cCRmw"/>
+  <contextParameter comment="" name="lima_source_username" prompt="lima_source_username?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="MISOWN" xmi:id="_ZCuCkPNtEeub07Lr4cCRmw"/>
+  <contextParameter comment="" name="lima_source_password" prompt="lima_source_password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:wJ5w0y5rhwDxu9jxT5qCzcePj/gxZ7STRLBiOp0kxSpV/x55yPQsz7NPXw==" xmi:id="_ZCuCkfNtEeub07Lr4cCRmw"/>
+  <contextParameter comment="" name="lima_source_schema" prompt="lima_source_schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="dbo" xmi:id="_ZCuCkvNtEeub07Lr4cCRmw"/>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_dc767e3d-218a-43d3-9976-32cfa72ed829"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>vs8PJJENze6zmixPKfU08rzqwfOWJ3oF6O9nJzmD996CLpermFtHao28S6XlBz+voFDwEwuNwL4i&#13;
+n8ox1qCf4A==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_12b4f378-2608-4043-9bb6-e4014121b260"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>wmkGMhTanLnRGEH7EYQa0/WLFLMMWxvzJQiZxkrB4YFVdFAhk8QKO0JclRcAntmTnR8WQ00+N/N4&#13;
+uKfc2YPYoQ==</DigestValue></Reference></SignedInfo><SignatureValue>kuVo/Jwmf2HvS2MdBURG7Rn7EZQVtNrjKqznfcOE05jxMzP6+S4i73PNDZbvL0Bjf0wXEktnO2vt&#13;
+2aZEYYEOY7ctAvPFrkim+4wsxJYn8h961jlMCgPLNrZMa88kIk8TWZOVF6EV1fclmPpixGQxkuJ6&#13;
+Tb+mDq2Z1VZHYvWdHYfl4QuYgPORQ9Gdmicv9Gt4YtoXbrr4R97qecfbnL/kg4BPLmd8eXISslQA&#13;
+dG7qrw1lGKD0mhffKy+r0RBYf13SDQf/KZq9/l2XMwOZE6CIBcIJ4XQC3hHavPX5+EWUt7j2Rf0J&#13;
+rSkysH6lpElJ2cnjzyw1CKe4RBebND87LxYVww==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_12b4f378-2608-4043-9bb6-e4014121b260" Target="#_dc767e3d-218a-43d3-9976-32cfa72ed829"><Timestamp>2024-06-10 12:37:20</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ContextType>
