@@ -1,0 +1,65 @@
+{
+  "itemId" : "_WZNakBT-Eeuwf60pVV_CTw",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_CIMjABT_Eeuwf60pVV_CTw",
+    "parameterList" : [ {
+      "id" : "_pooZkDDyEeyAGP4uXEDvUw",
+      "name" : "msd_filepath"
+    }, {
+      "id" : "_ojmSz-ExEemWVPB0IAfI1w",
+      "name" : "msd_misown_database"
+    }, {
+      "id" : "_ojmSzeExEemWVPB0IAfI1w",
+      "name" : "msd_misown_host"
+    }, {
+      "id" : "_ojmS0eExEemWVPB0IAfI1w",
+      "name" : "msd_misown_password"
+    }, {
+      "id" : "_ojmSzuExEemWVPB0IAfI1w",
+      "name" : "msd_misown_port"
+    }, {
+      "id" : "_ojmS0uExEemWVPB0IAfI1w",
+      "name" : "msd_misown_schema"
+    }, {
+      "id" : "_ojmS0OExEemWVPB0IAfI1w",
+      "name" : "msd_misown_username"
+    }, {
+      "id" : "_ojmSw-ExEemWVPB0IAfI1w",
+      "name" : "msd_source_database"
+    }, {
+      "id" : "_ojmSweExEemWVPB0IAfI1w",
+      "name" : "msd_source_host"
+    }, {
+      "id" : "_ojmSxeExEemWVPB0IAfI1w",
+      "name" : "msd_source_password"
+    }, {
+      "id" : "_ojmSwuExEemWVPB0IAfI1w",
+      "name" : "msd_source_port"
+    }, {
+      "id" : "_ojmSxuExEemWVPB0IAfI1w",
+      "name" : "msd_source_schema"
+    }, {
+      "id" : "_ojmSxOExEemWVPB0IAfI1w",
+      "name" : "msd_source_username"
+    }, {
+      "id" : "_ojmSyeExEemWVPB0IAfI1w",
+      "name" : "msd_staging_database"
+    }, {
+      "id" : "_ojmSx-ExEemWVPB0IAfI1w",
+      "name" : "msd_staging_host"
+    }, {
+      "id" : "_ojmSy-ExEemWVPB0IAfI1w",
+      "name" : "msd_staging_password"
+    }, {
+      "id" : "_ojmSyOExEemWVPB0IAfI1w",
+      "name" : "msd_staging_port"
+    }, {
+      "id" : "_ojmSzOExEemWVPB0IAfI1w",
+      "name" : "msd_staging_schema"
+    }, {
+      "id" : "_ojmSyuExEemWVPB0IAfI1w",
+      "name" : "msd_staging_username"
+    } ]
+  } ]
+}
