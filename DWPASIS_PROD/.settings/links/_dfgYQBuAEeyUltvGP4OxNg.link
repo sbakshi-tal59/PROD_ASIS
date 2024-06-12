@@ -1,0 +1,65 @@
+{
+  "itemId" : "_dfgYQBuAEeyUltvGP4OxNg",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_RvRzABbAEeytObRenr536Q",
+    "parameterList" : [ {
+      "id" : "_m0XZ8OY6EeugR71WDZgvBA",
+      "name" : "lima_filepath"
+    }, {
+      "id" : "_65Bjmd_CEeuqf6-Jf_6QQw",
+      "name" : "lima_misown_database"
+    }, {
+      "id" : "_65Bjl9_CEeuqf6-Jf_6QQw",
+      "name" : "lima_misown_host"
+    }, {
+      "id" : "_65Bjm9_CEeuqf6-Jf_6QQw",
+      "name" : "lima_misown_password"
+    }, {
+      "id" : "_65BjmN_CEeuqf6-Jf_6QQw",
+      "name" : "lima_misown_port"
+    }, {
+      "id" : "_65BjnN_CEeuqf6-Jf_6QQw",
+      "name" : "lima_misown_schema"
+    }, {
+      "id" : "_65Bjmt_CEeuqf6-Jf_6QQw",
+      "name" : "lima_misown_username"
+    }, {
+      "id" : "_9HixIvNsEeub07Lr4cCRmw",
+      "name" : "lima_source_database"
+    }, {
+      "id" : "_9HixIPNsEeub07Lr4cCRmw",
+      "name" : "lima_source_host"
+    }, {
+      "id" : "_ZCuCkfNtEeub07Lr4cCRmw",
+      "name" : "lima_source_password"
+    }, {
+      "id" : "_9HixIfNsEeub07Lr4cCRmw",
+      "name" : "lima_source_port"
+    }, {
+      "id" : "_ZCuCkvNtEeub07Lr4cCRmw",
+      "name" : "lima_source_schema"
+    }, {
+      "id" : "_ZCuCkPNtEeub07Lr4cCRmw",
+      "name" : "lima_source_username"
+    }, {
+      "id" : "_65Bjk9_CEeuqf6-Jf_6QQw",
+      "name" : "lima_staging_database"
+    }, {
+      "id" : "_65Bjkd_CEeuqf6-Jf_6QQw",
+      "name" : "lima_staging_host"
+    }, {
+      "id" : "_65Bjld_CEeuqf6-Jf_6QQw",
+      "name" : "lima_staging_password"
+    }, {
+      "id" : "_65Bjkt_CEeuqf6-Jf_6QQw",
+      "name" : "lima_staging_port"
+    }, {
+      "id" : "_65Bjlt_CEeuqf6-Jf_6QQw",
+      "name" : "lima_staging_schema"
+    }, {
+      "id" : "_65BjlN_CEeuqf6-Jf_6QQw",
+      "name" : "lima_staging_username"
+    } ]
+  } ]
+}

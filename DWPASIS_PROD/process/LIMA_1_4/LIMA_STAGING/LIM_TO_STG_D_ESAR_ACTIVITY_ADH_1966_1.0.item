@@ -1,0 +1,558 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><talendfile:ProcessType xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmlns:xmi="http://www.omg.org/XMI" defaultContext="Default" jobType="Standard" xmi:version="2.0">
+  <context confirmationNeeded="false" name="Default">
+    <contextParameter comment="" internalId="_FlQQICT4EeyWE4nCA76B6g" name="lima_filepath" prompt="lima_filepath?" promptNeeded="false" repositoryContextId="_RvRzABbAEeytObRenr536Q" type="id_Directory" value="D:\ASIS\Contexts\PROD\LIMA\"/>
+    <contextParameter comment="" internalId="_FlQQIST4EeyWE4nCA76B6g" name="lima_misown_database" prompt="lima_misown_database?" promptNeeded="false" repositoryContextId="_RvRzABbAEeytObRenr536Q" type="id_String" value="DMISI1"/>
+    <contextParameter comment="" internalId="_FlQQIiT4EeyWE4nCA76B6g" name="lima_misown_host" prompt="lima_misown_host?" promptNeeded="false" repositoryContextId="_RvRzABbAEeytObRenr536Q" type="id_String" value="10.96.132.211"/>
+    <contextParameter comment="" internalId="_FlQQIyT4EeyWE4nCA76B6g" name="lima_misown_password" prompt="lima_misown_password?" promptNeeded="false" repositoryContextId="_RvRzABbAEeytObRenr536Q" type="id_Password" value="enc:system.encryption.key.v1:LS70kS97oKgLAjGSCxQODMgBRSGZRaJ4AvbY2MhvUUpJtMnzrYo="/>
+    <contextParameter comment="" internalId="_FlQQJCT4EeyWE4nCA76B6g" name="lima_misown_port" prompt="lima_misown_port?" promptNeeded="false" repositoryContextId="_RvRzABbAEeytObRenr536Q" type="id_String" value="1522"/>
+    <contextParameter comment="" internalId="_FlQQJST4EeyWE4nCA76B6g" name="lima_misown_schema" prompt="lima_misown_schema?" promptNeeded="false" repositoryContextId="_RvRzABbAEeytObRenr536Q" type="id_String" value="MISOWN"/>
+    <contextParameter comment="" internalId="_FlQQJiT4EeyWE4nCA76B6g" name="lima_misown_username" prompt="lima_misown_username?" promptNeeded="false" repositoryContextId="_RvRzABbAEeytObRenr536Q" type="id_String" value="MISOWN"/>
+    <contextParameter comment="" internalId="_FlQQJyT4EeyWE4nCA76B6g" name="lima_source_database" prompt="lima_source_database?" promptNeeded="false" repositoryContextId="_RvRzABbAEeytObRenr536Q" type="id_String" value="LIMA_ARCHIVE"/>
+    <contextParameter comment="" internalId="_FlQQKCT4EeyWE4nCA76B6g" name="lima_source_host" prompt="lima_source_host?" promptNeeded="false" repositoryContextId="_RvRzABbAEeytObRenr536Q" type="id_String" value="10.102.16.220"/>
+    <contextParameter comment="" internalId="_FlQQKST4EeyWE4nCA76B6g" name="lima_source_password" prompt="lima_source_password?" promptNeeded="false" repositoryContextId="_RvRzABbAEeytObRenr536Q" type="id_Password" value="enc:system.encryption.key.v1:io2Jdtm+xq/wa9aQv+ZR002HAltySrlTElxPDUkLfapRlX+2iWv96m55tw=="/>
+    <contextParameter comment="" internalId="_FlQQKiT4EeyWE4nCA76B6g" name="lima_source_port" prompt="lima_source_port?" promptNeeded="false" repositoryContextId="_RvRzABbAEeytObRenr536Q" type="id_String" value="65328"/>
+    <contextParameter comment="" internalId="_FlQQKyT4EeyWE4nCA76B6g" name="lima_source_schema" prompt="lima_source_schema?" promptNeeded="false" repositoryContextId="_RvRzABbAEeytObRenr536Q" type="id_String" value="dbo"/>
+    <contextParameter comment="" internalId="_FlQQLCT4EeyWE4nCA76B6g" name="lima_source_username" prompt="lima_source_username?" promptNeeded="false" repositoryContextId="_RvRzABbAEeytObRenr536Q" type="id_String" value="MISOWN"/>
+    <contextParameter comment="" internalId="_FlQQLST4EeyWE4nCA76B6g" name="lima_staging_database" prompt="lima_staging_database?" promptNeeded="false" repositoryContextId="_RvRzABbAEeytObRenr536Q" type="id_String" value="DMISI1"/>
+    <contextParameter comment="" internalId="_FlQQLiT4EeyWE4nCA76B6g" name="lima_staging_host" prompt="lima_staging_host?" promptNeeded="false" repositoryContextId="_RvRzABbAEeytObRenr536Q" type="id_String" value="10.96.132.211"/>
+    <contextParameter comment="" internalId="_FlQQLyT4EeyWE4nCA76B6g" name="lima_staging_password" prompt="lima_staging_password?" promptNeeded="false" repositoryContextId="_RvRzABbAEeytObRenr536Q" type="id_Password" value="enc:system.encryption.key.v1:0HKrmq5wV5NeTR3LQre5zJ1uZtTFqzZBoCx3Eji2bqDZuXyh42kpLVk="/>
+    <contextParameter comment="" internalId="_FlQQMCT4EeyWE4nCA76B6g" name="lima_staging_port" prompt="lima_staging_port?" promptNeeded="false" repositoryContextId="_RvRzABbAEeytObRenr536Q" type="id_String" value="1522"/>
+    <contextParameter comment="" internalId="_FlQQMST4EeyWE4nCA76B6g" name="lima_staging_schema" prompt="lima_staging_schema?" promptNeeded="false" repositoryContextId="_RvRzABbAEeytObRenr536Q" type="id_String" value="LIMA_STAGING"/>
+    <contextParameter comment="" internalId="_FlQQMiT4EeyWE4nCA76B6g" name="lima_staging_username" prompt="lima_staging_username?" promptNeeded="false" repositoryContextId="_RvRzABbAEeytObRenr536Q" type="id_String" value="LIMA_STAGING"/>
+  </context>
+  <parameters>
+    <elementParameter field="CLOSED_LIST" name="LOG4J_RUN_LEVEL" show="false" value="Info"/>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_X" show="false" value="0"/>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" show="false" value="0"/>
+    <elementParameter field="TEXT" name="REPOSITORY_CONNECTION_ID" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_PROPERTY_TYPENAME" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_HADOOP_DISTRIBUTION" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_HADOOP_VERSION" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_ENABLE_KERBEROS" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_NAME_NODE_PRINCIPAL" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_USERNAME" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_GROUP" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_USE_KEYTAB" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_KT_PRINCIPAL" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_KEY_TAB" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_ENABLE_OO_KERBEROS" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_NAME_NODE_END_POINT" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_JOB_TRACKER_ENDPOINT" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_END_POINT" show="false" value=""/>
+    <elementParameter field="CHECK" name="IMPLICITCONTEXT_USE_PROJECT_SETTINGS" show="false" value="true"/>
+    <elementParameter field="CHECK" name="STATANDLOG_USE_PROJECT_SETTINGS" show="false" value="true"/>
+    <elementParameter field="CHECK" name="MULTI_THREAD_EXECATION" value="false"/>
+    <elementParameter field="TEXT" name="PARALLELIZE_UNIT_SIZE" value="25000"/>
+    <elementParameter field="CHECK" name="IMPLICIT_TCONTEXTLOAD" value="false"/>
+    <elementParameter field="RADIO" name="FROM_FILE_FLAG_IMPLICIT_CONTEXT" show="false" value="false"/>
+    <elementParameter field="RADIO" name="FROM_DATABASE_FLAG_IMPLICIT_CONTEXT" show="false" value="false"/>
+    <elementParameter field="FILE" name="IMPLICIT_TCONTEXTLOAD_FILE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="OVERRIDE_ENCODING_FLAG" show="false" value="false"/>
+    <elementParameter field="ENCODING_TYPE" name="OVERRIDE_ENCODING_IN_EXTRA" show="false" value="ISO-8859-15"/>
+    <elementParameter field="TECHNICAL" name="OVERRIDE_ENCODING_IN_EXTRA:ENCODING_TYPE" show="false" value="ISO-8859-15"/>
+    <elementParameter field="CLOSED_LIST" name="DB_TYPE_IMPLICIT_CONTEXT" show="false" value=""/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION_IMPLICIT_CONTEXT" show="false" value=""/>
+    <elementParameter field="TEXT" name="URL_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TABLE" name="DRIVER_JAR_IMPLICIT_CONTEXT" show="false"/>
+    <elementParameter field="TEXT" name="DRIVER_CLASS_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="HOST_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PORT_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:hu34Xr2uMXrBWHLTdq0ym8CBKPpd/ER5ng4r5LIJ"/>
+    <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="LOAD_NEW_VARIABLE" show="false" value="Warning"/>
+    <elementParameter field="CLOSED_LIST" name="NOT_LOAD_OLD_VARIABLE" show="false" value="Warning"/>
+    <elementParameter field="CHECK" name="PRINT_OPERATIONS" show="false" value="false"/>
+    <elementParameter field="CHECK" name="DISABLE_ERROR" show="false" value="false"/>
+    <elementParameter field="CHECK" name="DISABLE_WARNINGS" show="false" value="false"/>
+    <elementParameter field="CHECK" name="DISABLE_INFO" show="false" value="false"/>
+    <elementParameter field="CHECK" name="ON_STATCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_LOGCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_METERCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_CONSOLE_FLAG" show="false" value="false"/>
+    <elementParameter field="CHECK" name="ON_FILES_FLAG" show="false" value="false"/>
+    <elementParameter field="DIRECTORY" name="FILE_PATH" show="false" value="&quot;D:/ASIS/Workspace/.metadata&quot;"/>
+    <elementParameter field="TEXT" name="FILENAME_STATS" show="false" value="&quot;stats_file.txt&quot;"/>
+    <elementParameter field="TEXT" name="FILENAME_LOGS" show="false" value="&quot;logs_file.txt&quot;"/>
+    <elementParameter field="TEXT" name="FILENAME_METTER" show="false" value="&quot;meter_file.txt&quot;"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="ISO-8859-15"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" show="false" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="ON_DATABASE_FLAG" show="false" value="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_TYPE" show="false" value="JDBCOutput"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" show="false" value="ORACLE_12"/>
+    <elementParameter field="TEXT" name="URL" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TABLE" name="DRIVER_JAR" show="false"/>
+    <elementParameter field="TEXT" name="DRIVER_CLASS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="HOST" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PORT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="DATASOURCE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:Uw+8miB8T3ruTDCghgmHD9lmQjURaIeSOj9BVt0G"/>
+    <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE_STATS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE_LOGS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE_METER" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="CATCH_RUNTIME_ERRORS" show="false" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_USER_ERRORS" show="false" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_USER_WARNING" show="false" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_REALTIME_STATS" show="false" value="false"/>
+    <elementParameter field="TEXT" name="HEADERFOOTER_HEADERID" show="false" value=""/>
+    <elementParameter field="CHECK" name="HEADER_ENABLED" show="false" value="false"/>
+    <elementParameter field="TEXT" name="HEADER_LIBRARY" show="false" value=""/>
+    <elementParameter field="TEXT" name="HEADER_CODE" show="false" value=""/>
+    <elementParameter field="TEXT" name="HEADER_IMPORT" show="false" value=""/>
+    <elementParameter field="TEXT" name="HEADERFOOTER_FOOTERID" show="false" value=""/>
+    <elementParameter field="CHECK" name="FOOTER_ENABLED" show="false" value="false"/>
+    <elementParameter field="TEXT" name="FOOTER_LIBRARY" show="false" value=""/>
+    <elementParameter field="TEXT" name="FOOTER_CODE" show="false" value=""/>
+    <elementParameter field="TEXT" name="FOOTER_IMPORT" show="false" value=""/>
+    <routinesParameter id="_-sXZoOVlEeu73vnn6vWu4g" name="DataOperation"/>
+    <routinesParameter id="_-t2nYOVlEeu73vnn6vWu4g" name="Mathematical"/>
+    <routinesParameter id="_-vWcMOVlEeu73vnn6vWu4g" name="Numeric"/>
+    <routinesParameter id="_-w_a8OVlEeu73vnn6vWu4g" name="Relational"/>
+    <routinesParameter id="_-piIEuVlEeu73vnn6vWu4g" name="SQLike"/>
+    <routinesParameter id="_-yeosOVlEeu73vnn6vWu4g" name="StringHandling"/>
+    <routinesParameter id="_-z92cOVlEeu73vnn6vWu4g" name="TalendDataGenerator"/>
+    <routinesParameter id="_-15wIOVlEeu73vnn6vWu4g" name="TalendDate"/>
+    <routinesParameter id="_-44ysOVlEeu73vnn6vWu4g" name="TalendStringUtil"/>
+    <routinesParameter id="_-3Y94OVlEeu73vnn6vWu4g" name="TalendString"/>
+  </parameters>
+  <node componentName="tFileInputExcel" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="96" posY="64">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFileInputExcel_1"/>
+    <elementParameter field="CHECK" name="VERSION_2007" value="true"/>
+    <elementParameter field="FILE" name="FILENAME" value="context.lima_filepath+&quot;LIMA_Context.xlsx&quot;"/>
+    <elementParameter field="PASSWORD" name="PASSWORD" value="enc:system.encryption.key.v1:gjwRPWdm7i5Yf9n+wQjPrhm0lM1/38GfQ4oD/kFYVGkCocFugU8zGnQh"/>
+    <elementParameter field="CHECK" name="ALL_SHEETS" value="false"/>
+    <elementParameter field="TABLE" name="SHEETLIST">
+      <elementValue elementRef="SHEETNAME" value="&quot;LIMA&quot;"/>
+      <elementValue elementRef="USE_REGEX" value="false"/>
+    </elementParameter>
+    <elementParameter field="TEXT" name="HEADER" value="0"/>
+    <elementParameter field="TEXT" name="FOOTER" value="0"/>
+    <elementParameter field="TEXT" name="LIMIT" value=""/>
+    <elementParameter field="CHECK" name="AFFECT_EACH_SHEET" value="false"/>
+    <elementParameter field="TEXT" name="FIRST_COLUMN" value="1"/>
+    <elementParameter field="TEXT" name="LAST_COLUMN" value="2"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
+    <elementParameter field="CHECK" name="ADVANCED_SEPARATOR" value="false"/>
+    <elementParameter field="TEXT" name="THOUSANDS_SEPARATOR" show="false" value="&quot;,&quot;"/>
+    <elementParameter field="TEXT" name="DECIMAL_SEPARATOR" show="false" value="&quot;.&quot;"/>
+    <elementParameter field="CHECK" name="TRIMALL" value="false"/>
+    <elementParameter field="TABLE" name="TRIMSELECT">
+      <elementValue elementRef="SCHEMA_COLUMN" value="key"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="value"/>
+      <elementValue elementRef="TRIM" value="false"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="CONVERTDATETOSTRING" value="false"/>
+    <elementParameter field="TABLE" name="DATESELECT" show="false">
+      <elementValue elementRef="SCHEMA_COLUMN" value="key"/>
+      <elementValue elementRef="CONVERTDATE" value="false"/>
+      <elementValue elementRef="PATTERN" value="&quot;MM-dd-yyyy&quot;"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="value"/>
+      <elementValue elementRef="CONVERTDATE" value="false"/>
+      <elementValue elementRef="PATTERN" value="&quot;MM-dd-yyyy&quot;"/>
+    </elementParameter>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="READ_REAL_VALUE" show="false" value="false"/>
+    <elementParameter field="CHECK" name="STOPREAD_ON_EMPTYROW" value="false"/>
+    <elementParameter field="CHECK" name="NOVALIDATE_ON_CELL" show="false" value="false"/>
+    <elementParameter field="CHECK" name="SUPPRESS_WARN" show="false" value="false"/>
+    <elementParameter field="CLOSED_LIST" name="GENERATION_MODE" value="USER_MODE"/>
+    <elementParameter field="CHECK" name="INCLUDE_PHONETICRUNS" show="false" value="true"/>
+    <elementParameter field="TEXT" name="LABEL" value="tFD_LIMA_CONTEXT"/>
+    <elementParameter field="TEXT" name="HINT" value="&lt;b&gt;LIMA_CONTEXT&lt;/b&gt;&lt;br&gt;LIMA_Context.xlsx"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tFileInputExcel_1">
+      <column comment="" key="false" length="-1" name="key" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="value" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+    <metadata connector="REJECT" name="REJECT">
+      <column comment="" key="false" length="-1" name="key" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="value" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tContextLoad" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="320" posY="64">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tContextLoad_1"/>
+    <elementParameter field="CLOSED_LIST" name="LOAD_NEW_VARIABLE" value="Warning"/>
+    <elementParameter field="CLOSED_LIST" name="NOT_LOAD_OLD_VARIABLE" value="Warning"/>
+    <elementParameter field="CHECK" name="PRINT_OPERATIONS" value="false"/>
+    <elementParameter field="CHECK" name="DISABLE_ERROR" value="false"/>
+    <elementParameter field="CHECK" name="DISABLE_WARNINGS" value="true"/>
+    <elementParameter field="CHECK" name="DISABLE_INFO" value="true"/>
+    <elementParameter field="CHECK" name="DIEONERROR" value="false"/>
+    <elementParameter field="TEXT" name="LABEL" value="tFD_LIMA_CONTEXT"/>
+    <elementParameter field="TEXT" name="HINT" value="&lt;b&gt;LIMA_CONTEXT&lt;/b&gt;&lt;br&gt;Load LIMA_Context.xlsx"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tContextLoad_1">
+      <column defaultValue="" key="false" length="255" name="key" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="value" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tRowGenerator" componentVersion="0.102" offsetLabelX="14" offsetLabelY="0" posX="96" posY="192">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tRowGenerator_1"/>
+    <elementParameter field="TEXT" name="NB_ROWS" show="false" value="1"/>
+    <elementParameter field="TABLE" name="VALUES" show="false">
+      <elementValue elementRef="SCHEMA_COLUMN" value="LOAD_NAME"/>
+      <elementValue elementRef="ARRAY" value="&quot;STG_D_ESAR_ACTIVITY&quot;"/>
+    </elementParameter>
+    <elementParameter field="EXTERNAL" name="MAP" value=""/>
+    <elementParameter field="TEXT" name="LABEL" value="tRG_MIS_START_TIME"/>
+    <elementParameter field="TEXT" name="HINT" value="&lt;b&gt;MIS_START_TIME&lt;/b&gt;&lt;br&gt;Create MIS_START_TIME row"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tRowGenerator_1">
+      <column comment="" key="false" length="-1" name="LOAD_NAME" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true">
+        <additionalField key="FUNCTION_INFO" value="{&quot;NAME&quot;:&quot;...&quot;,&quot;PARAMETERS&quot;:[{&quot;PARAMETER_NAME&quot;:&quot;customize parameter&quot;,&quot;PARAMETER_VALUE&quot;:&quot;\&quot;STG_D_ESAR_ACTIVITY\&quot; &quot;}],&quot;PARAMETER_CLASS_NAME&quot;:&quot;&quot;}"/>
+      </column>
+    </metadata>
+  </node>
+  <node componentName="tOracleSP" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="416" posY="192">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBSP_1"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" show="false" value=""/>
+    <elementParameter field="CLOSED_LIST" name="CONNECTION_TYPE" value="ORACLE_SERVICE_NAME"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="ORACLE_11"/>
+    <elementParameter field="TEXT" name="RAC_URL" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="HOST" value="context.lima_misown_host"/>
+    <elementParameter field="TEXT" name="PORT" value="context.lima_misown_port"/>
+    <elementParameter field="TEXT" name="DBNAME" value="context.lima_misown_database"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" value="context.lima_misown_schema"/>
+    <elementParameter field="TEXT" name="TYPE" show="false" value="Oracle"/>
+    <elementParameter field="TEXT" name="USER" value="context.lima_misown_username"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:PJNCeddnWBMSvPPO/AOJ2oKgIxjRyqPKGGGstQ8Tzd9xFO6W0mIcZKUQfeunD4Mu1AX5c/Q++VQ="/>
+    <elementParameter field="TEXT" name="SP_NAME" value="&quot;MIS_UPDATE_INT_HIST_START_TIME&quot;"/>
+    <elementParameter field="CHECK" name="IS_FUNCTION" value="false"/>
+    <elementParameter field="COLUMN_LIST" name="RETURN" show="false" value="LOAD_NAME"/>
+    <elementParameter field="CLOSED_LIST" name="RETURN_BDTYPE" show="false" value="AUTOMAPPING"/>
+    <elementParameter field="TABLE" name="SP_ARGS">
+      <elementValue elementRef="COLUMN" value="LOAD_NAME"/>
+      <elementValue elementRef="TYPE" value="IN"/>
+      <elementValue elementRef="DBTYPE" value="AUTOMAPPING"/>
+      <elementValue elementRef="ISCUSTOME" value="false"/>
+      <elementValue elementRef="CUSTOME_TYPE" value="STRUCT"/>
+      <elementValue elementRef="CUSTOMENAME" value=""/>
+    </elementParameter>
+    <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime"/>
+    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="&quot;&quot;"/>
+    <elementParameter field="LABEL" name="NOTE" value="*Note: Example for Additional JDBC Parameters: &quot;parameterName1=value1&amp;&amp;parameterName2=value2&quot;"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="CLOSED_LIST" name="NLS_LANGUAGE" value="NONE"/>
+    <elementParameter field="CLOSED_LIST" name="NLS_TERRITORY" value="NONE"/>
+    <elementParameter field="CHECK" name="SUPPORT_NLS" show="false" value="false"/>
+    <elementParameter field="TEXT" name="LABEL" value="tDBSP_MIS_UPDATE_INT_HIST_START_TIME"/>
+    <elementParameter field="TEXT" name="HINT" value="&lt;b&gt;MIS_INTERFACE_HISTORY&lt;/b&gt;&lt;br&gt;Insert MIS_START_TIME into MIS_INTERFACE_HISTORY"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tDBSP_1">
+      <column comment="" key="false" length="-1" name="LOAD_NAME" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true">
+        <additionalField key="FUNCTION_INFO" value="{&quot;NAME&quot;:&quot;...&quot;,&quot;PARAMETERS&quot;:[{&quot;PARAMETER_NAME&quot;:&quot;customize parameter&quot;,&quot;PARAMETER_VALUE&quot;:&quot;\&quot;STG_TO_LIM_D_DATA_PHRASE_SET\&quot; &quot;}],&quot;PARAMETER_CLASS_NAME&quot;:&quot;&quot;}"/>
+      </column>
+    </metadata>
+  </node>
+  <node componentName="tMSSqlInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="96" posY="320">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBInput_1"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" show="false" value=""/>
+    <elementParameter field="TEXT" name="HOST" value="context.lima_source_host"/>
+    <elementParameter field="CLOSED_LIST" name="DRIVER" value="JTDS"/>
+    <elementParameter field="TEXT" name="TYPE" show="false" value="MSSQL"/>
+    <elementParameter field="TEXT" name="PORT" value="context.lima_source_port"/>
+    <elementParameter field="TEXT" name="DB_SCHEMA" value="context.lima_source_schema"/>
+    <elementParameter field="TEXT" name="DBNAME" value="context.lima_source_database"/>
+    <elementParameter field="TEXT" name="USER" value="context.lima_source_username"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:Wa1AobKjz2Ns8Pi0eB2jCOOstdNs56U6NSIjXmChslwkxO+iPmBkxRUd3jNKXZ5BXQRc1kbkONk="/>
+    <elementParameter field="DBTABLE" name="TABLE" value="&quot;dat_esar_Activity&quot;"/>
+    <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
+    <elementParameter field="GUESS_SCHEMA" name="GUESS_SCHEMA" value="&quot;&quot;"/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;SELECT&#13;&#10;  ESAR_id STG_ESAR_ID,&#13;&#10;  Activity_id STG_ACTIVITY_ID,&#13;&#10;  ActivityOutcome_id STG_ACTIVITY_OUTCOME_ID,&#13;&#10;  EBMOverride STG_EBM_OVERRIDE&#13;&#10; FROM dat_esar_Activity dea&#13;&#10; WHERE ESAR_id IN (57856415&#9;,&#13;&#10;57866661&#9;,&#13;&#10;57955277&#9;,&#13;&#10;57916231&#9;,&#13;&#10;57871508&#9;,&#13;&#10;57911498&#9;,&#13;&#10;57907270&#9;,&#13;&#10;57862202&#9;,&#13;&#10;58056505&#9;,&#13;&#10;57870751&#9;,&#13;&#10;57904647&#9;,&#13;&#10;57853309&#9;,&#13;&#10;57889253&#9;,&#13;&#10;58091199&#9;,&#13;&#10;57860994&#9;,&#13;&#10;57943744&#9;,&#13;&#10;57967337&#9;,&#13;&#10;57900506&#9;,&#13;&#10;57847220&#9;,&#13;&#10;57865567&#9;,&#13;&#10;57955663&#9;,&#13;&#10;57890113&#9;,&#13;&#10;58086637&#9;,&#13;&#10;57876187&#9;,&#13;&#10;57847843&#9;,&#13;&#10;58077852&#9;,&#13;&#10;57862791&#9;,&#13;&#10;58003755&#9;,&#13;&#10;57825131&#9;,&#13;&#10;57996120&#9;,&#13;&#10;57988031&#9;,&#13;&#10;57826805&#9;,&#13;&#10;57850668&#9;,&#13;&#10;58080046&#9;,&#13;&#10;57895765&#9;,&#13;&#10;57952700&#9;,&#13;&#10;57974908&#9;,&#13;&#10;57956297&#9;,&#13;&#10;57840660&#9;,&#13;&#10;57951227&#9;,&#13;&#10;57893458&#9;,&#13;&#10;57878727&#9;,&#13;&#10;57868221&#9;,&#13;&#10;57847267&#9;,&#13;&#10;57909720&#9;,&#13;&#10;57944069&#9;,&#13;&#10;57832007&#9;,&#13;&#10;57865273&#9;,&#13;&#10;57891302&#9;,&#13;&#10;57983217&#9;,&#13;&#10;57869248&#9;,&#13;&#10;57843598&#9;,&#13;&#10;57976203&#9;,&#13;&#10;57869886&#9;,&#13;&#10;57832233&#9;,&#13;&#10;57877753&#9;,&#13;&#10;58050681&#9;,&#13;&#10;57953902&#9;,&#13;&#10;57942431&#9;,&#13;&#10;58029666&#9;,&#13;&#10;57848718&#9;,&#13;&#10;57931056&#9;,&#13;&#10;57849274&#9;,&#13;&#10;58073193&#9;,&#13;&#10;57852643&#9;,&#13;&#10;57884641&#9;,&#13;&#10;57899089&#9;,&#13;&#10;58178203&#9;,&#13;&#10;58031376&#9;,&#13;&#10;57873387&#9;,&#13;&#10;57905759&#9;,&#13;&#10;57938956&#9;,&#13;&#10;57902784&#9;,&#13;&#10;57987476&#9;,&#13;&#10;57978590&#9;,&#13;&#10;57865956&#9;,&#13;&#10;57969238&#9;,&#13;&#10;58076169&#9;,&#13;&#10;57873467&#9;,&#13;&#10;58083533&#9;,&#13;&#10;57841085&#9;,&#13;&#10;57824206&#9;,&#13;&#10;57872167&#9;,&#13;&#10;57922047&#9;,&#13;&#10;57974250&#9;,&#13;&#10;57945657&#9;,&#13;&#10;57874448&#9;,&#13;&#10;57828633&#9;,&#13;&#10;58009078&#9;,&#13;&#10;57925857&#9;,&#13;&#10;57852492&#9;,&#13;&#10;57890921&#9;,&#13;&#10;57916657&#9;,&#13;&#10;58013369&#9;,&#13;&#10;57958995&#9;,&#13;&#10;57890082&#9;,&#13;&#10;57854732&#9;,&#13;&#10;58053348&#9;,&#13;&#10;57868644&#9;,&#13;&#10;57979639&#9;,&#13;&#10;57946572&#9;,&#13;&#10;57918841&#9;,&#13;&#10;57916884&#9;,&#13;&#10;57857006&#9;,&#13;&#10;57896321&#9;,&#13;&#10;57955259&#9;,&#13;&#10;57998222&#9;,&#13;&#10;57867332&#9;,&#13;&#10;57920887&#9;,&#13;&#10;57945958&#9;,&#13;&#10;57958623&#9;,&#13;&#10;57970257&#9;,&#13;&#10;57949789&#9;,&#13;&#10;57998892&#9;,&#13;&#10;57973377&#9;,&#13;&#10;57920181&#9;,&#13;&#10;57902172&#9;,&#13;&#10;58078648&#9;,&#13;&#10;58009775&#9;,&#13;&#10;58106315&#9;,&#13;&#10;58162421&#9;,&#13;&#10;58014621&#9;,&#13;&#10;57951481&#9;,&#13;&#10;57950433&#9;,&#13;&#10;58038125&#9;,&#13;&#10;58024423&#9;,&#13;&#10;57970764&#9;,&#13;&#10;58129398&#9;,&#13;&#10;58109900&#9;,&#13;&#10;57901926&#9;,&#13;&#10;57932513&#9;,&#13;&#10;58121373&#9;,&#13;&#10;57951862&#9;,&#13;&#10;57972425&#9;,&#13;&#10;58199718&#9;,&#13;&#10;57921308&#9;,&#13;&#10;58074897&#9;,&#13;&#10;57930507&#9;,&#13;&#10;57982478&#9;,&#13;&#10;57976975&#9;,&#13;&#10;58043499&#9;,&#13;&#10;58087092&#9;,&#13;&#10;58027567&#9;,&#13;&#10;57883835&#9;,&#13;&#10;57977372&#9;,&#13;&#10;57976961&#9;,&#13;&#10;57941254&#9;,&#13;&#10;58086053&#9;,&#13;&#10;58073983&#9;,&#13;&#10;57903679&#9;,&#13;&#10;57958085&#9;,&#13;&#10;58165307&#9;,&#13;&#10;58144895&#9;,&#13;&#10;57961567&#9;,&#13;&#10;58031145&#9;,&#13;&#10;58056377&#9;,&#13;&#10;57935270&#9;,&#13;&#10;58132022&#9;,&#13;&#10;58166403&#9;,&#13;&#10;58062107&#9;,&#13;&#10;58158046&#9;,&#13;&#10;58155414&#9;,&#13;&#10;57966789&#9;,&#13;&#10;58030631&#9;,&#13;&#10;57966512&#9;,&#13;&#10;58142290&#9;,&#13;&#10;58083751&#9;,&#13;&#10;58144071&#9;,&#13;&#10;57991736&#9;,&#13;&#10;57971530&#9;,&#13;&#10;58075929&#9;,&#13;&#10;57909151&#9;,&#13;&#10;58152119&#9;,&#13;&#10;58045979&#9;,&#13;&#10;57955529&#9;,&#13;&#10;57928589&#9;,&#13;&#10;58208474&#9;,&#13;&#10;58182187&#9;,&#13;&#10;58046539&#9;,&#13;&#10;58139254&#9;,&#13;&#10;57973389&#9;,&#13;&#10;58136366&#9;,&#13;&#10;58077670&#9;,&#13;&#10;57949658&#9;,&#13;&#10;58191169&#9;,&#13;&#10;57940384&#9;,&#13;&#10;57975537&#9;,&#13;&#10;58038085&#9;,&#13;&#10;57998652&#9;,&#13;&#10;57976443&#9;,&#13;&#10;58018460&#9;,&#13;&#10;58083169&#9;,&#13;&#10;58071566&#9;,&#13;&#10;58072410&#9;,&#13;&#10;58012300&#9;,&#13;&#10;58120605&#9;,&#13;&#10;58092446&#9;,&#13;&#10;58055410&#9;,&#13;&#10;58000798&#9;,&#13;&#10;58042198&#9;,&#13;&#10;58004317&#9;,&#13;&#10;58169894&#9;,&#13;&#10;58165802&#9;,&#13;&#10;58159465&#9;,&#13;&#10;58018872&#9;,&#13;&#10;58178508&#9;,&#13;&#10;58180194&#9;,&#13;&#10;58046247&#9;,&#13;&#10;58110961&#9;,&#13;&#10;58117436&#9;,&#13;&#10;57992000&#9;,&#13;&#10;58140975&#9;,&#13;&#10;58075920&#9;,&#13;&#10;58098618&#9;,&#13;&#10;58056931&#9;,&#13;&#10;58026932&#9;,&#13;&#10;58096440&#9;,&#13;&#10;58140377&#9;,&#13;&#10;58121538&#9;,&#13;&#10;57990461&#9;,&#13;&#10;57988265&#9;,&#13;&#10;58058591&#9;,&#13;&#10;58182647&#9;,&#13;&#10;58121063&#9;,&#13;&#10;58006317&#9;,&#13;&#10;57991845&#9;,&#13;&#10;58180485&#9;,&#13;&#10;58011045&#9;,&#13;&#10;58004730&#9;,&#13;&#10;57971212&#9;,&#13;&#10;58061994&#9;,&#13;&#10;57998522&#9;,&#13;&#10;58064791&#9;,&#13;&#10;58100066&#9;,&#13;&#10;58109068&#9;,&#13;&#10;58147598&#9;,&#13;&#10;58029282&#9;,&#13;&#10;58192662&#9;,&#13;&#10;58125191&#9;,&#13;&#10;58075162&#9;,&#13;&#10;58127423&#9;,&#13;&#10;58036753&#9;,&#13;&#10;58188074&#9;,&#13;&#10;58017621&#9;,&#13;&#10;58009330&#9;,&#13;&#10;58047325&#9;,&#13;&#10;58074514&#9;,&#13;&#10;58050430&#9;,&#13;&#10;58084268&#9;,&#13;&#10;58200067&#9;,&#13;&#10;58178799&#9;,&#13;&#10;58028446&#9;,&#13;&#10;58069247&#9;,&#13;&#10;58088649&#9;,&#13;&#10;58121084&#9;,&#13;&#10;57994276&#9;,&#13;&#10;57991856&#9;,&#13;&#10;58026019&#9;,&#13;&#10;58212227&#9;,&#13;&#10;58033570&#9;,&#13;&#10;58088127&#9;,&#13;&#10;58051377&#9;,&#13;&#10;58080547&#9;,&#13;&#10;58202374&#9;,&#13;&#10;58173123&#9;,&#13;&#10;58159200&#9;,&#13;&#10;57996749&#9;,&#13;&#10;58049676&#9;,&#13;&#10;58039829&#9;,&#13;&#10;58090228&#9;,&#13;&#10;58052208&#9;,&#13;&#10;58059964&#9;,&#13;&#10;58012194&#9;,&#13;&#10;58171819&#9;,&#13;&#10;58062802&#9;,&#13;&#10;58200340&#9;,&#13;&#10;58002439&#9;,&#13;&#10;58104076&#9;,&#13;&#10;58125884&#9;,&#13;&#10;58165819&#9;,&#13;&#10;58107673&#9;,&#13;&#10;58073997&#9;,&#13;&#10;58148925&#9;,&#13;&#10;58080422&#9;,&#13;&#10;58074868&#9;,&#13;&#10;58110924&#9;,&#13;&#10;58187493&#9;,&#13;&#10;58206243&#9;,&#13;&#10;58057795&#9;,&#13;&#10;58183570&#9;,&#13;&#10;58106428&#9;,&#13;&#10;58174501&#9;,&#13;&#10;58054829&#9;,&#13;&#10;58073157&#9;,&#13;&#10;58180736&#9;,&#13;&#10;58101396&#9;,&#13;&#10;58051047&#9;,&#13;&#10;58116343&#9;,&#13;&#10;58175399&#9;,&#13;&#10;58055387&#9;,&#13;&#10;58131864&#9;,&#13;&#10;58105504&#9;,&#13;&#10;58192859&#9;,&#13;&#10;58049365&#9;,&#13;&#10;58049032&#9;,&#13;&#10;58093202&#9;,&#13;&#10;58111817&#9;,&#13;&#10;58108033&#9;,&#13;&#10;58158115&#9;,&#13;&#10;58094119&#9;,&#13;&#10;58164260&#9;,&#13;&#10;58131590&#9;,&#13;&#10;58194298&#9;,&#13;&#10;58108101&#9;,&#13;&#10;58037801&#9;,&#13;&#10;58108855&#9;,&#13;&#10;58128717&#9;,&#13;&#10;58170896&#9;,&#13;&#10;58122071&#9;,&#13;&#10;58059622&#9;,&#13;&#10;58067555&#9;,&#13;&#10;58069517&#9;,&#13;&#10;58096246&#9;,&#13;&#10;58142017&#9;,&#13;&#10;58172187&#9;,&#13;&#10;58173377&#9;,&#13;&#10;58110310&#9;,&#13;&#10;58043064&#9;,&#13;&#10;58052389&#9;,&#13;&#10;58186703&#9;,&#13;&#10;58137415&#9;,&#13;&#10;58079483&#9;,&#13;&#10;58136207&#9;,&#13;&#10;58130347&#9;,&#13;&#10;58135591&#9;,&#13;&#10;58115929&#9;,&#13;&#10;58162658&#9;,&#13;&#10;58121319&#9;,&#13;&#10;58159996&#9;,&#13;&#10;58199105&#9;,&#13;&#10;58196116&#9;,&#13;&#10;58175224&#9;,&#13;&#10;58178419&#9;,&#13;&#10;58105816&#9;,&#13;&#10;58154295&#9;,&#13;&#10;58172923&#9;,&#13;&#10;58098089&#9;,&#13;&#10;58201920&#9;,&#13;&#10;58185096&#9;,&#13;&#10;58088938&#9;,&#13;&#10;58111608&#9;,&#13;&#10;58185759&#9;,&#13;&#10;58112850&#9;,&#13;&#10;58192892&#9;,&#13;&#10;58224106&#9;,&#13;&#10;58202291&#9;,&#13;&#10;58198136&#9;,&#13;&#10;58114435&#9;,&#13;&#10;58130977&#9;,&#13;&#10;58140293&#9;,&#13;&#10;58179032&#9;,&#13;&#10;58174264&#9;,&#13;&#10;58216238&#9;,&#13;&#10;58144790&#9;,&#13;&#10;58151238&#9;,&#13;&#10;58142311&#9;,&#13;&#10;58194240&#9;,&#13;&#10;58137715&#9;,&#13;&#10;58092041&#9;,&#13;&#10;58121372&#9;,&#13;&#10;58175962&#9;,&#13;&#10;58196585&#9;,&#13;&#10;58147084&#9;,&#13;&#10;58178088&#9;,&#13;&#10;58148310&#9;,&#13;&#10;58148070&#9;,&#13;&#10;58119855&#9;,&#13;&#10;58184873&#9;,&#13;&#10;58154257&#9;,&#13;&#10;58150474&#9;,&#13;&#10;58134452&#9;,&#13;&#10;58179935&#9;,&#13;&#10;58147530&#9;,&#13;&#10;58130718&#9;,&#13;&#10;58162196&#9;,&#13;&#10;58166306&#9;,&#13;&#10;58206873&#9;,&#13;&#10;58129291&#9;,&#13;&#10;58181752&#9;,&#13;&#10;58204869&#9;,&#13;&#10;58218573&#9;,&#13;&#10;58165379&#9;,&#13;&#10;58186669&#9;,&#13;&#10;58211691&#9;,&#13;&#10;58154634&#9;,&#13;&#10;58197428&#9;,&#13;&#10;58181397&#9;,&#13;&#10;58176845&#9;,&#13;&#10;58175091&#9;,&#13;&#10;58198386)&quot;"/>
+    <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime"/>
+    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="MAPPING_TYPE" name="MAPPING" show="false" value="id_MSSQL"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="&quot;noDatetimeStringSync=true&quot;"/>
+    <elementParameter field="CHECK" name="ACTIVE_DIR_AUTH" show="false" value="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="TRIM_ALL_COLUMN" value="false"/>
+    <elementParameter field="TABLE" name="TRIM_COLUMN">
+      <elementValue elementRef="SCHEMA_COLUMN" value="STG_ESAR_ID"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="STG_ACTIVITY_ID"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="STG_ACTIVITY_OUTCOME_ID"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="STG_EBM_OVERRIDE"/>
+      <elementValue elementRef="TRIM" value="false"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="SET_QUERY_TIMEOUT" value="false"/>
+    <elementParameter field="TEXT" name="QUERY_TIMEOUT_IN_SECONDS" show="false" value="30"/>
+    <elementParameter field="TEXT" name="LABEL" value="tDBI_dat_esar_Activity"/>
+    <elementParameter field="TEXT" name="HINT" value="&lt;b&gt;dat_esar_Activity&lt;/b&gt;&lt;br&gt;Read dat_esar_Activity records"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tDBInput_1">
+      <column comment="" defaultValue="" key="false" length="-1" name="STG_ESAR_ID" nullable="false" originalLength="-1" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="STG_ACTIVITY_ID" nullable="false" originalLength="-1" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="STG_ACTIVITY_OUTCOME_ID" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="STG_EBM_OVERRIDE" nullable="false" originalLength="-1" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tOracleOutput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="576" posY="320">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBOutput_1"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" show="false" value=""/>
+    <elementParameter field="CLOSED_LIST" name="CONNECTION_TYPE" value="ORACLE_SERVICE_NAME"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="ORACLE_11"/>
+    <elementParameter field="TEXT" name="RAC_URL" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="HOST" value="context.lima_staging_host"/>
+    <elementParameter field="TEXT" name="PORT" value="context.lima_staging_port"/>
+    <elementParameter field="TEXT" name="TYPE" show="false" value="Oracle"/>
+    <elementParameter field="TEXT" name="DBNAME" value="context.lima_staging_database"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="TABLESCHEMA" value="context.lima_staging_schema"/>
+    <elementParameter field="TEXT" name="USER" value="context.lima_staging_username"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:7dRgUrJ+utb/2+2oZsE2z5/nSSoKbOzLQ88eVmOk+PEdzh6C1s6WZoY358ShO0+m09enOGT+hZQe"/>
+    <elementParameter field="DBTABLE" name="TABLE" value="&quot;STG_D_ESAR_ACTIVITY_1966&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="TRUNCATE"/>
+    <elementParameter field="LABEL" name="NOTE" show="false" value="Warning : this component configuration will automatically generate a commit before data insert/update/delete"/>
+    <elementParameter field="CLOSED_LIST" name="DATA_ACTION" value="INSERT"/>
+    <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime"/>
+    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="true"/>
+    <elementParameter field="MAPPING_TYPE" name="MAPPING" show="false" value="oracle_id"/>
+    <elementParameter field="TEXT" name="JDBC_URL" show="false" value="&quot;jdbc:oracle:oci:/@talend&quot;"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="&quot;&quot;"/>
+    <elementParameter field="LABEL" name="NOTE" value="*Note: Example for Additional JDBC Parameters: &quot;parameterName1=value1&amp;&amp;parameterName2=value2&quot;"/>
+    <elementParameter field="CHECK" name="USE_ALTERNATE_SCHEMA" show="false" value="false"/>
+    <elementParameter field="TEXT" name="ALTERNATE_SCHEMA" show="false" value="&quot;&quot;"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="TEXT" name="COMMIT_EVERY" value="10000"/>
+    <elementParameter field="TABLE" name="ADD_COLS"/>
+    <elementParameter field="CHECK" name="USE_FIELD_OPTIONS" value="false"/>
+    <elementParameter field="TABLE" name="FIELD_OPTIONS" show="false">
+      <elementValue elementRef="SCHEMA_COLUMN" value="STG_ESAR_ID"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="STG_ACTIVITY_ID"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="STG_ACTIVITY_OUTCOME_ID"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="STG_EBM_OVERRIDE"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="USE_HINT_OPTIONS" value="false"/>
+    <elementParameter field="TABLE" name="HINT_OPTIONS" show="false"/>
+    <elementParameter field="CHECK" name="CONVERT_COLUMN_TABLE_TO_UPPERCASE" value="false"/>
+    <elementParameter field="CHECK" name="CONTAIN_BLOB_FROM_OTHER_DB" value="false"/>
+    <elementParameter field="CHECK" name="ENABLE_DEBUG_MODE" value="false"/>
+    <elementParameter field="CHECK" name="USE_BATCH_SIZE" value="true"/>
+    <elementParameter field="CHECK" name="USE_BATCH_AND_USE_CONN" show="false" value="false"/>
+    <elementParameter field="TEXT" name="BATCH_SIZE" value="10000"/>
+    <elementParameter field="CHECK" name="SUPPORT_NULL_WHERE" value="false"/>
+    <elementParameter field="CHECK" name="USE_TIMESTAMP_FOR_DATE_TYPE" value="true"/>
+    <elementParameter field="CHECK" name="TRIM_CHAR" value="true"/>
+    <elementParameter field="CHECK" name="SUPPORT_NLS" show="false" value="false"/>
+    <elementParameter field="TEXT" name="LABEL" value="tDBO_STG_D_ESAR_ACTIVITY"/>
+    <elementParameter field="TEXT" name="HINT" value="&lt;b&gt;STG_D_ESAR_ACTIVITY&lt;/b&gt;&lt;br&gt;Truncate/Insert into STG_D_ESAR_ACTIVITY"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tDBOutput_1">
+      <column comment="" defaultValue="" key="true" length="-1" name="STG_ESAR_ID" nullable="false" originalLength="-1" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="STG_ACTIVITY_ID" nullable="false" originalLength="-1" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="STG_ACTIVITY_OUTCOME_ID" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="STG_EBM_OVERRIDE" nullable="false" originalLength="-1" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+    </metadata>
+    <metadata connector="REJECT" name="REJECT">
+      <column comment="" defaultValue="" key="true" length="-1" name="STG_ESAR_ID" nullable="false" originalLength="-1" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="STG_ACTIVITY_ID" nullable="false" originalLength="-1" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="STG_ACTIVITY_OUTCOME_ID" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="STG_EBM_OVERRIDE" nullable="false" originalLength="-1" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" originalLength="-1" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" originalLength="-1" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tRowGenerator" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="96" posY="448">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tRowGenerator_2"/>
+    <elementParameter field="TEXT" name="NB_ROWS" show="false" value="1"/>
+    <elementParameter field="TABLE" name="VALUES" show="false">
+      <elementValue elementRef="SCHEMA_COLUMN" value="LOAD_TYPE"/>
+      <elementValue elementRef="ARRAY" value="&quot;STG_D_ESAR_ACTIVITY&quot;"/>
+    </elementParameter>
+    <elementParameter field="EXTERNAL" name="MAP" value=""/>
+    <elementParameter field="TEXT" name="LABEL" value="tRG_MIS_END_TIME"/>
+    <elementParameter field="TEXT" name="HINT" value="&lt;b&gt;MIS_END_TIME&lt;/b&gt;&lt;br&gt;Update MIS_END_TIME"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tRowGenerator_2">
+      <column comment="" key="false" length="-1" name="LOAD_TYPE" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true">
+        <additionalField key="FUNCTION_INFO" value="{&quot;NAME&quot;:&quot;...&quot;,&quot;PARAMETERS&quot;:[{&quot;PARAMETER_NAME&quot;:&quot;customize parameter&quot;,&quot;PARAMETER_VALUE&quot;:&quot;\&quot;STG_D_ESAR_ACTIVITY\&quot; &quot;}],&quot;PARAMETER_CLASS_NAME&quot;:&quot;&quot;}"/>
+      </column>
+    </metadata>
+  </node>
+  <node componentName="tOracleSP" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="416" posY="448">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBSP_2"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" show="false" value=""/>
+    <elementParameter field="CLOSED_LIST" name="CONNECTION_TYPE" value="ORACLE_SERVICE_NAME"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="ORACLE_11"/>
+    <elementParameter field="TEXT" name="RAC_URL" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="HOST" value="context.lima_misown_host"/>
+    <elementParameter field="TEXT" name="PORT" value="context.lima_misown_port"/>
+    <elementParameter field="TEXT" name="DBNAME" value="context.lima_misown_database"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" value="context.lima_misown_schema"/>
+    <elementParameter field="TEXT" name="TYPE" show="false" value="Oracle"/>
+    <elementParameter field="TEXT" name="USER" value="context.lima_misown_username"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:L9cwoZAk8hUlxncRSv9w7TElL8rUxnTruCHj/YjTQeKCLQvNhiatzCoDBy+UYxYSV2lh8LtLKIs="/>
+    <elementParameter field="TEXT" name="SP_NAME" value="&quot;MIS_UPDATE_INT_HIST_END_TIME&quot;"/>
+    <elementParameter field="CHECK" name="IS_FUNCTION" value="false"/>
+    <elementParameter field="COLUMN_LIST" name="RETURN" show="false" value="LOAD_TYPE"/>
+    <elementParameter field="CLOSED_LIST" name="RETURN_BDTYPE" show="false" value="AUTOMAPPING"/>
+    <elementParameter field="TABLE" name="SP_ARGS">
+      <elementValue elementRef="COLUMN" value="LOAD_TYPE"/>
+      <elementValue elementRef="TYPE" value="IN"/>
+      <elementValue elementRef="DBTYPE" value="AUTOMAPPING"/>
+      <elementValue elementRef="ISCUSTOME" value="false"/>
+      <elementValue elementRef="CUSTOME_TYPE" value="STRUCT"/>
+      <elementValue elementRef="CUSTOMENAME" value=""/>
+    </elementParameter>
+    <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime"/>
+    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="&quot;&quot;"/>
+    <elementParameter field="LABEL" name="NOTE" value="*Note: Example for Additional JDBC Parameters: &quot;parameterName1=value1&amp;&amp;parameterName2=value2&quot;"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="CLOSED_LIST" name="NLS_LANGUAGE" value="NONE"/>
+    <elementParameter field="CLOSED_LIST" name="NLS_TERRITORY" value="NONE"/>
+    <elementParameter field="CHECK" name="SUPPORT_NLS" show="false" value="false"/>
+    <elementParameter field="TEXT" name="LABEL" value="tDBSP_MIS_UPDATE_INT_HIST_END_TIME"/>
+    <elementParameter field="TEXT" name="HINT" value="&lt;b&gt;MIS_INTERFACE_HISTORY&lt;/b&gt;&lt;br&gt;Update MIS_END_TIME into MIS_INTERFACE_HISTORY"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tDBSP_2">
+      <column comment="" defaultValue="" key="false" length="-1" name="LOAD_TYPE" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true">
+        <additionalField key="FUNCTION_INFO" value="{&quot;NAME&quot;:&quot;...&quot;,&quot;PARAMETERS&quot;:[{&quot;PARAMETER_NAME&quot;:&quot;customize parameter&quot;,&quot;PARAMETER_VALUE&quot;:&quot;\&quot;MSRS_STAG_TO_DAT_2_BACK_OFFICE\&quot; &quot;}],&quot;PARAMETER_CLASS_NAME&quot;:&quot;&quot;}"/>
+      </column>
+    </metadata>
+  </node>
+  <connection connectorName="FLOW" label="In_CONTEXT" lineStyle="0" metaname="tFileInputExcel_1" offsetLabelX="0" offsetLabelY="0" source="tFileInputExcel_1" target="tContextLoad_1">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="In_CONTEXT"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tFileInputExcel_1" offsetLabelX="0" offsetLabelY="0" source="tFileInputExcel_1" target="tRowGenerator_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnSubjobOk1"/>
+    <elementParameter field="CHECK" name="RESUMING_CHECKPOINT" value="true"/>
+    <elementParameter field="TEXT" name="RESUMLABEL" value="Start Time Restart"/>
+    <elementParameter field="MEMO" name="FAILURE_INSTRUCTIONS" value="Restart the Job"/>
+  </connection>
+  <connection connectorName="FLOW" label="ln_MIS_START_TIME" lineStyle="0" metaname="tRowGenerator_1" offsetLabelX="0" offsetLabelY="0" source="tRowGenerator_1" target="tDBSP_1">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="ln_MIS_START_TIME"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tRowGenerator_1" offsetLabelX="0" offsetLabelY="0" source="tRowGenerator_1" target="tDBInput_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnSubjobOk2"/>
+    <elementParameter field="CHECK" name="RESUMING_CHECKPOINT" value="true"/>
+    <elementParameter field="TEXT" name="RESUMLABEL" value="ESAR_ACTIVITY Restart"/>
+    <elementParameter field="MEMO" name="FAILURE_INSTRUCTIONS" value="Restart the Job"/>
+  </connection>
+  <connection connectorName="FLOW" label="In_dat_esar_Activity" lineStyle="0" metaname="tDBInput_1" offsetLabelX="0" offsetLabelY="0" source="tDBInput_1" target="tDBOutput_1">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="In_dat_esar_Activity"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tDBInput_1" offsetLabelX="0" offsetLabelY="0" source="tDBInput_1" target="tRowGenerator_2">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnSubjobOk3"/>
+    <elementParameter field="CHECK" name="RESUMING_CHECKPOINT" value="true"/>
+    <elementParameter field="TEXT" name="RESUMLABEL" value="End Time Restart"/>
+    <elementParameter field="MEMO" name="FAILURE_INSTRUCTIONS" value="Restart the Job"/>
+  </connection>
+  <connection connectorName="FLOW" label="ln_MIS_END_TIME" lineStyle="0" metaname="tRowGenerator_2" offsetLabelX="0" offsetLabelY="0" source="tRowGenerator_2" target="tDBSP_2">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="ln_MIS_END_TIME"/>
+  </connection>
+  <note opaque="false" posX="608" posY="32" sizeHeight="161" sizeWidth="417" text="Developer: Stuart Smith&#13;&#10;Date: 17-Aug-2023&#13;&#10;JIRA: ADH-1966&#13;&#10;Find Lima records"/>
+  <subjob>
+    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFileInputExcel_1"/>
+    <elementParameter field="TEXT" name="SUBJOB_TITLE" value="Import LIMA_Context.xlsx"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="192;192;192"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tRowGenerator_1"/>
+    <elementParameter field="TEXT" name="SUBJOB_TITLE" value="Insert MIS_START_TIME into MIS_INTERFACE_HISTORY for current job"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="192;192;192"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBInput_1"/>
+    <elementParameter field="TEXT" name="SUBJOB_TITLE" value="Insert dat_esar_Activity and dat_lima_ExamArchiveLog into STG_D_ESAR_ACTIVITY"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="192;192;192"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tRowGenerator_2"/>
+    <elementParameter field="TEXT" name="SUBJOB_TITLE" value="Update MIS_END_TIME into MIS_INTERFACE_HISTORY for current job"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="192;192;192"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_0905c437-7080-4cf9-a232-3e28c453d965"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>ZV/UGaZtjj1ouPZEE1mcgxsOtl+Hp3IAhFogay8WPU1OBrd5/gEXa2GIPUM70XT/Qg7IrEV6iHay&#13;
+Ax1xYjz6BQ==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_9762f7b0-90dd-4290-84dc-dad75c35341a"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>StdlIqgCHuoMitTs3kndvnl4SflI5lmYO73pqWjkq54ndXgNjuOfQ72KUagPt3QgW5quGkX2wOdN&#13;
+O4ZZMco9rA==</DigestValue></Reference></SignedInfo><SignatureValue>LfuP81kaAg3FP5r/RGBC+QJ5Af/Gt2cIJaalTg0W7kCgVzLOTcIew/MlBKbt2mrdkN3fGsZG+CXq&#13;
+sXLE0PnCPILmBno/d6bItouOgsLGU3eVHTPIj7DFZYNiy+zF9JqBamm8jHZ/SsEIu6VGMKotNkr/&#13;
+Lts+p9VIym0x/gXdfsbBlXovXVtVTNMvGw+P6CFcwnvzkd4J9dO5jcEn+OnC0iCnOkE379gd3sjX&#13;
+V0HWUWfkcWiAUEobMNVDbdbjMQgJL+KNk7UncPQiXSxf7FbaaBds8sgn5AZUGExX55zxDaZ8s2Fo&#13;
+9fnR6p1i0PuYu6b9SWwNTT3qgyANscWBlPtykw==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_9762f7b0-90dd-4290-84dc-dad75c35341a" Target="#_0905c437-7080-4cf9-a232-3e28c453d965"><Timestamp>2024-06-12 14:23:07</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
