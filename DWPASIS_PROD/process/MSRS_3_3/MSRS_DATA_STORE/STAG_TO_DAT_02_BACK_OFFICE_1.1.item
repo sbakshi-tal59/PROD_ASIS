@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?><talendfile:ProcessType xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmlns:xmi="http://www.omg.org/XMI" defaultContext="Default" jobType="Standard" xmi:version="2.0">
-  <context confirmationNeeded="false" hide="false" name="Default">
+  <context confirmationNeeded="false" name="Default">
     <contextParameter comment="" internalId="_yMmz8PN0Eeub07Lr4cCRmw" name="msrs_filepath" prompt="msrs_filepath?" promptNeeded="false" repositoryContextId="_oYgZ4OkyEeuR09Vtbvcs5g" type="id_Directory" value="D:\ASIS\Contexts\PROD\MSRS\"/>
     <contextParameter comment="" internalId="_yMmz8fN0Eeub07Lr4cCRmw" name="msrs_misown_database" prompt="msrs_misown_database?" promptNeeded="false" repositoryContextId="_oYgZ4OkyEeuR09Vtbvcs5g" type="id_String" value="DMISI1"/>
     <contextParameter comment="" internalId="_yMmz8vN0Eeub07Lr4cCRmw" name="msrs_misown_host" prompt="msrs_misown_host?" promptNeeded="false" repositoryContextId="_oYgZ4OkyEeuR09Vtbvcs5g" type="id_String" value="10.96.132.211"/>
@@ -63,7 +63,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:/KSlkE0nz4UXQcSethA9z7HYJvm4SnMTez2IwH1c"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:qbXn0syPJRNrIKgpeZjiATR5mqIPpeVNLKZQPrnT"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
@@ -78,7 +78,7 @@
     <elementParameter field="CHECK" name="ON_METERCATCHER_FLAG" value="false"/>
     <elementParameter field="CHECK" name="ON_CONSOLE_FLAG" show="false" value="false"/>
     <elementParameter field="CHECK" name="ON_FILES_FLAG" show="false" value="false"/>
-    <elementParameter field="DIRECTORY" name="FILE_PATH" show="false" value="&quot;D:/ASIS/ASIS_Workspace/.metadata&quot;"/>
+    <elementParameter field="DIRECTORY" name="FILE_PATH" show="false" value="&quot;D:/ASIS/Workspace/.metadata&quot;"/>
     <elementParameter field="TEXT" name="FILENAME_STATS" show="false" value="&quot;stats_file.txt&quot;"/>
     <elementParameter field="TEXT" name="FILENAME_LOGS" show="false" value="&quot;logs_file.txt&quot;"/>
     <elementParameter field="TEXT" name="FILENAME_METTER" show="false" value="&quot;meter_file.txt&quot;"/>
@@ -98,7 +98,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:wCWfoql0tnLfoGQLm1CAXVDUJk+8aW+klUYWyZtj"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:xoBt6J9qTCIOyDvQnpCJJjoRDQAUfQVIX2ZOUZrr"/>
     <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" show="false" value="&quot;&quot;"/>
@@ -117,6 +117,16 @@
     <elementParameter field="TEXT" name="FOOTER_LIBRARY" show="false" value=""/>
     <elementParameter field="TEXT" name="FOOTER_CODE" show="false" value=""/>
     <elementParameter field="TEXT" name="FOOTER_IMPORT" show="false" value=""/>
+    <routinesParameter id="_-sXZoOVlEeu73vnn6vWu4g" name="DataOperation"/>
+    <routinesParameter id="_-t2nYOVlEeu73vnn6vWu4g" name="Mathematical"/>
+    <routinesParameter id="_-vWcMOVlEeu73vnn6vWu4g" name="Numeric"/>
+    <routinesParameter id="_-w_a8OVlEeu73vnn6vWu4g" name="Relational"/>
+    <routinesParameter id="_-piIEuVlEeu73vnn6vWu4g" name="SQLike"/>
+    <routinesParameter id="_-yeosOVlEeu73vnn6vWu4g" name="StringHandling"/>
+    <routinesParameter id="_-z92cOVlEeu73vnn6vWu4g" name="TalendDataGenerator"/>
+    <routinesParameter id="_-15wIOVlEeu73vnn6vWu4g" name="TalendDate"/>
+    <routinesParameter id="_-44ysOVlEeu73vnn6vWu4g" name="TalendStringUtil"/>
+    <routinesParameter id="_-3Y94OVlEeu73vnn6vWu4g" name="TalendString"/>
   </parameters>
   <node componentName="tOracleInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="128" posY="320">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBInput_1"/>
@@ -139,7 +149,7 @@
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
     <elementParameter field="GUESS_SCHEMA" name="GUESS_SCHEMA" value="&quot;&quot;"/>
-    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;SELECT &#13;&#10;  STG_BACK_OFFICE_ID MSRS_BACK_OFFICE_ID,&#13;&#10;  STG_BACK_OFFICE_REF MSRS_BACK_OFFICE_REF,&#13;&#10;  STG_BACK_OFFICE_NAME MSRS_BACK_OFFICE_NAME,&#13;&#10;  STG_OFFICE_ADDRESS_ID MSRS_OFFICE_ADDRESS_ID,&#13;&#10;  STG_LAST_UPDATE MSRS_LAST_UPDATE,&#13;&#10;  STG_CREATE_DATE MSRS_CREATE_DATE,&#13;&#10;  STG_BACK_OFFICE_FAX_NO MSRS_BACK_OFFICE_FAX_NO,&#13;&#10;  STG_BACK_OFFICE_TELEPHONE_NO  MSRS_BACK_OFFICE_TELEPHONE_NO,&#13;&#10;  STG_LIMA_EXTERNAL_CODE MSRS_LIMA_EXTERNAL_CODE,&#13;&#10;  STG_ASSESSMENT_PROVIDER_ID MSRS_ASSESSMENT_PROVIDER_ID&#13;&#10;FROM &quot;+context.msrs_staging_schema+&quot;.STG_BACK_OFFICE&#13;&#10;WHERE STG_BACK_OFFICE_ID = '1-5G26SC'&quot;"/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;SELECT &#13;&#10;  STG_BACK_OFFICE_ID MSRS_BACK_OFFICE_ID,&#13;&#10;  STG_BACK_OFFICE_REF MSRS_BACK_OFFICE_REF,&#13;&#10;  STG_BACK_OFFICE_NAME MSRS_BACK_OFFICE_NAME,&#13;&#10;  STG_OFFICE_ADDRESS_ID MSRS_OFFICE_ADDRESS_ID,&#13;&#10;  STG_LAST_UPDATE MSRS_LAST_UPDATE,&#13;&#10;  STG_CREATE_DATE MSRS_CREATE_DATE,&#13;&#10;  STG_BACK_OFFICE_FAX_NO MSRS_BACK_OFFICE_FAX_NO,&#13;&#10;  STG_BACK_OFFICE_TELEPHONE_NO  MSRS_BACK_OFFICE_TELEPHONE_NO,&#13;&#10;  STG_LIMA_EXTERNAL_CODE MSRS_LIMA_EXTERNAL_CODE,&#13;&#10;  STG_ASSESSMENT_PROVIDER_ID MSRS_ASSESSMENT_PROVIDER_ID&#13;&#10;FROM &quot;+context.msrs_staging_schema+&quot;.STG_BACK_OFFICE&quot;"/>
     <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime"/>
     <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false"/>
     <elementParameter field="TEXT" name="DATASOURCE_ALIAS" show="false" value="&quot;&quot;"/>
@@ -519,8 +529,6 @@
     <elementParameter field="CHECK" name="SUPPRESS_WARN" show="false" value="false"/>
     <elementParameter field="CLOSED_LIST" name="GENERATION_MODE" value="USER_MODE"/>
     <elementParameter field="CHECK" name="INCLUDE_PHONETICRUNS" show="false" value="true"/>
-    <elementParameter field="CHECK" name="CONFIGURE_INFLATION_RATIO" value="false"/>
-    <elementParameter field="TEXT" name="INFLATION_RATIO" show="false" value=""/>
     <elementParameter field="TEXT" name="LABEL" value="tFD_MSRS_CONTEXT"/>
     <elementParameter field="TEXT" name="HINT" value="&lt;b&gt;MSRS_CONTEXT&lt;/b&gt;&lt;br&gt;MSRS_Context.xlsx"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
@@ -591,7 +599,7 @@
     <elementParameter field="TEXT" name="RESUMLABEL" value="Start Time Restart"/>
     <elementParameter field="MEMO" name="FAILURE_INSTRUCTIONS" value="Restart the Job"/>
   </connection>
-  <note opaque="false" posX="640" posY="64" sizeHeight="225" sizeWidth="417" text="Developer: James Adams&#13;&#10;Date: 21-Jul-2021&#13;&#10;JIRA: BM-5005&#13;&#10;Description: Update or insert Back Office data into MISOWN&#13;&#10;from staging&#13;&#10;&#13;&#10;Developer: Shaili Bakshi&#13;&#10;Date: 01-Jul-2022&#13;&#10;JIRA: BM-8414&#13;&#10;Description: Added new field MSRS_ASSESSMENT_PROVIDER_ID&#13;&#10;&#13;&#10;Developer: Shaili Bakshi&#13;&#10;Date: 12-June-2024&#13;&#10;JIRA: CR345&#13;&#10;Description: Testing Talend funtionality, Git commits"/>
+  <note opaque="false" posX="640" posY="64" sizeHeight="225" sizeWidth="417" text="Developer: James Adams&#13;&#10;Date: 21-Jul-2021&#13;&#10;JIRA: BM-5005&#13;&#10;Description: Update or insert Back Office data into MISOWN&#13;&#10;from staging&#13;&#10;&#13;&#10;Developer: Shaili Bakshi&#13;&#10;Date: 01-Jul-2022&#13;&#10;JIRA: BM-8414&#13;&#10;Description: Added new field MSRS_ASSESSMENT_PROVIDER_ID"/>
   <subjob>
     <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBInput_1"/>
@@ -620,13 +628,13 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="192;192;192"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_e3cad004-fc78-43d8-b81e-f96f724ecd8a"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>8B9G9oVfEIp8IDIGQcJfRHSuNxmHyLwIakruGFElTwkCNjaZ0rfD3VVsoKZZsPbVh2PXYrI+DaEv&#13;
-O0vbiL89SA==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_d4c8c9d3-33a3-46f5-903d-cf54724fdb89"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>1JAB7UKi02JI076hINJPtpZisE6n8R68MNz3/k7c82tjSbMSUh3WqkaEbYwvN295JScxW7/q2gau&#13;
-ZACkqMmDfA==</DigestValue></Reference></SignedInfo><SignatureValue>cS85RPUQInUTJTket6nEHwKTWKNDdyv1ZKXtQ2EVXTyaxBNsMhOGT6txVX/G0K1AdvbFniKi8aKX&#13;
-H7ZludQGg+TgUZrmdEfXtutaOKfPxGpUx6cG3cOj8oT9Vh0dgiznF9qEorntj7MaUokcVxaDD719&#13;
-VYnMmXRqQ8/140nEelZlacQhcu2KgYdNe6wVSGI++f/Ydv8UFp+1qWB7hrDPo4PB/1aKAgweIcHg&#13;
-+QRM5sO56ZzGVfwygM1rOk08BFOgsR696/EvvoyWELCEyQXIXguDbxyXCpcUD6lLyzH62eeougJh&#13;
-KyMKfpPQBLOA2SADawQyOuz7YlK2lMrZAPIPhw==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_87f18e52-222a-4b1f-965d-1b57429c74b7"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>NlrdSylXWAirhd6W1/FJcKw4tzBggF/irjPW6l5iuzz6eBeZyIJtGQjvuGU5fUZicGJZvRFMGBUR&#13;
+T8wwX1ZaXA==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_c50f32b2-d6bb-4e5c-a311-1300b7ff437c"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>5c5vA5Y/D+iyjGMfzZ49nZJk4LFcBA3XQUZ/wm3OxKF1Lu+joNbHioS7yFmc4O7ANJf8GVct288A&#13;
+nYj1pXywAw==</DigestValue></Reference></SignedInfo><SignatureValue>l4s2tmVrKw4GRQTtzqj0cWdThwnWn4RW0RKr4a+ENqtPPwYOgn6Xu6SzG8LkTQ8wMa7s72Czi+1A&#13;
+z6GRv/ztQy+HhSY42C/O9D0goiyiJ1gutP08mVtis6Jtywte0AtARomz2DAmG4H1Qpk12Pt7r5tX&#13;
+lW4MbYyo6kQ+Qh/kAw7cv92nZAnUKz21qRu2cNgfGzgoZfQpgr4xU92vZbGTQtd+8CSKcfmBumT2&#13;
+ru3US3hibwZwmBW/WbVj8W14xv4Qkf21mBtdvlwBDDC90F0U8kOP2m9FueC2SpA5n+y9sBVWg68I&#13;
+StVR89L937rbzarquv1bQyqo9lrMtjNZchjGtA==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
@@ -648,4 +656,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_d4c8c9d3-33a3-46f5-903d-cf54724fdb89" Target="#_e3cad004-fc78-43d8-b81e-f96f724ecd8a"><Timestamp>2024-06-12 10:07:35</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_c50f32b2-d6bb-4e5c-a311-1300b7ff437c" Target="#_87f18e52-222a-4b1f-965d-1b57429c74b7"><Timestamp>2024-06-12 14:35:25</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
