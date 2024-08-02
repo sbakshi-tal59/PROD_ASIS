@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?><talendfile:ProcessType xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmlns:xmi="http://www.omg.org/XMI" defaultContext="Default" jobType="Standard" xmi:version="2.0">
-  <context confirmationNeeded="false" name="Default">
-    <contextParameter comment="" internalId="_SvFd4CdNEeyvFL_edckkhw" name="ads_filepath" prompt="ads_filepath?" promptNeeded="false" repositoryContextId="_noPI8CdLEeyvFL_edckkhw" type="id_Directory" value="D:\ASIS\Contexts\PROD\ADS\"/>
+  <context confirmationNeeded="false" hide="false" name="Default">
+    <contextParameter comment="" internalId="_SvFd4CdNEeyvFL_edckkhw" name="ads_filepath" prompt="ads_filepath?" promptNeeded="false" repositoryContextId="_noPI8CdLEeyvFL_edckkhw" type="id_Directory" value="D:\ASIS\Contexts\DEV\ADS\"/>
     <contextParameter comment="" internalId="_SvFd4SdNEeyvFL_edckkhw" name="ads_misown_database" prompt="ads_misown_database?" promptNeeded="false" repositoryContextId="_noPI8CdLEeyvFL_edckkhw" type="id_String" value="DMISI1"/>
     <contextParameter comment="" internalId="_SvFd4idNEeyvFL_edckkhw" name="ads_misown_host" prompt="ads_misown_host?" promptNeeded="false" repositoryContextId="_noPI8CdLEeyvFL_edckkhw" type="id_String" value="10.96.132.211"/>
-    <contextParameter comment="" internalId="_SvFd4ydNEeyvFL_edckkhw" name="ads_misown_password" prompt="ads_misown_password?" promptNeeded="false" repositoryContextId="_noPI8CdLEeyvFL_edckkhw" type="id_Password" value="enc:system.encryption.key.v1:9hIbT7odHc2oq5efMVagALlINufBKw8tfFDLMGhdzzK1/8eK8Nw="/>
+    <contextParameter comment="" internalId="_SvFd4ydNEeyvFL_edckkhw" name="ads_misown_password" prompt="ads_misown_password?" promptNeeded="false" repositoryContextId="_noPI8CdLEeyvFL_edckkhw" type="id_Password" value="enc:system.encryption.key.v1:9m6VZBvb1X0brAQDtdJV0BzvIzRjfb6XDwRMNHjeAyZPxl0L8Kg="/>
     <contextParameter comment="" internalId="_SvFd5CdNEeyvFL_edckkhw" name="ads_misown_port" prompt="ads_misown_port?" promptNeeded="false" repositoryContextId="_noPI8CdLEeyvFL_edckkhw" type="id_String" value="1522"/>
     <contextParameter comment="" internalId="_SvFd5SdNEeyvFL_edckkhw" name="ads_misown_schema" prompt="ads_misown_schema?" promptNeeded="false" repositoryContextId="_noPI8CdLEeyvFL_edckkhw" type="id_String" value="MISOWN"/>
     <contextParameter comment="" internalId="_SvFd5idNEeyvFL_edckkhw" name="ads_misown_username" prompt="ads_misown_username?" promptNeeded="false" repositoryContextId="_noPI8CdLEeyvFL_edckkhw" type="id_String" value="MISOWN"/>
@@ -51,7 +51,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:2fl//+OB+lLcePKYb8FcpLGLl3P0Htrnx//ZbSWC"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:mPMh3ifj+Rlf0Yc+in3vEo2RRQe8Ec4QvavWocmF"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
@@ -66,7 +66,7 @@
     <elementParameter field="CHECK" name="ON_METERCATCHER_FLAG" value="false"/>
     <elementParameter field="CHECK" name="ON_CONSOLE_FLAG" show="false" value="false"/>
     <elementParameter field="CHECK" name="ON_FILES_FLAG" show="false" value="false"/>
-    <elementParameter field="DIRECTORY" name="FILE_PATH" show="false" value="&quot;D:/ASIS/Workspace/.metadata&quot;"/>
+    <elementParameter field="DIRECTORY" name="FILE_PATH" show="false" value="&quot;D:/ASIS/Development_Workspace/.metadata&quot;"/>
     <elementParameter field="TEXT" name="FILENAME_STATS" show="false" value="&quot;stats_file.txt&quot;"/>
     <elementParameter field="TEXT" name="FILENAME_LOGS" show="false" value="&quot;logs_file.txt&quot;"/>
     <elementParameter field="TEXT" name="FILENAME_METTER" show="false" value="&quot;meter_file.txt&quot;"/>
@@ -86,7 +86,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:d/NnpznuZg0+YTgZpQqrtpPdRN1DgSaxZefJGYVR"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:vJwh60rAdL3v029ivLEvQRAeREhyd+2ZLxRqJ+h2"/>
     <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" show="false" value="&quot;&quot;"/>
@@ -105,22 +105,12 @@
     <elementParameter field="TEXT" name="FOOTER_LIBRARY" show="false" value=""/>
     <elementParameter field="TEXT" name="FOOTER_CODE" show="false" value=""/>
     <elementParameter field="TEXT" name="FOOTER_IMPORT" show="false" value=""/>
-    <routinesParameter id="_-sXZoOVlEeu73vnn6vWu4g" name="DataOperation"/>
-    <routinesParameter id="_-t2nYOVlEeu73vnn6vWu4g" name="Mathematical"/>
-    <routinesParameter id="_-vWcMOVlEeu73vnn6vWu4g" name="Numeric"/>
-    <routinesParameter id="_-w_a8OVlEeu73vnn6vWu4g" name="Relational"/>
-    <routinesParameter id="_-piIEuVlEeu73vnn6vWu4g" name="SQLike"/>
-    <routinesParameter id="_-yeosOVlEeu73vnn6vWu4g" name="StringHandling"/>
-    <routinesParameter id="_-z92cOVlEeu73vnn6vWu4g" name="TalendDataGenerator"/>
-    <routinesParameter id="_-15wIOVlEeu73vnn6vWu4g" name="TalendDate"/>
-    <routinesParameter id="_-44ysOVlEeu73vnn6vWu4g" name="TalendStringUtil"/>
-    <routinesParameter id="_-3Y94OVlEeu73vnn6vWu4g" name="TalendString"/>
   </parameters>
   <node componentName="tFileInputExcel" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="480" posY="64">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFileInputExcel_1"/>
     <elementParameter field="CHECK" name="VERSION_2007" value="true"/>
     <elementParameter field="FILE" name="FILENAME" value="context.ads_filepath+&quot;ADS_Context.xlsx&quot;"/>
-    <elementParameter field="PASSWORD" name="PASSWORD" value="enc:system.encryption.key.v1:twh4CcSYsYXJiBRQzGEWCqYx3l309cD7YN/RZmjH9cP5LCwzicSoDTeN"/>
+    <elementParameter field="PASSWORD" name="PASSWORD" value="enc:system.encryption.key.v1:DWSTpPr8BqehzEf72HlzKzARQ0bce0A10nCIRGyXmbgL8LL89pSmLgnM"/>
     <elementParameter field="CHECK" name="ALL_SHEETS" value="false"/>
     <elementParameter field="TABLE" name="SHEETLIST">
       <elementValue elementRef="SHEETNAME" value="&quot;ADS&quot;"/>
@@ -160,6 +150,8 @@
     <elementParameter field="CHECK" name="SUPPRESS_WARN" show="false" value="false"/>
     <elementParameter field="CLOSED_LIST" name="GENERATION_MODE" value="USER_MODE"/>
     <elementParameter field="CHECK" name="INCLUDE_PHONETICRUNS" show="false" value="true"/>
+    <elementParameter field="CHECK" name="CONFIGURE_INFLATION_RATIO" value="false"/>
+    <elementParameter field="TEXT" name="INFLATION_RATIO" show="false" value=""/>
     <elementParameter field="TEXT" name="LABEL" value="tFD_ADS_CONTEXT"/>
     <elementParameter field="TEXT" name="HINT" value="&lt;b&gt;ADS_CONTEXT&lt;/b&gt;&lt;br&gt;ADS_Context.xlsx"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
@@ -223,7 +215,7 @@
     <elementParameter field="TEXT" name="SCHEMA_DB" value="context.ads_misown_schema"/>
     <elementParameter field="TEXT" name="TYPE" show="false" value="Oracle"/>
     <elementParameter field="TEXT" name="USER" value="context.ads_misown_username"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:nmGNFY+faWCAplaJIHd4X7OiccBr7+mdc1Nng3lVAo/k9ubB7IGQR5Vkn3ayWVTM6QdcQdK+Vw=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:bfvWkmt8gUzWIwWg9z6okY0RxJ8/s0koRxSoPY1pWgGakLvqQf7qYkqgc1wcQo7+wJvlDHG+Yg=="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;MIS_PARAMETERS&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
@@ -268,7 +260,7 @@
     <elementParameter field="TEXT" name="SCHEMA_DB" value="context.ads_misown_schema"/>
     <elementParameter field="TEXT" name="TYPE" show="false" value="Oracle"/>
     <elementParameter field="TEXT" name="USER" value="context.ads_misown_username"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:02k/vtIcOWpsKfyWr5VNAoEzJgnkDCB9Zpb+a7UqwC1LNaPO7CHWGWUrAr+yisWwGKOW+hHuSg=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:uEYce68iV+EB/OKhiGm6AX9O9h8NOiy4RkL12krzdnUdV+kBcvHpmrkUJR2TJJUIRuPym8qOIQ=="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;MIS_PARAMETERS&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
@@ -313,7 +305,7 @@
     <elementParameter field="TEXT" name="SCHEMA_DB" value="context.ads_misown_schema"/>
     <elementParameter field="TEXT" name="TYPE" show="false" value="Oracle"/>
     <elementParameter field="TEXT" name="USER" value="context.ads_misown_username"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:buV8sdqNR+Dgi7wwH/kvmF1o7jRivYGp7CPDQC9N8QFBdsZYqNAwsP/j47sQJkjam1GHhdRnZw=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:lwGuG8gTiPYl1PCrrJi/H1YfDJs1GruFjGtccCSYpjMUkvuXqNzE3dWiKQn2CyUCa8iSD4uuEQ=="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;MIS_PARAMETERS&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
@@ -358,7 +350,7 @@
     <elementParameter field="TEXT" name="SCHEMA_DB" value="context.ads_misown_schema"/>
     <elementParameter field="TEXT" name="TYPE" show="false" value="Oracle"/>
     <elementParameter field="TEXT" name="USER" value="context.ads_misown_username"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:Dbr4xgEvszMcE8X63nvr0Io4QUhjXc8wmd15UysetWUjdeb+BO3Wr++2q5SFnpxFYRwT7c+gZQ=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:AbvFfHBDhUVKNEnG2ngRqd3xZIW0PxeHBY8Waby5Ad7SMLXuCuaG4MFcQ7EYsSvT0LSCjhIePw=="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;MIS_PARAMETERS&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
@@ -403,7 +395,7 @@
     <elementParameter field="TEXT" name="SCHEMA_DB" value="context.ads_misown_schema"/>
     <elementParameter field="TEXT" name="TYPE" show="false" value="Oracle"/>
     <elementParameter field="TEXT" name="USER" value="context.ads_misown_username"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:oeXnfs2+FBYI5Dc3eEMreoDvQ+V4/tzhiQFROBKfHhLKMebQcl8mBHiVIY1w+CfjDX7fUkAILg=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:ufmKvG7LkdBsuotYxbn32Br54izaSORY5e7Cu4t5fWkH0zxTSHC0e/Wk4dSrKTNHdPcVlozurQ=="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;MIS_PARAMETERS&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
@@ -448,7 +440,7 @@
     <elementParameter field="TEXT" name="SCHEMA_DB" value="context.ads_misown_schema"/>
     <elementParameter field="TEXT" name="TYPE" show="false" value="Oracle"/>
     <elementParameter field="TEXT" name="USER" value="context.ads_misown_username"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:ZeHzDI/HcYCetAOQ0+egnzRgL4Z3ch3BqDT7NB8MImnVZzBmLGuokJ8vSPrHCopYsfuIQvIWrA=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:dWVhS89uzIUWxbfs0IZdbypv1fjr4OxmUf9OjbLBRSr3us8wkGyoP9GAj0PywchE0mNIRjuEmg=="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;MIS_PARAMETERS&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
@@ -493,7 +485,7 @@
     <elementParameter field="TEXT" name="SCHEMA_DB" value="context.ads_misown_schema"/>
     <elementParameter field="TEXT" name="TYPE" show="false" value="Oracle"/>
     <elementParameter field="TEXT" name="USER" value="context.ads_misown_username"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:4XJEn5HW+TtUQmYR/9SXSU/v2zFTALG1yl4o4Obd7Qa87E0j/rYCqjHQKd4AV4c3aOb+bgq/xA=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:/qUeFTXYOJ/FwKEGs6vNzvxw4wN6fA1dtScvm5Je5d6ltMIm8aDby1HXtZoL7AamPqPLYpVi6w=="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;MIS_PARAMETERS&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
@@ -538,7 +530,7 @@
     <elementParameter field="TEXT" name="SCHEMA_DB" value="context.ads_misown_schema"/>
     <elementParameter field="TEXT" name="TYPE" show="false" value="Oracle"/>
     <elementParameter field="TEXT" name="USER" value="context.ads_misown_username"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:NA5NPmilM1Z6HsTrAYRzWKVJ7V+pDzRsDrSUygtLd68fWT+CL287Y/2+FwnniFSFMGnBl5gyDA=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:lfWLxFmkGX/VOqphZGautEAoSuPeiEgB0rOKExKdu9qp6txo2KNqAfeSWgFqlT7O31VV6KPiOg=="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;MIS_PARAMETERS&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
@@ -583,7 +575,7 @@
     <elementParameter field="TEXT" name="SCHEMA_DB" value="context.ads_misown_schema"/>
     <elementParameter field="TEXT" name="TYPE" show="false" value="Oracle"/>
     <elementParameter field="TEXT" name="USER" value="context.ads_misown_username"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:A7Dz0ONJTjTSzcb7bxyOqB4jPTvk117xKRTYPG4eQRSXdjvzIE1bvaR8DWaxTDAn1SorJax0QQ=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:2m6nw14UgCr3Aay2wCpH44mc9I9S3uyf3otRSurwnsm9dN8556vflzmMucbnxEN0dwuNLv2yDg=="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;MIS_PARAMETERS&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
@@ -628,7 +620,7 @@
     <elementParameter field="TEXT" name="SCHEMA_DB" value="context.ads_misown_schema"/>
     <elementParameter field="TEXT" name="TYPE" show="false" value="Oracle"/>
     <elementParameter field="TEXT" name="USER" value="context.ads_misown_username"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:G/xOyjkXgVzcRSRgE8bhukn8z/2YlCgMRs8GgFUhGvkrfrypl5A+L84hW8NbsPiV8pVl4/lEEw=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:l6T8u5G++sVESvPJ9IoFfODNPwBOVy1K2qFIEuz2mis/C+a8ryXw23UehcVxizsEBG2SfljtmQ=="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;MIS_PARAMETERS&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
@@ -673,7 +665,7 @@
     <elementParameter field="TEXT" name="SCHEMA_DB" value="context.ads_misown_schema"/>
     <elementParameter field="TEXT" name="TYPE" show="false" value="Oracle"/>
     <elementParameter field="TEXT" name="USER" value="context.ads_misown_username"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:LLlC6BQ6BiZ9/909iRFObJEvP2qwpDJXNYJ/HRAiHoB0RS2VJ/6AuucGP+NMmwBF9IeGJyrawA=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:1sMcgT5pnxMFJeO/IFHSvGLhRxOBXUkRfbIuvh7xDRg65P6zGb/XhZuP4Tyf+133TCDbh5O8Yg=="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;MIS_PARAMETERS&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
@@ -718,7 +710,7 @@
     <elementParameter field="TEXT" name="SCHEMA_DB" value="context.ads_misown_schema"/>
     <elementParameter field="TEXT" name="TYPE" show="false" value="Oracle"/>
     <elementParameter field="TEXT" name="USER" value="context.ads_misown_username"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:TWuI+XpZLazAbEYXgpWIq7dSyABDfmh13e+F5F3/E+Da7XNuao8QmM4IxR5sJIQCt73c5qItJw=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:Jcnf0mArugbgDrop9ATntetasqsFSPwjeRsqgEBTEe71GVT+TcAajEVCcm34mlyvqiiNqVd06A=="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;MIS_PARAMETERS&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
@@ -763,7 +755,7 @@
     <elementParameter field="TEXT" name="SCHEMA_DB" value="context.ads_misown_schema"/>
     <elementParameter field="TEXT" name="TYPE" show="false" value="Oracle"/>
     <elementParameter field="TEXT" name="USER" value="context.ads_misown_username"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:M/ymukWuZ3SiL6Zpf4+orl8OKoF9r489R/087PJQYRU4kzlpO0FtLBQ2I28Cb6bhzoCBokJcwg=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:877Iv4xtTeF31p4zt2tNh9UZxPz1eN1HNrKALLlHCqNK8yJnDnH9ySOXCRyyHQVHXNavftJONA=="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;MIS_PARAMETERS&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
@@ -808,7 +800,7 @@
     <elementParameter field="TEXT" name="SCHEMA_DB" value="context.ads_misown_schema"/>
     <elementParameter field="TEXT" name="TYPE" show="false" value="Oracle"/>
     <elementParameter field="TEXT" name="USER" value="context.ads_misown_username"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:3sXH5AtDLWe5shh5434ySBCKgTc3j3bTBGbgfQeFKm95RGp+qY0AqRl/bNguYnTNce86sju6jg=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:rJvsFEz43J7eoI98SIC4EZJJZJzDY2tntdCLD1vT/++nwirSWSd5fe7UjaD9KXXiA8Bb10Nl0g=="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;MIS_PARAMETERS&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
@@ -853,7 +845,7 @@
     <elementParameter field="TEXT" name="SCHEMA_DB" value="context.ads_misown_schema"/>
     <elementParameter field="TEXT" name="TYPE" show="false" value="Oracle"/>
     <elementParameter field="TEXT" name="USER" value="context.ads_misown_username"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:SjvYxQhy1BFTZCwxfduA7OzY+ucos59GnPXsOP9lUWt7Zhi0+B9DQgyOpQwCS0n8Xm5yPwj8Rw=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:SY6D6j/95cH+Ub2T4NZ5fY20+E17nOMn1TVJNE6aRsJBKDHMiXjtORKirQMLoAhGPiC9r7BNlQ=="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;MIS_PARAMETERS&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
@@ -898,7 +890,7 @@
     <elementParameter field="TEXT" name="SCHEMA_DB" value="context.ads_misown_schema"/>
     <elementParameter field="TEXT" name="TYPE" show="false" value="Oracle"/>
     <elementParameter field="TEXT" name="USER" value="context.ads_misown_username"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:x8AFWGX/Zftp48XsfomC7e/13xtHrNznPq66TZDvJOOlNrdzr6jJmp6L9sXi7jGLFCuX6sa0gQ=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:hBJ+Wm/Z4iZH4fcH6s3bRZXK1dtEb6wiSYqtq/o6CYMdegnHuFg/1bJt4XFnv0bdzUQaEVLApQ=="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;MIS_PARAMETERS&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
@@ -943,7 +935,7 @@
     <elementParameter field="TEXT" name="SCHEMA_DB" value="context.ads_misown_schema"/>
     <elementParameter field="TEXT" name="TYPE" show="false" value="Oracle"/>
     <elementParameter field="TEXT" name="USER" value="context.ads_misown_username"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:L8zkEwF/WRXH92273RSUsXPmy2r/PMwsxXJvxJDvSaXfhabR1u5A9YjmwxNdZrvKGD5JrkQHhQ=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:N8uZ8qtXfbOY71+qdXBQDgoPL//bfAkonQOnkcuwWiB6U+k1v6YbeXtPy7Wab9n1vwN9PqueLQ=="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;MIS_PARAMETERS&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
@@ -988,7 +980,7 @@
     <elementParameter field="TEXT" name="SCHEMA_DB" value="context.ads_misown_schema"/>
     <elementParameter field="TEXT" name="TYPE" show="false" value="Oracle"/>
     <elementParameter field="TEXT" name="USER" value="context.ads_misown_username"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:zIpEArqXIJbmDt2loOC2Y6V4F3U/BvH6IGajsS+Q0F2bC3LLXTLZNk3bY07M3XLm9rrO4nRRmA=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:upg5gGcXpiXhNcfhdHglMhCfWDMcmb/0J/x/r4Z00N82NfBSvj2srjxEvS7zO9TNBc5ZtTMJcg=="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;MIS_PARAMETERS&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
@@ -1033,7 +1025,7 @@
     <elementParameter field="TEXT" name="SCHEMA_DB" value="context.ads_misown_schema"/>
     <elementParameter field="TEXT" name="TYPE" show="false" value="Oracle"/>
     <elementParameter field="TEXT" name="USER" value="context.ads_misown_username"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:pq7Zfq5o3xSqnVTEj2epcf4WUSAZ5QyOwmnncWo7FDlMZSpvgbF/J8+i0DlqytwTiPf7oafPAw=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:NG2nk82dsfatGBNu3LPoXNjk5oFe78kxf71dGw6Rk7RmPMjkxkAWWJPvSKqo9NlL27rSPFenjA=="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;MIS_PARAMETERS&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
@@ -1078,7 +1070,7 @@
     <elementParameter field="TEXT" name="SCHEMA_DB" value="context.ads_misown_schema"/>
     <elementParameter field="TEXT" name="TYPE" show="false" value="Oracle"/>
     <elementParameter field="TEXT" name="USER" value="context.ads_misown_username"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:xBj2u0iD2qWnpy86i+FeDP4JWViS024Ixt4SKTQejYdZapOHzcPT5vJH8vFptnlmouBG280aTg=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:hyu6g2+du74B3PoDVu62apJ9rv1OvetsKrIJa9/j4sJwfCT9CzSKOU112K/DpYIIk5pSy33yHw=="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;MIS_PARAMETERS&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
@@ -1123,7 +1115,7 @@
     <elementParameter field="TEXT" name="SCHEMA_DB" value="context.ads_misown_schema"/>
     <elementParameter field="TEXT" name="TYPE" show="false" value="Oracle"/>
     <elementParameter field="TEXT" name="USER" value="context.ads_misown_username"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:srG3ks9hh5qDoV8VXVcdFTFmf22AtgTx4aPQIqy5gECIM056o7U71f1HHn25W3WwKiBKdwbJjQ=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:eDcUADcTKvOQOInixNu2Sf0ucjlcAxOF7rx12JZVeI7JOwjf+8tr/wFNmDB4Bf9l2hUsZqRGJw=="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;MIS_PARAMETERS&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
@@ -1168,7 +1160,7 @@
     <elementParameter field="TEXT" name="SCHEMA_DB" value="context.ads_misown_schema"/>
     <elementParameter field="TEXT" name="TYPE" show="false" value="Oracle"/>
     <elementParameter field="TEXT" name="USER" value="context.ads_misown_username"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:TZs6azFhPXyPiDcixeqtqEtJKQPX0wLCPVrwlm3YkIUoPHSvgVjK+gNrx/9BRyMuK0m3efhM0g=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:MpxpCyy23FQkM7s1kF+OJlFOIoTjlSTcy2Ey+2xkt3GLkiPBn5FtvSrPC+7ilnUG/3w20ohkbg=="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;MIS_PARAMETERS&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
@@ -1213,7 +1205,7 @@
     <elementParameter field="TEXT" name="SCHEMA_DB" value="context.ads_misown_schema"/>
     <elementParameter field="TEXT" name="TYPE" show="false" value="Oracle"/>
     <elementParameter field="TEXT" name="USER" value="context.ads_misown_username"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:elZXZA4F4RT4lCUYnsLCEJTfzj2CXP1I4B1KmFqFXzYoUPj/l85bR6opRO/r2l5ltBpp2GMChg=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:MbTunKz8digoOTVKhsNPWSmk/8HuLp6CgAMu63awPigVfFHingXBGJkR+pex1eKqybAWm2zxOg=="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;MIS_PARAMETERS&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
@@ -1258,7 +1250,7 @@
     <elementParameter field="TEXT" name="SCHEMA_DB" value="context.ads_misown_schema"/>
     <elementParameter field="TEXT" name="TYPE" show="false" value="Oracle"/>
     <elementParameter field="TEXT" name="USER" value="context.ads_misown_username"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:F4PWJKlMAXQ+qeELICZYXxVCRu5oo+T4jm8jimmdjBAXlU/xwjfHGx+m5jebDWfCIGsO3wH0Eg=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:HTDYatN/YNZYFz/lZFsalGiOFqw5T9bfuePYAxdRE+KqYZttaf+M/I/tJIvUiquWQ5PKcgHTyw=="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;MIS_PARAMETERS&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
@@ -1303,7 +1295,7 @@
     <elementParameter field="TEXT" name="SCHEMA_DB" value="context.ads_misown_schema"/>
     <elementParameter field="TEXT" name="TYPE" show="false" value="Oracle"/>
     <elementParameter field="TEXT" name="USER" value="context.ads_misown_username"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:WoE+d4AQhwdkT1AiAEzGZpeI9335qIM7nmdA0mE4hft2e+41/y8y3UeONXWII0IQO/Bo0JQ1mg=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:EiyA61CijXK3ZHYgaHJZGspFqSSC166dw1DZkB5rM/XmuKZml0sfarVR2Bf3XLWbOkN5925h9w=="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;MIS_PARAMETERS&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
@@ -1348,7 +1340,7 @@
     <elementParameter field="TEXT" name="SCHEMA_DB" value="context.ads_misown_schema"/>
     <elementParameter field="TEXT" name="TYPE" show="false" value="Oracle"/>
     <elementParameter field="TEXT" name="USER" value="context.ads_misown_username"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:gmGwlKnq6xQ9iFGKgSvXmNJ+ImVdMFs5XeV3C/roH3PQyrFPMQ1jtw8A2xHUBif5J46bHiAuzA=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:L7Pcq13RGgk9Kc7/nICPI3hNhdenTt1WhfdeJSkWekxJ0ZpW3/lIpchhRdnMlrp5pwavEBxOWw=="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;MIS_PARAMETERS&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
@@ -1393,7 +1385,7 @@
     <elementParameter field="TEXT" name="SCHEMA_DB" value="context.ads_misown_schema"/>
     <elementParameter field="TEXT" name="TYPE" show="false" value="Oracle"/>
     <elementParameter field="TEXT" name="USER" value="context.ads_misown_username"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:UrEPlsSRXdziY7i1Biw4PVsLLTJhadQutNg54u9cvGkeMKw94gsW9LnKqA7K7AA4LEVnzQ6EfQ=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:8MRFnW6O5f/IT/8S4TMcCfbUAtgPFatHfZ3sNn4rNgL1PlOncmxAej+B/hyd1HUqRHdOQZPLVg=="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;MIS_PARAMETERS&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
@@ -1438,7 +1430,7 @@
     <elementParameter field="TEXT" name="SCHEMA_DB" value="context.ads_misown_schema"/>
     <elementParameter field="TEXT" name="TYPE" show="false" value="Oracle"/>
     <elementParameter field="TEXT" name="USER" value="context.ads_misown_username"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:Gi/hfep5dFrbI3bsdMxXYJxkU34n7AeZz2JJYO2t63keu/iTZ85gVa+ZKAX7JMiRswt0fl94Jg=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:1deeYXR5HQ4if36Z0hSevnVQ6lJjowndBA3J60ktUU2JYnYfdtL7KjswXsoUW8KjN02IU+voIQ=="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;MIS_PARAMETERS&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
@@ -1483,7 +1475,7 @@
     <elementParameter field="TEXT" name="SCHEMA_DB" value="context.ads_misown_schema"/>
     <elementParameter field="TEXT" name="TYPE" show="false" value="Oracle"/>
     <elementParameter field="TEXT" name="USER" value="context.ads_misown_username"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:1fIrQOEZnthQYaPEVDkHf/C4M+pBmB2uPI9SN/YPa34Gztuu5sShRjBPFztc0lcYPCvOirZ/fw=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:iAqxzNodUAkeOpAQWfYVwytVn7IjpZV1BZUE644yzMeVUemvPXNShJ3gouUvyS+H3yzQ79ikog=="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;MIS_PARAMETERS&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
@@ -1528,7 +1520,7 @@
     <elementParameter field="TEXT" name="SCHEMA_DB" value="context.ads_misown_schema"/>
     <elementParameter field="TEXT" name="TYPE" show="false" value="Oracle"/>
     <elementParameter field="TEXT" name="USER" value="context.ads_misown_username"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:eVFgOvBbOCLopH0EZcbkcoZzncVHJbYg12gS9JRGNc1K4UFvumqBhoGUgP3LGsk9BV3CoJyZbg=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:OactxsjTn+I7HsTF8y/oaoOaBWNRoNMwpgAxi8DESd35XrkqpHXuTvbqteDKXX/U6Ff0Mtwg0g=="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;MIS_PARAMETERS&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
@@ -1573,7 +1565,7 @@
     <elementParameter field="TEXT" name="SCHEMA_DB" value="context.ads_misown_schema"/>
     <elementParameter field="TEXT" name="TYPE" show="false" value="Oracle"/>
     <elementParameter field="TEXT" name="USER" value="context.ads_misown_username"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:z+7W1MyoFSRPURo01zae+kpwh1WvA97Gj72+nk/7nExlxqy8wO0OG7F0j2bSb6mN+5IkNEoy9A=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:j3Pw3XyJGJQK6Ci7C7JOMfPB9h9tjnOU6tVKMEpTsPmFd/9STqnmLL9Z6Y6M/LE/mYsXG8PC+Q=="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;MIS_PARAMETERS&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
@@ -1618,7 +1610,7 @@
     <elementParameter field="TEXT" name="SCHEMA_DB" value="context.ads_misown_schema"/>
     <elementParameter field="TEXT" name="TYPE" show="false" value="Oracle"/>
     <elementParameter field="TEXT" name="USER" value="context.ads_misown_username"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:nPnomiuIaYOLtcOd7F1y2/W78f8sSVVfaRIiXLoouXiA64pB5RWAVtlRzu1gqLo4zBWAXMw50A=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:2UDw35B51xb0yFnWhykRc2/RrgzQHtjsezoDv1T2lE0i9xzzXGrKez/Hmw7vIvPSsEjYDesZhA=="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;MIS_PARAMETERS&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
@@ -1663,7 +1655,7 @@
     <elementParameter field="TEXT" name="SCHEMA_DB" value="context.ads_misown_schema"/>
     <elementParameter field="TEXT" name="TYPE" show="false" value="Oracle"/>
     <elementParameter field="TEXT" name="USER" value="context.ads_misown_username"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:BrQx0ceClrwxFSSJ9GnuAIVXm2bf7fhrMcqST+Jv2RKk+PWy+byBbDJ/kyQfeKhj8WyLnmOWxA=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:Gwi0+ynh7TcjjHrOTTysMIUFnXBbZ2W/PGkIhNPGw+awe1ZMdBzw0laAWH9L1UYOtLFl2ULlZA=="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;MIS_PARAMETERS&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
@@ -1708,7 +1700,7 @@
     <elementParameter field="TEXT" name="SCHEMA_DB" value="context.ads_misown_schema"/>
     <elementParameter field="TEXT" name="TYPE" show="false" value="Oracle"/>
     <elementParameter field="TEXT" name="USER" value="context.ads_misown_username"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:cKgWxjfM3y4j9SeTqXCHBdBw/9SrR3ymqTl0H2hsOt/hDmJnFyCzUTZwe2TIFtV2NhCoJAH6EQ=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:joggYY8U7eTgvdNpvEfPoPVwDJwRpgG0KYFwwZxTxCsVHeR85BZENwo6VG5eeKL7OXeie/Gt7g=="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;MIS_PARAMETERS&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
@@ -1753,7 +1745,7 @@
     <elementParameter field="TEXT" name="SCHEMA_DB" value="context.ads_misown_schema"/>
     <elementParameter field="TEXT" name="TYPE" show="false" value="Oracle"/>
     <elementParameter field="TEXT" name="USER" value="context.ads_misown_username"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:TUlVdBUIWloVw+5VUJLz8kUlcJ+DSWmaCd6XOyk3X0wP5WlF2QjbG7+V/Ig1yUAN0Xu9/KRBUw=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:3kxPh97a+u+OqeQMxT4uzfzD5EH3XOGlSnNnAdNs5i1r8xA7ejB9BZ0ospMar6Q9S2XJT+7Djw=="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;MIS_PARAMETERS&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
@@ -1798,7 +1790,7 @@
     <elementParameter field="TEXT" name="SCHEMA_DB" value="context.ads_misown_schema"/>
     <elementParameter field="TEXT" name="TYPE" show="false" value="Oracle"/>
     <elementParameter field="TEXT" name="USER" value="context.ads_misown_username"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:ULphtzuoPtvdXCojWvHAi+g3bq6DJSkBD3cfp2E46c3r+6bth22UMyz35sXgguaWrTfC1/LA2w=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:O8DCQJDYTHP/jP3eANENn0hWNwN7dAv8SOR8dhcBEB3pBu0btI888+J7UCFqabBFK5InKaSosg=="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;MIS_PARAMETERS&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
@@ -1843,7 +1835,7 @@
     <elementParameter field="TEXT" name="SCHEMA_DB" value="context.ads_misown_schema"/>
     <elementParameter field="TEXT" name="TYPE" show="false" value="Oracle"/>
     <elementParameter field="TEXT" name="USER" value="context.ads_misown_username"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:QIW/9MltNOIMv1mGC5ViQ4DSFqdxwFBwA6SwdoON6x9JpwAQlxtf1imu0qIlOLHEdtTqhOaBcA=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:gK4b4m3zDe4rGlEiAUJKUNf0mOKnIgiMwv10r26dwvjSGMzWnK5gj+1ZTIyBvhyqmhXV7UJNLA=="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;MIS_PARAMETERS&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
@@ -1888,7 +1880,7 @@
     <elementParameter field="TEXT" name="SCHEMA_DB" value="context.ads_misown_schema"/>
     <elementParameter field="TEXT" name="TYPE" show="false" value="Oracle"/>
     <elementParameter field="TEXT" name="USER" value="context.ads_misown_username"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:mnYEmrJuYkQns2GCEC+OG63fjk8bCveXisHi3KK5Li77hLvw5e7YwZpQGjw50wXEr97Ary8pNw=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:rwwEgip/+jgABY01rzCkg08XxI8oHGRCDKrGXQVMzaDiva9VQQgzH6ApDrjMRBcHaM2pV9n0OQ=="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;MIS_PARAMETERS&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
@@ -1933,7 +1925,7 @@
     <elementParameter field="TEXT" name="SCHEMA_DB" value="context.ads_misown_schema"/>
     <elementParameter field="TEXT" name="TYPE" show="false" value="Oracle"/>
     <elementParameter field="TEXT" name="USER" value="context.ads_misown_username"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:U1eb8Za1wjM4xmWKfDYwn23mxliugHZxv0ofn4FOK1+dMz9PWk3tjlM1crtpz3pz9PHZPPOx/w=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:JMnDEqjitE+QlB6RmoqaG5IHdCSd0DBCu/w8DQpA9pmtvUQkcXtQnhalaP35MEVppga0296HIw=="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;MIS_PARAMETERS&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
@@ -1978,7 +1970,7 @@
     <elementParameter field="TEXT" name="SCHEMA_DB" value="context.ads_misown_schema"/>
     <elementParameter field="TEXT" name="TYPE" show="false" value="Oracle"/>
     <elementParameter field="TEXT" name="USER" value="context.ads_misown_username"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:rSyJZ3Jz0Sje7QEEN8ZcEW2XiHR+X9AyPSSEqiw/gnjr2lzkbt+7hL8OYdWfWXDuQJI9jU9RfQ=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:EgTvH/DQaSE3lurRWiZkQ0GR8cR9C9f7bwKxv17K9jD4oWuL4zfEH1THQD0v/kd9CfAxZ5PE6g=="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;MIS_PARAMETERS&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
@@ -2023,7 +2015,7 @@
     <elementParameter field="TEXT" name="SCHEMA_DB" value="context.ads_misown_schema"/>
     <elementParameter field="TEXT" name="TYPE" show="false" value="Oracle"/>
     <elementParameter field="TEXT" name="USER" value="context.ads_misown_username"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:Uv9h4N2wBX/yYpyZqwyofHlIAJATacdpbpnRNKx0Awp6jSj3oZdvIzSwmbqgZZz9JFbdJ4j14g=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:6Y8l9V4CFLchoNuOWRAtUKPVMVptR4mQ2LcdqkcZWYdVKVEUDIBFDp18P6nUnFA3auxKEPMg8Q=="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;MIS_PARAMETERS&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
@@ -2068,7 +2060,7 @@
     <elementParameter field="TEXT" name="SCHEMA_DB" value="context.ads_misown_schema"/>
     <elementParameter field="TEXT" name="TYPE" show="false" value="Oracle"/>
     <elementParameter field="TEXT" name="USER" value="context.ads_misown_username"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:gJKhLqvgrngcKCwogQ5zO65OevPlaP7cmavjHmZhcpYMTekhl3CrdojDKTMo1XLbNNV3CDDTNQ=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:gEhum1eKPle1FE+dbRhfwB4XlsA9YoB0CeFE49Hx/BXpOHMmn49vJDNNQCqv2ynnQHgAvC0v4g=="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;MIS_PARAMETERS&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
@@ -2113,7 +2105,7 @@
     <elementParameter field="TEXT" name="SCHEMA_DB" value="context.ads_misown_schema"/>
     <elementParameter field="TEXT" name="TYPE" show="false" value="Oracle"/>
     <elementParameter field="TEXT" name="USER" value="context.ads_misown_username"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:zcUGijaAlxAad+Uso19ukRXkjHGQ0UuEmI17+gKjF5AUj7VQy+M5ssdr8W1NJOLbIeLx5K3hnQ=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:+6+6AdJwtar/yvrclS3FTIrs6nLxQ+7TcaoSxd10io3yvK21/tVtFFndF+oVv59rGsUdPFxguQ=="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;MIS_PARAMETERS&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
@@ -2158,7 +2150,7 @@
     <elementParameter field="TEXT" name="SCHEMA_DB" value="context.ads_misown_schema"/>
     <elementParameter field="TEXT" name="TYPE" show="false" value="Oracle"/>
     <elementParameter field="TEXT" name="USER" value="context.ads_misown_username"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:s26c0unCnIL/9NdwiAIMnpGtDjsMbmqDh69ZD83FF5vVvAiKhBle2uXikkBCmF9rhFj2LbDKlw=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:CJ/sV4krMqcwURBH+gRIM/ce7XTuzvjHRL9UjU8UfTuraOXYkfO2Sn/4uaeqvXaJZ7EyTmudJg=="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;MIS_PARAMETERS&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
@@ -2203,7 +2195,7 @@
     <elementParameter field="TEXT" name="SCHEMA_DB" value="context.ads_misown_schema"/>
     <elementParameter field="TEXT" name="TYPE" show="false" value="Oracle"/>
     <elementParameter field="TEXT" name="USER" value="context.ads_misown_username"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:kWA8xJBIun4LDlQLGBAZk9Tj+MZmWVW/+DjJ8Gwu3j+lfTdQmxIeb0HiDK6TDJUTT8cuLtlYbw=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:gHNjqFo8sXTy0i3UMQBEkeTYi9nudXJhTdhP/sJGKAEl/EATJ4lsMQQJtZ91/iC1xgLMHp6TTA=="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;MIS_PARAMETERS&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
@@ -2248,7 +2240,7 @@
     <elementParameter field="TEXT" name="SCHEMA_DB" value="context.ads_misown_schema"/>
     <elementParameter field="TEXT" name="TYPE" show="false" value="Oracle"/>
     <elementParameter field="TEXT" name="USER" value="context.ads_misown_username"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:Qz/PomXI1Z4Gwli4Tg5LFSIfACoObekMscNRB3ZE2ZFo6I+O+M4BB0LaeNpl10mdLwtSOmtwTw=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:HElh9qyZgJPlqHx8mruSLmrLtqdGRZbXmHO1hYVWZuO3UT0WLeWxeYY1+CImqku9eK8qJzAgqA=="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;MIS_PARAMETERS&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
@@ -2293,7 +2285,7 @@
     <elementParameter field="TEXT" name="SCHEMA_DB" value="context.ads_misown_schema"/>
     <elementParameter field="TEXT" name="TYPE" show="false" value="Oracle"/>
     <elementParameter field="TEXT" name="USER" value="context.ads_misown_username"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:S37fIO5GH83MDzBvVh5Xv/ygEJ70IGSm5ImkIr4nOo64ntkGtmbFDW65112B4wNizAbtrt8p2A=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:UAibyDmuJlaYb6pe+raoF5KJb0fhZQKwiX4zgVzqs/5eFgPLv5f27yD1tBvIs1KJpuOp15qkcA=="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;MIS_PARAMETERS&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
@@ -2338,7 +2330,7 @@
     <elementParameter field="TEXT" name="SCHEMA_DB" value="context.ads_misown_schema"/>
     <elementParameter field="TEXT" name="TYPE" show="false" value="Oracle"/>
     <elementParameter field="TEXT" name="USER" value="context.ads_misown_username"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:vJAOlvpLKqXMUopf3Zmpm0PkWeb5wvDNeqCmCYGZOJdcqCdZKoqRkEvJ0BKhDjyWmJr6B+3HrA=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:Lq3JJ+ioCFnpnnL08fLgv0N14bsvcsDYjqxP8GtpdD/RGSuB1n6P3PXcd7IuqVIPJ0B5JsvhJg=="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;MIS_PARAMETERS&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
@@ -2383,7 +2375,7 @@
     <elementParameter field="TEXT" name="SCHEMA_DB" value="context.ads_misown_schema"/>
     <elementParameter field="TEXT" name="TYPE" show="false" value="Oracle"/>
     <elementParameter field="TEXT" name="USER" value="context.ads_misown_username"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:8S5ukDL0l+8mTvWIxqqEDkwxOmgHR5GQyAJNcWNuG1tUjpRhu3hmSHpqEN/OW60klbovNApkUg=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:JqV6Hpc/JumDVYC104xWeVWqz0/j8DLHXvm5P+AD4ROMSaO2BbtkrKxAlIQP7HoUzYNw+AHAGg=="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;MIS_PARAMETERS&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
@@ -2409,6 +2401,96 @@
     <elementParameter field="TEXT" name="HINT" value="&lt;b&gt;DW_UPDATE_CLIENT_CONTACT&lt;/b&gt;&lt;br&gt;Call DW_UPDATE_CLIENT_CONTACT stored procedure"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tDBRow_49"/>
+    <metadata connector="REJECT" name="REJECT">
+      <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tOracleRow" componentVersion="0.102" offsetLabelX="2" offsetLabelY="-8" posX="4352" posY="480">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBRow_50"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" show="false" value=""/>
+    <elementParameter field="CLOSED_LIST" name="CONNECTION_TYPE" value="ORACLE_SERVICE_NAME"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="ORACLE_18"/>
+    <elementParameter field="TEXT" name="RAC_URL" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="HOST" value="context.ads_misown_host"/>
+    <elementParameter field="TEXT" name="PORT" value="context.ads_misown_port"/>
+    <elementParameter field="TEXT" name="DBNAME" value="context.ads_misown_database"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" value="context.ads_misown_schema"/>
+    <elementParameter field="TEXT" name="TYPE" show="false" value="Oracle"/>
+    <elementParameter field="TEXT" name="USER" value="context.ads_misown_username"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:zVafeKiMIDjq9JdHPN8uIo/rkWojlmiTSNMl3LinL/2WGxrPbG0w4IsMjQab+ngc81lhnwR0wA=="/>
+    <elementParameter field="DBTABLE" name="TABLE" value="&quot;MIS_PARAMETERS&quot;"/>
+    <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;BEGIN&#13;&#10;&quot;+context.ads_misown_schema+&quot;.ADS_UPDATE_SLOT;&#13;&#10;END;&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="USE_NB_LINE" value="NONE"/>
+    <elementParameter field="LABEL" name="USE_NB_LINE_NOTE" value="* Only used if the query is an insert, an update or a delete."/>
+    <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime"/>
+    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="&quot;&quot;"/>
+    <elementParameter field="LABEL" name="NOTE" value="*Note: Example for Additional JDBC Parameters: &quot;parameterName1=value1&amp;&amp;parameterName2=value2&quot;"/>
+    <elementParameter field="CHECK" name="PROPAGATE_RECORD_SET" value="false"/>
+    <elementParameter field="COLUMN_LIST" name="RECORD_SET_COLUMN" show="false" value=""/>
+    <elementParameter field="CHECK" name="USE_PREPAREDSTATEMENT" value="false"/>
+    <elementParameter field="TABLE" name="SET_PREPAREDSTATEMENT_PARAMETERS" show="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="TEXT" name="COMMIT_EVERY" value="10000"/>
+    <elementParameter field="CHECK" name="SUPPORT_NLS" value="false"/>
+    <elementParameter field="TEXT" name="LABEL" value="tDBSP_ADS_UPDATE_SLOT"/>
+    <elementParameter field="TEXT" name="HINT" value="&lt;b&gt;ADS_UPDATE_SLOT&lt;/b&gt;&lt;br&gt;Call ADS_UPDATE_SLOT stored procedure"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tDBRow_50"/>
+    <metadata connector="REJECT" name="REJECT">
+      <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tOracleRow" componentVersion="0.102" offsetLabelX="2" offsetLabelY="-8" posX="4640" posY="480">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBRow_51"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" show="false" value=""/>
+    <elementParameter field="CLOSED_LIST" name="CONNECTION_TYPE" value="ORACLE_SERVICE_NAME"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="ORACLE_18"/>
+    <elementParameter field="TEXT" name="RAC_URL" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="HOST" value="context.ads_misown_host"/>
+    <elementParameter field="TEXT" name="PORT" value="context.ads_misown_port"/>
+    <elementParameter field="TEXT" name="DBNAME" value="context.ads_misown_database"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" value="context.ads_misown_schema"/>
+    <elementParameter field="TEXT" name="TYPE" show="false" value="Oracle"/>
+    <elementParameter field="TEXT" name="USER" value="context.ads_misown_username"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:A0Xxkc51kiYGctjZMfCnSKaiKShMV6n0jN0Cyinv1OkzVVTdJjw9XTAIWCMFcM9GEOlTL0v8Vg=="/>
+    <elementParameter field="DBTABLE" name="TABLE" value="&quot;MIS_PARAMETERS&quot;"/>
+    <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;BEGIN&#13;&#10;&quot;+context.ads_misown_schema+&quot;.DW_UPDATE_SCHEDULING_ACTIVITY;&#13;&#10;END;&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="USE_NB_LINE" value="NONE"/>
+    <elementParameter field="LABEL" name="USE_NB_LINE_NOTE" value="* Only used if the query is an insert, an update or a delete."/>
+    <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime"/>
+    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="&quot;&quot;"/>
+    <elementParameter field="LABEL" name="NOTE" value="*Note: Example for Additional JDBC Parameters: &quot;parameterName1=value1&amp;&amp;parameterName2=value2&quot;"/>
+    <elementParameter field="CHECK" name="PROPAGATE_RECORD_SET" value="false"/>
+    <elementParameter field="COLUMN_LIST" name="RECORD_SET_COLUMN" show="false" value=""/>
+    <elementParameter field="CHECK" name="USE_PREPAREDSTATEMENT" value="false"/>
+    <elementParameter field="TABLE" name="SET_PREPAREDSTATEMENT_PARAMETERS" show="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="TEXT" name="COMMIT_EVERY" value="10000"/>
+    <elementParameter field="CHECK" name="SUPPORT_NLS" value="false"/>
+    <elementParameter field="TEXT" name="LABEL" value="tDBSP_DW_UPDATE_SCHEDULING_ACTIVITY"/>
+    <elementParameter field="TEXT" name="HINT" value="&lt;b&gt;DW_UPDATE_SCHEDULING_ACTIVITY&lt;/b&gt;&lt;br&gt;Call DW_UPDATE_SCHEDULING_ACTIVITY stored procedure"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tDBRow_51"/>
     <metadata connector="REJECT" name="REJECT">
       <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
       <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
@@ -2631,7 +2713,13 @@
   <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tDBRow_48" offsetLabelX="0" offsetLabelY="0" source="tDBRow_48" target="tDBRow_49">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnSubjobOk49"/>
   </connection>
-  <note opaque="false" posX="896" posY="32" sizeHeight="129" sizeWidth="481" text="Developer: James Adams&#13;&#10;Date: 07-Oct-2021&#13;&#10;JIRA: BM-7662&#13;&#10;Description: ADS DW Process Flow.&#13;&#10;&#13;&#10;Developer: Stuart Smith&#13;&#10;Date: 20-Jun-2023&#13;&#10;JIRA: BM-6139&#13;&#10;Description: Add stored procedure calls for ADS &amp; DW Complaint Corres &amp; Complaint Issue&#13;&#10;&#13;&#10;Developer: Stuart Smith&#13;&#10;Date: 24-Jul-2023&#13;&#10;JIRA: BM-10040&#13;&#10;Description: Replaced ADS_UPDATE_DIMS with 5 new procedures&#13;&#10;&#13;&#10;Developer: Shaili Bakshi&#13;&#10;Date: 19-Sep-2023&#13;&#10;JIRA: BM-10341&#13;&#10;Description: Add stored procedure calls for ADS &amp; DW Appointment Request, Client Contact"/>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tDBRow_49" offsetLabelX="0" offsetLabelY="0" source="tDBRow_49" target="tDBRow_50">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnSubjobOk51"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tDBRow_50" offsetLabelX="0" offsetLabelY="0" source="tDBRow_50" target="tDBRow_51">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnSubjobOk52"/>
+  </connection>
+  <note opaque="false" posX="896" posY="32" sizeHeight="129" sizeWidth="481" text="Developer: James Adams&#13;&#10;Date: 07-Oct-2021&#13;&#10;JIRA: BM-7662&#13;&#10;Description: ADS DW Process Flow.&#13;&#10;&#13;&#10;Developer: Stuart Smith&#13;&#10;Date: 20-Jun-2023&#13;&#10;JIRA: BM-6139&#13;&#10;Description: Add stored procedure calls for ADS &amp; DW Complaint Corres &amp; Complaint Issue&#13;&#10;&#13;&#10;Developer: Stuart Smith&#13;&#10;Date: 24-Jul-2023&#13;&#10;JIRA: BM-10040&#13;&#10;Description: Replaced ADS_UPDATE_DIMS with 5 new procedures&#13;&#10;&#13;&#10;Developer: Shaili Bakshi&#13;&#10;Date: 19-Sep-2023&#13;&#10;JIRA: BM-10341&#13;&#10;Description: Add stored procedure calls for ADS &amp; DW Appointment Request, Client Contact&#13;&#10;&#13;&#10;Developer: Stuart Smith&#13;&#10;Date: 31-Jul-2024&#13;&#10;JIRA: BM-11442&#13;&#10;Description: v1.3 Add stored procedure calls for ADS &amp; DW Scheduling Activity"/>
   <subjob>
     <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFileInputExcel_1"/>
@@ -2894,13 +2982,23 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_e22a2b7a-6795-449e-962d-3eeed155948d"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>4mk28x0AVZhW+gNANo2ZLWpcfF+7HdBORCXzw1kxWgS4CJsSxa4oeJBbODx8pF1BA8d1wr4BGbwf&#13;
-7+GllNT7+w==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_3b3fc9ed-4fb1-4812-8767-780b0d714e5d"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>xBmLdILurT3XBFBuHC4zY0oUBYBHE/fpNoK7qw0uAe6wVtGTax5qdU86bF+se+Dj+kvciftkhifE&#13;
-wS6jZtGhRw==</DigestValue></Reference></SignedInfo><SignatureValue>a4I+Wc6QB64eZFgQrClLJ0qgMDrdRIIJ5wiln6MTfM4Cv56jBABwP7jPpQSHXzt29IxrZJTa5Gtr&#13;
-41tDAsQqVS1IZw7S3WkQHGALvYuCLOCaevV0uQEGi4pgU7pBpOAOm+5gqRAhvOT20/dmdw4/lX8Q&#13;
-WhtDs+nTwOenH9D7DcEJHaq/RKADysEEb8erSG414d/gPZuBeaWdh7YBNjAOUQl/sTVYtONxO7jm&#13;
-2Spsmka/0iGUaaInmRvStfFHskivpVTHMgYjvTaMkQaHiXJ1es/xCELQzlLtYxqdnjeWqNMLklEg&#13;
-dLkYn+u9AbxBTGmmkeX3a/UP4akLSRvDodgDtA==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBRow_50"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBRow_51"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_bfa91c65-7e06-4741-b29f-43a88860e663"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>zwfpTbCbxFbaANDN2Yiw0TorTVdWzFixaJ1+XU/HbhA0tOwfgX1QFcgwYNF6sLBF4FlbsGNYbOdB&#13;
+JqxTSup7CA==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_94f4aa6f-1319-43f3-8512-3739779138fe"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>3Uc0piENn/d82bz95NaqE4tCoJR7YvG+cmuz/v1R0GewMOd89vS7lHHdL2AVZyTRagnVpVORkIX4&#13;
+I/ujQIUlAQ==</DigestValue></Reference></SignedInfo><SignatureValue>jQVwCFx4PoWGEz1T/JgPl5ZwtFlJR/zKaNYnDhP8VVqox9YuIFe75d/arInKRByiMzZiY1zskxtA&#13;
+W8siZi16uERxIkHWWuJCsV7fA2Bq5EZGH8OT+LOoNX1uBtY7GC/Plko97pt30Efy+OFgn+tJ87VK&#13;
+E9mJlti7i1K5Oc8+YFtIFfqAN5YsBnL4JF2d+lSXPyJhktgrWaa51BsWOBxacPgLy3ckJTTcRWXI&#13;
+ttQUJsI4d/eaU2orR+hkPnhLpo3ZHG4KTP2PwtdLALv8H0Ejg3IXhdUPEpStDkOLsdvTRHeXfPnl&#13;
+QRTreXCRPxfbdWI9jVHH4fhWF3MVS5Xbg2TwjA==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
@@ -2922,4 +3020,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_3b3fc9ed-4fb1-4812-8767-780b0d714e5d" Target="#_e22a2b7a-6795-449e-962d-3eeed155948d"><Timestamp>2024-06-12 14:13:36</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_94f4aa6f-1319-43f3-8512-3739779138fe" Target="#_bfa91c65-7e06-4741-b29f-43a88860e663"><Timestamp>2024-08-02 10:22:17</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
