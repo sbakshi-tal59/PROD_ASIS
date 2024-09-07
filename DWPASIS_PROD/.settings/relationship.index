@@ -1176,10 +1176,6 @@
     "version" : "Latest",
     "type" : "job"
   }, {
-    "id" : "DWPASIS_FAS_INT:_kdxtoCHxEeyWqOQhQ2H80Q",
-    "version" : "1.0",
-    "type" : "job"
-  }, {
     "id" : "DWPASIS_FAS_INT:_wY0WcCXaEeyUUfkUeqyurA",
     "version" : "Latest",
     "type" : "job"
@@ -1306,10 +1302,6 @@
   }, {
     "id" : "DWPASIS_INT:_OjUSICUKEeyWE4nCA76B6g",
     "version" : "Latest",
-    "type" : "job"
-  }, {
-    "id" : "DWPASIS_INT:_OpLOcBuGEeyUltvGP4OxNg",
-    "version" : "1.0",
     "type" : "job"
   }, {
     "id" : "DWPASIS_INT:_T7f0YCThEeyWE4nCA76B6g",
@@ -1458,6 +1450,14 @@
   }, {
     "id" : "DWPASIS_INT:_yp9dgB-WEeyrKdcQGyLw8g",
     "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "DWPASIS_PROD:_OpLOcBuGEeyUltvGP4OxNg",
+    "version" : "1.1",
+    "type" : "job"
+  }, {
+    "id" : "DWPASIS_PROD:_kdxtoCHxEeyWqOQhQ2H80Q",
+    "version" : "1.1",
     "type" : "job"
   } ]
 }, {
