@@ -1,0 +1,47 @@
+{
+  "itemId" : "_6q480LIGEe-kGKBtWifwkw",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "__A8kMKsNEe-l9L7ZLGI_GA",
+    "parameterList" : [ {
+      "id" : "__BaeQKsNEe-l9L7ZLGI_GA",
+      "name" : "api_staging_host"
+    }, {
+      "id" : "__BaeQasNEe-l9L7ZLGI_GA",
+      "name" : "api_staging_port"
+    }, {
+      "id" : "__BaeQqsNEe-l9L7ZLGI_GA",
+      "name" : "api_staging_database"
+    }, {
+      "id" : "__BaeQ6sNEe-l9L7ZLGI_GA",
+      "name" : "api_staging_schema"
+    }, {
+      "id" : "__BaeRKsNEe-l9L7ZLGI_GA",
+      "name" : "api_staging_username"
+    }, {
+      "id" : "__BaeRasNEe-l9L7ZLGI_GA",
+      "name" : "api_staging_password"
+    }, {
+      "id" : "__BaeRqsNEe-l9L7ZLGI_GA",
+      "name" : "api_misown_host"
+    }, {
+      "id" : "__BaeR6sNEe-l9L7ZLGI_GA",
+      "name" : "api_misown_port"
+    }, {
+      "id" : "__BaeSKsNEe-l9L7ZLGI_GA",
+      "name" : "api_misown_database"
+    }, {
+      "id" : "__BaeSasNEe-l9L7ZLGI_GA",
+      "name" : "api_misown_schema"
+    }, {
+      "id" : "__BaeSqsNEe-l9L7ZLGI_GA",
+      "name" : "api_misown_username"
+    }, {
+      "id" : "__BaeS6sNEe-l9L7ZLGI_GA",
+      "name" : "api_misown_password"
+    }, {
+      "id" : "__BaeTKsNEe-l9L7ZLGI_GA",
+      "name" : "api_filepath"
+    } ]
+  } ]
+}
