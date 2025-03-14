@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?><talendfile:ProcessType xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmlns:xmi="http://www.omg.org/XMI" defaultContext="Default" jobType="Standard" xmi:version="2.0">
-  <context confirmationNeeded="false" name="Default">
-    <contextParameter comment="" internalId="_JkXS8DGOEey8zY4BQeVKtw" name="msd_filepath" prompt="msd_filepath?" promptNeeded="false" repositoryContextId="_CIMjABT_Eeuwf60pVV_CTw" type="id_Directory" value="D:\ASIS\Contexts\PROD\MSD\"/>
+  <context confirmationNeeded="false" hide="false" name="Default">
+    <contextParameter comment="" internalId="_JkXS8DGOEey8zY4BQeVKtw" name="msd_filepath" prompt="msd_filepath?" promptNeeded="false" repositoryContextId="_CIMjABT_Eeuwf60pVV_CTw" type="id_Directory" value="D:\ASIS\Contexts\FAS_MO\MSD\"/>
     <contextParameter comment="" internalId="_JkXS8TGOEey8zY4BQeVKtw" name="msd_misown_database" prompt="msd_misown_database?" promptNeeded="false" repositoryContextId="_CIMjABT_Eeuwf60pVV_CTw" type="id_String" value="DMISI1"/>
     <contextParameter comment="" internalId="_JkXS8jGOEey8zY4BQeVKtw" name="msd_misown_host" prompt="msd_misown_host?" promptNeeded="false" repositoryContextId="_CIMjABT_Eeuwf60pVV_CTw" type="id_String" value="10.96.132.211"/>
-    <contextParameter comment="" internalId="_JkXS8zGOEey8zY4BQeVKtw" name="msd_misown_password" prompt="msd_misown_password?" promptNeeded="false" repositoryContextId="_CIMjABT_Eeuwf60pVV_CTw" type="id_Password" value="enc:system.encryption.key.v1:VQm1+wH6l81LwnHjTtmqwLGbw5D1QJbz683JHh6xRJpog8fDV3g="/>
+    <contextParameter comment="" internalId="_JkXS8zGOEey8zY4BQeVKtw" name="msd_misown_password" prompt="msd_misown_password?" promptNeeded="false" repositoryContextId="_CIMjABT_Eeuwf60pVV_CTw" type="id_Password" value="enc:system.encryption.key.v1:/jPrukCHlVk9GqekcpVuFVjT8RzwyOOZ6ePLi1aK1zzLwq+RGgI="/>
     <contextParameter comment="" internalId="_JkXS9DGOEey8zY4BQeVKtw" name="msd_misown_port" prompt="msd_misown_port?" promptNeeded="false" repositoryContextId="_CIMjABT_Eeuwf60pVV_CTw" type="id_String" value="1522"/>
     <contextParameter comment="" internalId="_JkXS9TGOEey8zY4BQeVKtw" name="msd_misown_schema" prompt="msd_misown_schema?" promptNeeded="false" repositoryContextId="_CIMjABT_Eeuwf60pVV_CTw" type="id_String" value="MISOWN"/>
     <contextParameter comment="" internalId="_JkXS9jGOEey8zY4BQeVKtw" name="msd_misown_username" prompt="msd_misown_username?" promptNeeded="false" repositoryContextId="_CIMjABT_Eeuwf60pVV_CTw" type="id_String" value="MISOWN"/>
     <contextParameter comment="" internalId="_JkXS9zGOEey8zY4BQeVKtw" name="msd_source_database" prompt="msd_source_database?" promptNeeded="false" repositoryContextId="_CIMjABT_Eeuwf60pVV_CTw" type="id_String" value="DMD2I1"/>
     <contextParameter comment="" internalId="_JkXS-DGOEey8zY4BQeVKtw" name="msd_source_host" prompt="msd_source_host?" promptNeeded="false" repositoryContextId="_CIMjABT_Eeuwf60pVV_CTw" type="id_String" value="10.96.132.218"/>
-    <contextParameter comment="" internalId="_JkXS-TGOEey8zY4BQeVKtw" name="msd_source_password" prompt="msd_source_password?" promptNeeded="false" repositoryContextId="_CIMjABT_Eeuwf60pVV_CTw" type="id_Password" value="enc:system.encryption.key.v1:jKwwm2WGBw0JmctUJZKFwxwNvYN3p2XRSGR9pZ0+7rnj0V2XCCw="/>
+    <contextParameter comment="" internalId="_JkXS-TGOEey8zY4BQeVKtw" name="msd_source_password" prompt="msd_source_password?" promptNeeded="false" repositoryContextId="_CIMjABT_Eeuwf60pVV_CTw" type="id_Password" value="enc:system.encryption.key.v1:CoADVfscUZ3F3wSxP8lBNxc7e3PQTIkjNecMzYI2W8LxMMDyOOg="/>
     <contextParameter comment="" internalId="_JkXS-jGOEey8zY4BQeVKtw" name="msd_source_port" prompt="msd_source_port?" promptNeeded="false" repositoryContextId="_CIMjABT_Eeuwf60pVV_CTw" type="id_String" value="1521"/>
     <contextParameter comment="" internalId="_JkXS-zGOEey8zY4BQeVKtw" name="msd_source_schema" prompt="msd_source_schema?" promptNeeded="false" repositoryContextId="_CIMjABT_Eeuwf60pVV_CTw" type="id_String" value="MSDSCHEMA"/>
     <contextParameter comment="" internalId="_JkXS_DGOEey8zY4BQeVKtw" name="msd_source_username" prompt="msd_source_username?" promptNeeded="false" repositoryContextId="_CIMjABT_Eeuwf60pVV_CTw" type="id_String" value="MIS_MSD_USER"/>
     <contextParameter comment="" internalId="_JkXS_TGOEey8zY4BQeVKtw" name="msd_staging_database" prompt="msd_staging_database?" promptNeeded="false" repositoryContextId="_CIMjABT_Eeuwf60pVV_CTw" type="id_String" value="DMISI1"/>
     <contextParameter comment="" internalId="_JkXS_jGOEey8zY4BQeVKtw" name="msd_staging_host" prompt="msd_staging_host?" promptNeeded="false" repositoryContextId="_CIMjABT_Eeuwf60pVV_CTw" type="id_String" value="10.96.132.211"/>
-    <contextParameter comment="" internalId="_JkXS_zGOEey8zY4BQeVKtw" name="msd_staging_password" prompt="msd_staging_password?" promptNeeded="false" repositoryContextId="_CIMjABT_Eeuwf60pVV_CTw" type="id_Password" value="enc:system.encryption.key.v1:NXUivnxNJYjQQdrfBDzXWmOVTBTLLd6hwxTNMkrbURnb7foyhAfCXA=="/>
+    <contextParameter comment="" internalId="_JkXS_zGOEey8zY4BQeVKtw" name="msd_staging_password" prompt="msd_staging_password?" promptNeeded="false" repositoryContextId="_CIMjABT_Eeuwf60pVV_CTw" type="id_Password" value="enc:system.encryption.key.v1:phn59eenUvTkCYZK+BLkO+CKibN0kzKI2FsxqPMK6CPRwU2+NrGkuw=="/>
     <contextParameter comment="" internalId="_JkXTADGOEey8zY4BQeVKtw" name="msd_staging_port" prompt="msd_staging_port?" promptNeeded="false" repositoryContextId="_CIMjABT_Eeuwf60pVV_CTw" type="id_String" value="1522"/>
     <contextParameter comment="" internalId="_JkXTATGOEey8zY4BQeVKtw" name="msd_staging_schema" prompt="msd_staging_schema?" promptNeeded="false" repositoryContextId="_CIMjABT_Eeuwf60pVV_CTw" type="id_String" value="MSD_STAGING"/>
     <contextParameter comment="" internalId="_JkXTAjGOEey8zY4BQeVKtw" name="msd_staging_username" prompt="msd_staging_username?" promptNeeded="false" repositoryContextId="_CIMjABT_Eeuwf60pVV_CTw" type="id_String" value="MSD_STAGING"/>
@@ -63,7 +63,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:Z2GBrdYfP4cW6wxWxw4wFfMA6tjATHkhIcZ60m3p"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:NRP+XDmbPxKvjZHOvp/vFESHit2IOci0uVo/HC+Q"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
@@ -78,7 +78,7 @@
     <elementParameter field="CHECK" name="ON_METERCATCHER_FLAG" value="false"/>
     <elementParameter field="CHECK" name="ON_CONSOLE_FLAG" show="false" value="false"/>
     <elementParameter field="CHECK" name="ON_FILES_FLAG" show="false" value="false"/>
-    <elementParameter field="DIRECTORY" name="FILE_PATH" show="false" value="&quot;D:/ASIS/Workspace/.metadata&quot;"/>
+    <elementParameter field="DIRECTORY" name="FILE_PATH" show="false" value="&quot;D:/ASIS/Development_Workspace/.metadata&quot;"/>
     <elementParameter field="TEXT" name="FILENAME_STATS" show="false" value="&quot;stats_file.txt&quot;"/>
     <elementParameter field="TEXT" name="FILENAME_LOGS" show="false" value="&quot;logs_file.txt&quot;"/>
     <elementParameter field="TEXT" name="FILENAME_METTER" show="false" value="&quot;meter_file.txt&quot;"/>
@@ -98,7 +98,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:p8QdMq9vRwcRMe/lAQVlREY+EaDQOotm+N/1/WFH"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:pW3e7Yu5PSjROaXeDDrsOBVaZjj1KZB3d7Avl1KL"/>
     <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" show="false" value="&quot;&quot;"/>
@@ -117,16 +117,6 @@
     <elementParameter field="TEXT" name="FOOTER_LIBRARY" show="false" value=""/>
     <elementParameter field="TEXT" name="FOOTER_CODE" show="false" value=""/>
     <elementParameter field="TEXT" name="FOOTER_IMPORT" show="false" value=""/>
-    <routinesParameter id="_f0L3gGdfEemwtIpGsfaJGg" name="DataOperation"/>
-    <routinesParameter id="_f1OZUGdfEemwtIpGsfaJGg" name="Mathematical"/>
-    <routinesParameter id="_f1VuEGdfEemwtIpGsfaJGg" name="Numeric"/>
-    <routinesParameter id="_f1cbwGdfEemwtIpGsfaJGg" name="Relational"/>
-    <routinesParameter id="_f1iiYGdfEemwtIpGsfaJGg" name="StringHandling"/>
-    <routinesParameter id="_f1p3IGdfEemwtIpGsfaJGg" name="TalendDataGenerator"/>
-    <routinesParameter id="_f1xL4GdfEemwtIpGsfaJGg" name="TalendDate"/>
-    <routinesParameter id="_f2C4sGdfEemwtIpGsfaJGg" name="TalendStringUtil"/>
-    <routinesParameter id="_f16V0GdfEemwtIpGsfaJGg" name="TalendString"/>
-    <routinesParameter id="_-piIEuVlEeu73vnn6vWu4g" name="SQLike"/>
   </parameters>
   <node componentName="tOracleInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="128" posY="320">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBInput_2"/>
@@ -142,7 +132,7 @@
     <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="context.msd_staging_schema"/>
     <elementParameter field="TEXT" name="USER" value="context.msd_staging_username"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:tnXY2xMLTAHjGUn9yLHDbSwaGaWc78KtPVyDb204GDtq+MLKjgWabLIxkOXSicg8sZxADYOuE1c="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:AT3x2rKwD0XrxtVUeMjr1mcdRwQ/w9ipFsp44SLclBzkyQY7CjHG6TJpiTLj+7XKvNoyBAkT/40="/>
     <elementParameter field="TEXT" name="JDBC_URL" show="false" value="&quot;jdbc:oracle:oci:/@talend&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;STG_D_EMPLOYMENT&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
@@ -222,6 +212,7 @@
       <elementValue elementRef="TRIM" value="false"/>
     </elementParameter>
     <elementParameter field="CHECK" name="NO_NULL_VALUES" value="false"/>
+    <elementParameter field="CHECK" name="SUPPORT_NLS" value="false"/>
     <elementParameter field="TEXT" name="LABEL" value="tDBI_STG_D_EMPLOYMENT"/>
     <elementParameter field="TEXT" name="HINT" value="&lt;b&gt;STG_D_EMPLOYMENT&lt;/b&gt;&lt;br&gt;Read STG_D_EMPLOYMENT records"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
@@ -270,7 +261,7 @@
     <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="TABLESCHEMA" value="context.msd_misown_schema"/>
     <elementParameter field="TEXT" name="USER" value="context.msd_misown_username"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:obVQ2W0SCqQlurxTLJdSHT5TPbB+auWp8cN9OTNqo3pAprebRPZIlpqR6fmkYNreS5ct3xu3BA=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:1FFSO+Vvv0V/BP1laQc/sOv3Vtbq2nQlyKjdsP/HU2EqRgxwk37AGrNP8xohG77AXpadSPo8Iw=="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;MSD_D_EMPLOYMENT&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="NONE"/>
     <elementParameter field="LABEL" name="NOTE" show="false" value="Warning : this component configuration will automatically generate a commit before data insert/update/delete"/>
@@ -443,6 +434,7 @@
     <elementParameter field="CHECK" name="SUPPORT_NULL_WHERE" value="false"/>
     <elementParameter field="CHECK" name="USE_TIMESTAMP_FOR_DATE_TYPE" value="true"/>
     <elementParameter field="CHECK" name="TRIM_CHAR" value="true"/>
+    <elementParameter field="CHECK" name="SUPPORT_NLS" value="false"/>
     <elementParameter field="TEXT" name="LABEL" value="tDBO_MSD_D_EMPLOYMENT"/>
     <elementParameter field="TEXT" name="HINT" value="&lt;b&gt;MSD_D_EMPLOYMENT&lt;/b&gt;&lt;br&gt;Update/Insert into MSD_D_EMPLOYMENT"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
@@ -523,7 +515,7 @@
     <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="context.msd_staging_schema"/>
     <elementParameter field="TEXT" name="USER" value="context.msd_staging_username"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:a1quxbJ73DzzON13QgdXsHax0tRFNjs3mQT5piIDvEuyRnirlgfvGFToSRrUP6QdmZOGipNeRsM="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:hj91wah5f0RL0X8c9fKxOVG5qkCACLx5XA6adQNcpid+0NjGLXwizuH0NVE2TO7r0PTOcXnnu40="/>
     <elementParameter field="TEXT" name="JDBC_URL" show="false" value="&quot;jdbc:oracle:oci:/@talend&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;STG_D_EMPLOYMENT_ROLE&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
@@ -565,6 +557,7 @@
       <elementValue elementRef="TRIM" value="false"/>
     </elementParameter>
     <elementParameter field="CHECK" name="NO_NULL_VALUES" value="false"/>
+    <elementParameter field="CHECK" name="SUPPORT_NLS" value="false"/>
     <elementParameter field="TEXT" name="LABEL" value="tDBI_STG_D_EMPLOYMENT_ROLE"/>
     <elementParameter field="TEXT" name="HINT" value="&lt;b&gt;STG_D_EMPLOYMENT_ROLE&lt;/b&gt;&lt;br&gt;Read STG_D_EMPLOYMENT_ROLE records"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
@@ -594,7 +587,7 @@
     <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="TABLESCHEMA" value="context.msd_misown_schema"/>
     <elementParameter field="TEXT" name="USER" value="context.msd_misown_username"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:5pO5qlvp6DRK0qVbYaghn+d5GGniFho+T8ycKgNSqfEEbSYY2ehmY7kF9padmje1Bs/91+QsXw=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:9C/xr1UdWORiD8LBIVouZBmfLAF4JBBkuAkC0yNpGdOajV8ITbZ4KpZUkda2naI6nOioYIRvLw=="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;MSD_D_EMPLOYMENT_ROLE&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="NONE"/>
     <elementParameter field="LABEL" name="NOTE" show="false" value="Warning : this component configuration will automatically generate a commit before data insert/update/delete"/>
@@ -672,6 +665,7 @@
     <elementParameter field="CHECK" name="SUPPORT_NULL_WHERE" value="false"/>
     <elementParameter field="CHECK" name="USE_TIMESTAMP_FOR_DATE_TYPE" value="true"/>
     <elementParameter field="CHECK" name="TRIM_CHAR" value="true"/>
+    <elementParameter field="CHECK" name="SUPPORT_NLS" value="false"/>
     <elementParameter field="TEXT" name="LABEL" value="tDBO_MSD_D_EMPLOYMENT_ROLE"/>
     <elementParameter field="TEXT" name="HINT" value="&lt;b&gt;MSD_D_EMPLOYMENT_ROLE&lt;/b&gt;&lt;br&gt;Update/Insert into MSD_D_EMPLOYMENT_ROLE"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
@@ -714,7 +708,7 @@
     <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="context.msd_staging_schema"/>
     <elementParameter field="TEXT" name="USER" value="context.msd_staging_username"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:AhiTUzEdZs4nB/b8Pg6UIBLr79qGveY4DkqbP/AB0Qyt98tcfrkhpaCuOt6O4yKu7kq7eFuMoXo="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:x6eGE+6H9jv0I3DFhDb1nj4/MI8iD5yC067mhwy9dTjgen2LqyLK5RsP3pSsVDx2kFZZj0ssvPA="/>
     <elementParameter field="TEXT" name="JDBC_URL" show="false" value="&quot;jdbc:oracle:oci:/@talend&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;STG_D_EMPLOY_ADDR&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
@@ -768,6 +762,7 @@
       <elementValue elementRef="TRIM" value="false"/>
     </elementParameter>
     <elementParameter field="CHECK" name="NO_NULL_VALUES" value="false"/>
+    <elementParameter field="CHECK" name="SUPPORT_NLS" value="false"/>
     <elementParameter field="TEXT" name="LABEL" value="tDBI_STG_D_EMPLOY_ADDR"/>
     <elementParameter field="TEXT" name="HINT" value="&lt;b&gt;STG_D_EMPLOY_ADDR&lt;/b&gt;&lt;br&gt;Read STG_D_EMPLOY_ADDR records"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
@@ -803,7 +798,7 @@
     <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="TABLESCHEMA" value="context.msd_misown_schema"/>
     <elementParameter field="TEXT" name="USER" value="context.msd_misown_username"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:YN64Q8TrHE4GPBw8BhdCvvveXfXqL1sGh8wV2R3wSGx9pJ8x2yhwGhXK219Xpxwmq+gzK7R2Wg=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:Gb2cch0p2qC8qD/IFHqh3t1NmaGThMK0JG0CTwFJpsGzCozzmlHvhfrjIOdmgEZD+wKDO/erwQ=="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;MSD_D_EMPLOY_ADDR&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="NONE"/>
     <elementParameter field="LABEL" name="NOTE" show="false" value="Warning : this component configuration will automatically generate a commit before data insert/update/delete"/>
@@ -911,6 +906,7 @@
     <elementParameter field="CHECK" name="SUPPORT_NULL_WHERE" value="false"/>
     <elementParameter field="CHECK" name="USE_TIMESTAMP_FOR_DATE_TYPE" value="true"/>
     <elementParameter field="CHECK" name="TRIM_CHAR" value="true"/>
+    <elementParameter field="CHECK" name="SUPPORT_NLS" value="false"/>
     <elementParameter field="TEXT" name="LABEL" value="tDBO_MSD_D_EMPLOY_ADDR"/>
     <elementParameter field="TEXT" name="HINT" value="&lt;b&gt;MSD_D_EMPLOY_ADDR&lt;/b&gt;&lt;br&gt;Update/Insert into MSD_D_EMPLOY_ADDR"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
@@ -965,7 +961,7 @@
     <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="context.msd_staging_schema"/>
     <elementParameter field="TEXT" name="USER" value="context.msd_staging_username"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:UJtkExGpL33CPVHUejaD8WwS2tfCNnU6gaqTwkrY2l/GqrZ8UVlyFqNlrnR2t8V3hnRCCiwuQ3U="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:8V9Gpu34dQ0qYrHrxGhiMWJ4Vt2Pxb3CpLaE4ZlKzI5h12NooheyIZ284BOYGOH2mYp56haL7Jk="/>
     <elementParameter field="TEXT" name="JDBC_URL" show="false" value="&quot;jdbc:oracle:oci:/@talend&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;STG_D_MENTOR&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
@@ -1003,6 +999,7 @@
       <elementValue elementRef="TRIM" value="false"/>
     </elementParameter>
     <elementParameter field="CHECK" name="NO_NULL_VALUES" value="false"/>
+    <elementParameter field="CHECK" name="SUPPORT_NLS" value="false"/>
     <elementParameter field="TEXT" name="LABEL" value="tDBI_STG_D_MENTOR"/>
     <elementParameter field="TEXT" name="HINT" value="&lt;b&gt;STG_D_MENTOR&lt;/b&gt;&lt;br&gt;Read STG_D_MENTOR records"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
@@ -1030,7 +1027,7 @@
     <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="TABLESCHEMA" value="context.msd_misown_schema"/>
     <elementParameter field="TEXT" name="USER" value="context.msd_misown_username"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:tIPQK3AMEMIRaoyyQ5fHqcPOw1EwXW7G5USSlGF62+aL8gD4nLsrNG0jwR/xzBsR6hDXCIvNhA=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:4+4ElLDarXd/rfYGvQC8UnFkCgS1zg0IxCeH602zbv8GIBnZDah5SpfBF1FBGWpFeZE547whhg=="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;MSD_D_MENTOR&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="NONE"/>
     <elementParameter field="LABEL" name="NOTE" show="false" value="Warning : this component configuration will automatically generate a commit before data insert/update/delete"/>
@@ -1098,6 +1095,7 @@
     <elementParameter field="CHECK" name="SUPPORT_NULL_WHERE" value="false"/>
     <elementParameter field="CHECK" name="USE_TIMESTAMP_FOR_DATE_TYPE" value="true"/>
     <elementParameter field="CHECK" name="TRIM_CHAR" value="true"/>
+    <elementParameter field="CHECK" name="SUPPORT_NLS" value="false"/>
     <elementParameter field="TEXT" name="LABEL" value="tDBO_MSD_D_MENTOR"/>
     <elementParameter field="TEXT" name="HINT" value="&lt;b&gt;MSD_D_MENTOR&lt;/b&gt;&lt;br&gt;Update/Insert into MSD_D_MENTOR"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
@@ -1136,7 +1134,7 @@
     <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="context.msd_staging_schema"/>
     <elementParameter field="TEXT" name="USER" value="context.msd_staging_username"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:0fkiM7bYyuS6lGZBzFMVOFS1J84KL9kl1IYyQBcCgk+9RQtSF6urS5V38SLlLUYALfjFZtiLDNs="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:v+SUCP69d6j5H1Wj7kKirML7Zi13rPutX8LphfizxGxzBX71TAZWtlDUrGpcTLdWUtFthNwhmTw="/>
     <elementParameter field="TEXT" name="JDBC_URL" show="false" value="&quot;jdbc:oracle:oci:/@talend&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;STG_D_PERSON&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
@@ -1198,6 +1196,7 @@
       <elementValue elementRef="TRIM" value="false"/>
     </elementParameter>
     <elementParameter field="CHECK" name="NO_NULL_VALUES" value="false"/>
+    <elementParameter field="CHECK" name="SUPPORT_NLS" value="false"/>
     <elementParameter field="TEXT" name="LABEL" value="tDBI_STG_D_PERSON"/>
     <elementParameter field="TEXT" name="HINT" value="&lt;b&gt;STG_D_PERSON&lt;/b&gt;&lt;br&gt;Read STG_D_PERSON records"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
@@ -1237,7 +1236,7 @@
     <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="TABLESCHEMA" value="context.msd_misown_schema"/>
     <elementParameter field="TEXT" name="USER" value="context.msd_misown_username"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:0OfQym1Bq9AuXz4+IlJZIrsnwaZgCN2dBnXEG65wppKvaiPIHUo/zWK0+xxgkpYDCeE+bJKKbg=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:R5yxoR8vtmiSknK4e9cXJPzd/TgjqS2oO2HRsNmb2xIBP9P3HEYQohiIvtuI4Vdx/23kJ7IZIQ=="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;MSD_D_PERSON&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="NONE"/>
     <elementParameter field="LABEL" name="NOTE" show="false" value="Warning : this component configuration will automatically generate a commit before data insert/update/delete"/>
@@ -1365,6 +1364,7 @@
     <elementParameter field="CHECK" name="SUPPORT_NULL_WHERE" value="false"/>
     <elementParameter field="CHECK" name="USE_TIMESTAMP_FOR_DATE_TYPE" value="true"/>
     <elementParameter field="CHECK" name="TRIM_CHAR" value="true"/>
+    <elementParameter field="CHECK" name="SUPPORT_NLS" value="false"/>
     <elementParameter field="TEXT" name="LABEL" value="tDBO_MSD_D_PERSON"/>
     <elementParameter field="TEXT" name="HINT" value="&lt;b&gt;MSD_D_PERSON&lt;/b&gt;&lt;br&gt;Update/Insert into MSD_D_PERSON"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
@@ -1427,7 +1427,7 @@
     <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="context.msd_staging_schema"/>
     <elementParameter field="TEXT" name="USER" value="context.msd_staging_username"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:bcoRm2u9jBHEkCUP9xfdK1e7Von0PpjXogqlFQE/52zNktl7IR2kroCXih/njS9Y1oXt8HHU8yU="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:7vz73Xxn8M3v3UlB7gg012BE7bBULSYM8fzSAKa5sKnvgqOYSfIUWk6kdKqeoq0iXbasrOvXchs="/>
     <elementParameter field="TEXT" name="JDBC_URL" show="false" value="&quot;jdbc:oracle:oci:/@talend&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;STG_D_PERSON_CONTRACT&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
@@ -1465,6 +1465,7 @@
       <elementValue elementRef="TRIM" value="false"/>
     </elementParameter>
     <elementParameter field="CHECK" name="NO_NULL_VALUES" value="false"/>
+    <elementParameter field="CHECK" name="SUPPORT_NLS" value="false"/>
     <elementParameter field="TEXT" name="LABEL" value="tDBI_STG_D_PERSON_CONTRACT"/>
     <elementParameter field="TEXT" name="HINT" value="&lt;b&gt;STG_D_PERSON_CONTRACT&lt;/b&gt;&lt;br&gt;Read STG_D_PERSON_CONTRACT records"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
@@ -1492,7 +1493,7 @@
     <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="TABLESCHEMA" value="context.msd_misown_schema"/>
     <elementParameter field="TEXT" name="USER" value="context.msd_misown_username"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:ZXDzIIZXS56lklT27NnFUabpa04R1aqNVfFMokAME/sRsuSktppeWuy0LgEMg3BF5I4xkYFHug=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:IPBvv8KfyMaDQUnwE0tLoj4z2iGGYRXj5ptTOslRa3IOxLWXEkkJ+/EImmv4fbJYcX58Hize1g=="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;MSD_D_PERSON_CONTRACT&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="NONE"/>
     <elementParameter field="LABEL" name="NOTE" show="false" value="Warning : this component configuration will automatically generate a commit before data insert/update/delete"/>
@@ -1560,6 +1561,7 @@
     <elementParameter field="CHECK" name="SUPPORT_NULL_WHERE" value="false"/>
     <elementParameter field="CHECK" name="USE_TIMESTAMP_FOR_DATE_TYPE" value="true"/>
     <elementParameter field="CHECK" name="TRIM_CHAR" value="true"/>
+    <elementParameter field="CHECK" name="SUPPORT_NLS" value="false"/>
     <elementParameter field="TEXT" name="LABEL" value="tDBO_MSD_D_PERSON_CONTRACT"/>
     <elementParameter field="TEXT" name="HINT" value="&lt;b&gt;MSD_D_PERSON_CONTRACT&lt;/b&gt;&lt;br&gt;Update/Insert into MSD_D_PERSON_CONTRACT"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
@@ -1598,7 +1600,7 @@
     <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="context.msd_staging_schema"/>
     <elementParameter field="TEXT" name="USER" value="context.msd_staging_username"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:Y0dPSLwiAysPFbc2Fy+gPAj3SOyRGaTS0rCz9l8zZjCnMKrlLP87/5L6OewbGnQOU8AQher/TWI="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:ZzqSWXnMK3NmkFUUh4X130qcD+lo4LlbXiR5aLCApVXHnHPuYJJbBCyk6ErjcG93BPd1HSiGa10="/>
     <elementParameter field="TEXT" name="JDBC_URL" show="false" value="&quot;jdbc:oracle:oci:/@talend&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;STG_D_RECRUITMENT&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
@@ -1646,6 +1648,7 @@
       <elementValue elementRef="TRIM" value="false"/>
     </elementParameter>
     <elementParameter field="CHECK" name="NO_NULL_VALUES" value="false"/>
+    <elementParameter field="CHECK" name="SUPPORT_NLS" value="false"/>
     <elementParameter field="TEXT" name="LABEL" value="tDBI_STG_D_RECRUITMENT"/>
     <elementParameter field="TEXT" name="HINT" value="&lt;b&gt;STG_D_RECRUITMENT&lt;/b&gt;&lt;br&gt;Read STG_D_RECRUITMENT records"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
@@ -1678,7 +1681,7 @@
     <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="TABLESCHEMA" value="context.msd_misown_schema"/>
     <elementParameter field="TEXT" name="USER" value="context.msd_misown_username"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:owagAir81g3wVJl1ctDaslZpXFjUYt50UYuYLZvwIlBQPkE55FhxEmRcTlU1UoGd4EBJGcrWvw=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:anJZwrWZAbUIe0s4RGh1OAllwBdq47lm7wdNmHI9tkTdAxQabNKM5+cKT7uyQJO6sWAEzG3jxA=="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;MSD_D_RECRUITMENT&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="NONE"/>
     <elementParameter field="LABEL" name="NOTE" show="false" value="Warning : this component configuration will automatically generate a commit before data insert/update/delete"/>
@@ -1771,6 +1774,7 @@
     <elementParameter field="CHECK" name="SUPPORT_NULL_WHERE" value="false"/>
     <elementParameter field="CHECK" name="USE_TIMESTAMP_FOR_DATE_TYPE" value="true"/>
     <elementParameter field="CHECK" name="TRIM_CHAR" value="true"/>
+    <elementParameter field="CHECK" name="SUPPORT_NLS" value="false"/>
     <elementParameter field="TEXT" name="LABEL" value="tDBO_MSD_D_RECRUITMENT"/>
     <elementParameter field="TEXT" name="HINT" value="&lt;b&gt;MSD_D_RECRUITMENT&lt;/b&gt;&lt;br&gt;Update/Insert into MSD_D_RECRUITMENT"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
@@ -1819,7 +1823,7 @@
     <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="context.msd_staging_schema"/>
     <elementParameter field="TEXT" name="USER" value="context.msd_staging_username"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:1enMqmi6pVn96WpCVUb/kqMH+djvr8G+CU8x/arHzCjRTKGQJHLHCORhViyupYHGxaynKEEglzg="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:wTEuquL2oiaTlJapMsl0k2JxjoiSSaBBecrBrU4/A3jHWpxk4WK0zZkcp4CvyIETkVoHuTbXd1M="/>
     <elementParameter field="TEXT" name="JDBC_URL" show="false" value="&quot;jdbc:oracle:oci:/@talend&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;STG_D_REGISTR_COND_SUSP&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
@@ -1863,6 +1867,7 @@
       <elementValue elementRef="TRIM" value="false"/>
     </elementParameter>
     <elementParameter field="CHECK" name="NO_NULL_VALUES" value="false"/>
+    <elementParameter field="CHECK" name="SUPPORT_NLS" value="false"/>
     <elementParameter field="TEXT" name="LABEL" value="tDBI_STG_D_REGISTR_COND_SUSP"/>
     <elementParameter field="TEXT" name="HINT" value="&lt;b&gt;STG_D_REGISTR_COND_SUSP&lt;/b&gt;&lt;br&gt;Read STG_D_REGISTR_COND_SUSP records"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
@@ -1893,7 +1898,7 @@
     <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="TABLESCHEMA" value="context.msd_misown_schema"/>
     <elementParameter field="TEXT" name="USER" value="context.msd_misown_username"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:/iF4+PJHwxi0E9ejPsiqUpQOHw14VIBEgai5RcjxVM3BlWetLdOh4M3UtF0VRXSo1Gm9Wo0HfQ=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:qSgLE9CXK3ZmHaR2TzLoOEzDC3eLDcSUMQUHo+wr7i4DZHGpVO9RjMLOnMDm1JMcF+kkKKivXA=="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;MSD_D_REGISTR_COND_SUSP&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="NONE"/>
     <elementParameter field="LABEL" name="NOTE" show="false" value="Warning : this component configuration will automatically generate a commit before data insert/update/delete"/>
@@ -1976,6 +1981,7 @@
     <elementParameter field="CHECK" name="SUPPORT_NULL_WHERE" value="false"/>
     <elementParameter field="CHECK" name="USE_TIMESTAMP_FOR_DATE_TYPE" value="true"/>
     <elementParameter field="CHECK" name="TRIM_CHAR" value="true"/>
+    <elementParameter field="CHECK" name="SUPPORT_NLS" value="false"/>
     <elementParameter field="TEXT" name="LABEL" value="tDBO_MSD_D_REGISTR_COND_SUSP"/>
     <elementParameter field="TEXT" name="HINT" value="&lt;b&gt;MSD_D_REGISTR_COND_SUSP&lt;/b&gt;&lt;br&gt;Update/Insert into MSD_D_REGISTR_COND_SUSP"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
@@ -2020,7 +2026,7 @@
     <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="context.msd_misown_schema"/>
     <elementParameter field="TEXT" name="USER" value="context.msd_misown_username"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:8+6x3cSVYx91jKPXZAqleVvFfqZytvCv3W0gEGk1aAf5h/YbA0XNsyEh8Lxb/LHHxzYKgN/DoQ=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:8BcrlS9L2Jg7Zhmsx+7/ASHm/nmcHJLXC2q5yPxPebYc3nYHY/99kDRKaaWYHYH0DqyL3BMF1g=="/>
     <elementParameter field="TEXT" name="JDBC_URL" show="false" value="&quot;jdbc:oracle:oci:/@talend&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;MSD_D_ROLE_CAPABILITY&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
@@ -2090,6 +2096,7 @@
       <elementValue elementRef="TRIM" value="false"/>
     </elementParameter>
     <elementParameter field="CHECK" name="NO_NULL_VALUES" value="false"/>
+    <elementParameter field="CHECK" name="SUPPORT_NLS" value="false"/>
     <elementParameter field="TEXT" name="LABEL" value="tDBI_STG_D_ROLE_CAPABILITY"/>
     <elementParameter field="TEXT" name="HINT" value="&lt;b&gt;STG_D_ROLE_CAPABILITY&lt;/b&gt;&lt;br&gt;Read STG_D_ROLE_CAPABILITY records"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
@@ -2133,7 +2140,7 @@
     <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="TABLESCHEMA" value="context.msd_misown_schema"/>
     <elementParameter field="TEXT" name="USER" value="context.msd_misown_username"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:YzFv9DMyRgI/rcbW095djIwsCJkIBnjLbaPPI9pBZ+KoD4Xe/UtyjnTZwe0P37pXBNqMIDLUYw=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:pINzeUVMyoLHvtb6vGU4H90sV9e8mMMLkyDxCsgC1CmHDnmE9zC3+6t+96oFGg5TdtK9XS/XEg=="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;MSD_D_ROLE_CAPABILITY&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="NONE"/>
     <elementParameter field="LABEL" name="NOTE" show="false" value="Warning : this component configuration will automatically generate a commit before data insert/update/delete"/>
@@ -2281,6 +2288,7 @@
     <elementParameter field="CHECK" name="SUPPORT_NULL_WHERE" value="false"/>
     <elementParameter field="CHECK" name="USE_TIMESTAMP_FOR_DATE_TYPE" value="true"/>
     <elementParameter field="CHECK" name="TRIM_CHAR" value="true"/>
+    <elementParameter field="CHECK" name="SUPPORT_NLS" value="false"/>
     <elementParameter field="TEXT" name="LABEL" value="tDBO_MSD_D_ROLE_CAPABILITY"/>
     <elementParameter field="TEXT" name="HINT" value="&lt;b&gt;MSD_D_ROLE_CAPABILITY&lt;/b&gt;&lt;br&gt;Update/Insert into MSD_D_ROLE_CAPABILITY"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
@@ -2351,7 +2359,7 @@
     <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="context.msd_staging_schema"/>
     <elementParameter field="TEXT" name="USER" value="context.msd_staging_username"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:aoAaKWyLmi+VJ0emfChum/6PTXHAHu8p0VWShyDo1jgBJJszj6iywhbOFG9KmeMz0bz/LyzKu9E="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:0+VeTCXTSANsanNsedtDwWjMiPHijZUgQh6WUaAqv4LUo+A/d1YWF9fUjoRs5RU+b/tOgm4FlbA="/>
     <elementParameter field="TEXT" name="JDBC_URL" show="false" value="&quot;jdbc:oracle:oci:/@talend&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;STG_D_SERVICE_CAPABILITY&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
@@ -2421,6 +2429,7 @@
       <elementValue elementRef="TRIM" value="false"/>
     </elementParameter>
     <elementParameter field="CHECK" name="NO_NULL_VALUES" value="false"/>
+    <elementParameter field="CHECK" name="SUPPORT_NLS" value="false"/>
     <elementParameter field="TEXT" name="LABEL" value="tDBI_STG_D_SERVICE_CAPABILITY"/>
     <elementParameter field="TEXT" name="HINT" value="&lt;b&gt;STG_D_SERVICE_CAPABILITY&lt;/b&gt;&lt;br&gt;Read STG_D_SERVICE_CAPABILITY records"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
@@ -2464,7 +2473,7 @@
     <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="TABLESCHEMA" value="context.msd_misown_schema"/>
     <elementParameter field="TEXT" name="USER" value="context.msd_misown_username"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:r5RC1EAXnvC2yxcesOZqLt8tBjZhR3EqmDKRjLJjtzGBJ8gCX7iOxCQOOXVpjdc2ZckzF5/Iwg=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:rqTHl/+2fgdnKcY4xPSvfHfwlgiGb2+0va0SETxfMo5knOZYaM4ErObB+z42n12HA/odtd1REQ=="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;MSD_D_SERVICE_CAPABILITY&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="NONE"/>
     <elementParameter field="LABEL" name="NOTE" show="false" value="Warning : this component configuration will automatically generate a commit before data insert/update/delete"/>
@@ -2612,6 +2621,7 @@
     <elementParameter field="CHECK" name="SUPPORT_NULL_WHERE" value="false"/>
     <elementParameter field="CHECK" name="USE_TIMESTAMP_FOR_DATE_TYPE" value="true"/>
     <elementParameter field="CHECK" name="TRIM_CHAR" value="true"/>
+    <elementParameter field="CHECK" name="SUPPORT_NLS" value="false"/>
     <elementParameter field="TEXT" name="LABEL" value="tDBO_MSD_D_SERVICE_CAPABILITY"/>
     <elementParameter field="TEXT" name="HINT" value="&lt;b&gt;MSD_D_SERVICE_CAPABILITY&lt;/b&gt;&lt;br&gt;Update/Insert into MSD_D_SERVICE_CAPABILITY"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
@@ -2682,7 +2692,7 @@
     <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="context.msd_staging_schema"/>
     <elementParameter field="TEXT" name="USER" value="context.msd_staging_username"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:bnKxctqA8NW1d6kLoXKYgkp1rUNYER2b9Czroh2NDU6R/ThNcvSmwWQjDlqXnWQo81YiCgUlxz0="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:WPMXGwwy59DIhD1Mypmg5gVOD1gAr/aRvRlEewSWL75p0ncJGdSco7r5Y4QDSt3e+4iQPCA7yXA="/>
     <elementParameter field="TEXT" name="JDBC_URL" show="false" value="&quot;jdbc:oracle:oci:/@talend&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;STG_D_QUAL&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
@@ -2726,6 +2736,7 @@
       <elementValue elementRef="TRIM" value="false"/>
     </elementParameter>
     <elementParameter field="CHECK" name="NO_NULL_VALUES" value="false"/>
+    <elementParameter field="CHECK" name="SUPPORT_NLS" value="false"/>
     <elementParameter field="TEXT" name="LABEL" value="tDBI_STG_D_QUAL"/>
     <elementParameter field="TEXT" name="HINT" value="&lt;b&gt;STG_D_QUAL&lt;/b&gt;&lt;br&gt;Read STG_D_QUAL records"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
@@ -2756,7 +2767,7 @@
     <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="TABLESCHEMA" value="context.msd_misown_schema"/>
     <elementParameter field="TEXT" name="USER" value="context.msd_misown_username"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:wVfCmHB+7y6Ij4B2WTpa2vkDLfn6kpfUbxMoIyC6Dk8kjCXNIx0S6F5zntO2Pgi5QNwOywfOww=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:wXUCJlvPUbWFkJ0JK9qurHzp3SClYUbzvTHaNsvkWQUCu3iNyURGfXxIGOFCbMTzy4OZdLSFOg=="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;MSD_D_QUAL&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="NONE"/>
     <elementParameter field="LABEL" name="NOTE" show="false" value="Warning : this component configuration will automatically generate a commit before data insert/update/delete"/>
@@ -2839,6 +2850,7 @@
     <elementParameter field="CHECK" name="SUPPORT_NULL_WHERE" value="false"/>
     <elementParameter field="CHECK" name="USE_TIMESTAMP_FOR_DATE_TYPE" value="true"/>
     <elementParameter field="CHECK" name="TRIM_CHAR" value="true"/>
+    <elementParameter field="CHECK" name="SUPPORT_NLS" value="false"/>
     <elementParameter field="TEXT" name="LABEL" value="tDBO_MSD_D_QUAL"/>
     <elementParameter field="TEXT" name="HINT" value="&lt;b&gt;MSD_D_QUAL&lt;/b&gt;&lt;br&gt;Update/Insert into MSD_D_QUAL"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
@@ -2883,7 +2895,7 @@
     <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="context.msd_staging_schema"/>
     <elementParameter field="TEXT" name="USER" value="context.msd_staging_username"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:3DQ0bEEwr3PudLSlHre+jCTWuLP4MZ0NVQBYrcHzyvfnN8TIIranY3sTJaSGG6/LlUuAx0aPb68="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:ZvGVAYz5IocteLf/AtZCOckqFayQhQ8mhrGB3xGfdkMn5rlfIaGmTbs1piaY3M/RhScqz4eR5gU="/>
     <elementParameter field="TEXT" name="JDBC_URL" show="false" value="&quot;jdbc:oracle:oci:/@talend&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;STG_D_UNAVAILABLE_PERIOD&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
@@ -2927,6 +2939,7 @@
       <elementValue elementRef="TRIM" value="false"/>
     </elementParameter>
     <elementParameter field="CHECK" name="NO_NULL_VALUES" value="false"/>
+    <elementParameter field="CHECK" name="SUPPORT_NLS" value="false"/>
     <elementParameter field="TEXT" name="LABEL" value="tDBI_STG_D_UNAVAILABLE_PERIOD"/>
     <elementParameter field="TEXT" name="HINT" value="&lt;b&gt;STG_D_UNAVAILABLE_PERIOD&lt;/b&gt;&lt;br&gt;Read STG_D_UNAVAILABLE_PERIOD records"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
@@ -2957,7 +2970,7 @@
     <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="TABLESCHEMA" value="context.msd_misown_schema"/>
     <elementParameter field="TEXT" name="USER" value="context.msd_misown_username"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:CAyJtDf035puqvIppbtHpWfghgq19d69KdBXkmYEMnmvxp3g/7I9jBOGjGTbB7I99qsVZcGcoQ=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:px6dpxKZkQ45zNI6EQY6XwSiAJe62gLWXqOuuq8MIyi14HZU5is0jTAJMBdtd6WR3gimQaszjw=="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;MSD_D_UNAVAILABLE_PERIOD&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="NONE"/>
     <elementParameter field="LABEL" name="NOTE" show="false" value="Warning : this component configuration will automatically generate a commit before data insert/update/delete"/>
@@ -3040,6 +3053,7 @@
     <elementParameter field="CHECK" name="SUPPORT_NULL_WHERE" value="false"/>
     <elementParameter field="CHECK" name="USE_TIMESTAMP_FOR_DATE_TYPE" value="true"/>
     <elementParameter field="CHECK" name="TRIM_CHAR" value="true"/>
+    <elementParameter field="CHECK" name="SUPPORT_NLS" value="false"/>
     <elementParameter field="TEXT" name="LABEL" value="tDBO_MSD_D_UNAVAILABLE_PERIOD"/>
     <elementParameter field="TEXT" name="HINT" value="&lt;b&gt;MSD_D_UNAVAILABLE_PERIOD&lt;/b&gt;&lt;br&gt;Update/Insert into MSD_D_UNAVAILABLE_PERIOD"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
@@ -3084,7 +3098,7 @@
     <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="context.msd_staging_schema"/>
     <elementParameter field="TEXT" name="USER" value="context.msd_staging_username"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:IudtqoYz6AKm1H/UAZD3v2w8FoR8/ldi9CeIRy8Mky+XvdX24HZOOysHtl+IHp+dQTfsxDvN+Ig="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:bw2dkqx3YsKp5X7QfBtVymDXiWT5mexRWxFSbBH4p/7YZOJSJdk3mwHvmTmymhXMeQXt51ZrFLU="/>
     <elementParameter field="TEXT" name="JDBC_URL" show="false" value="&quot;jdbc:oracle:oci:/@talend&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;STG_D_SRV_STREAM_CAPABILITY&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
@@ -3128,6 +3142,7 @@
       <elementValue elementRef="TRIM" value="false"/>
     </elementParameter>
     <elementParameter field="CHECK" name="NO_NULL_VALUES" value="false"/>
+    <elementParameter field="CHECK" name="SUPPORT_NLS" value="false"/>
     <elementParameter field="TEXT" name="LABEL" value="tDBI_STG_D_SRV_STREAM_CAPABILITY"/>
     <elementParameter field="TEXT" name="HINT" value="&lt;b&gt;STG_D_SRV_STREAM_CAPABILITY&lt;/b&gt;&lt;br&gt;Read STG_D_SRV_STREAM_CAPABILITY records"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
@@ -3158,7 +3173,7 @@
     <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="TABLESCHEMA" value="context.msd_misown_schema"/>
     <elementParameter field="TEXT" name="USER" value="context.msd_misown_username"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:wALBto94j8GMwbGsVdr0cZdJb6RghZ8vfy/z5qYJDzDSdnFa0W2g+bs40J21ENx2FYf4tzS8vQ=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:UUIBs4rmAy7zpUGA+I9UxJhCDiDKCnoiwWU8lVwbzqPLBH8rUAAP7PjeGL4Fi1+Jy2nyvbOnuQ=="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;MSD_D_SRV_STREAM_CAPABILITY&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="NONE"/>
     <elementParameter field="LABEL" name="NOTE" show="false" value="Warning : this component configuration will automatically generate a commit before data insert/update/delete"/>
@@ -3241,6 +3256,7 @@
     <elementParameter field="CHECK" name="SUPPORT_NULL_WHERE" value="false"/>
     <elementParameter field="CHECK" name="USE_TIMESTAMP_FOR_DATE_TYPE" value="true"/>
     <elementParameter field="CHECK" name="TRIM_CHAR" value="true"/>
+    <elementParameter field="CHECK" name="SUPPORT_NLS" value="false"/>
     <elementParameter field="TEXT" name="LABEL" value="tDBOutput_MSD_D_SRV_STREAM_CAPABILITY"/>
     <elementParameter field="TEXT" name="HINT" value="&lt;b&gt;MSD_D_SRV_STREAM_CAPABILITY&lt;/b&gt;&lt;br&gt;Update/Insert into MSD_D_SRV_STREAM_CAPABILITY"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
@@ -3285,7 +3301,7 @@
     <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="context.msd_staging_schema"/>
     <elementParameter field="TEXT" name="USER" value="context.msd_staging_username"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:0nNvOXRk/jtC8T8sHotOUm704o456Dtu+NUbiVgZiAPyDCwH7oHNjm1zv5KJhj7cEgUE1DbwxO8="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:VQ+JMJIHAoZgxI0py7F7AbBsb0hPTtqc+RErRqV+uiHrsLyl/iOm/hvQVEQKu8WrpCYh1Jq3KlY="/>
     <elementParameter field="TEXT" name="JDBC_URL" show="false" value="&quot;jdbc:oracle:oci:/@talend&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;STG_D_PERSON_SERVICE_STREAM&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
@@ -3323,6 +3339,7 @@
       <elementValue elementRef="TRIM" value="false"/>
     </elementParameter>
     <elementParameter field="CHECK" name="NO_NULL_VALUES" value="false"/>
+    <elementParameter field="CHECK" name="SUPPORT_NLS" value="false"/>
     <elementParameter field="TEXT" name="LABEL" value="tDBI_STG_D_PERSON_SERVICE_STREAM"/>
     <elementParameter field="TEXT" name="HINT" value="&lt;b&gt;STG_D_PERSON_SERVICE_STREAM&lt;/b&gt;&lt;br&gt;Read STG_D_PERSON_SERVICE_STREAM records"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
@@ -3350,7 +3367,7 @@
     <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="TABLESCHEMA" value="context.msd_misown_schema"/>
     <elementParameter field="TEXT" name="USER" value="context.msd_misown_username"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:/4ldT6J/zk4t4etz2Qciv6FbuQ+zWA83u28KdJkevIx8MJmpe0Z6Pv8C58xcxcvSqhRZUuAnPA=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:2dolio06mMORZOA+1lIt/exV8gDua49UueMOoXQY3c5KISkEdO0q3YeTk4tDCQLhffnQihadsg=="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;MSD_D_PERSON_SERVICE_STREAM&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="NONE"/>
     <elementParameter field="LABEL" name="NOTE" show="false" value="Warning : this component configuration will automatically generate a commit before data insert/update/delete"/>
@@ -3418,6 +3435,7 @@
     <elementParameter field="CHECK" name="SUPPORT_NULL_WHERE" value="false"/>
     <elementParameter field="CHECK" name="USE_TIMESTAMP_FOR_DATE_TYPE" value="true"/>
     <elementParameter field="CHECK" name="TRIM_CHAR" value="true"/>
+    <elementParameter field="CHECK" name="SUPPORT_NLS" value="false"/>
     <elementParameter field="TEXT" name="LABEL" value="tDBO_MSD_D_PERSON_SERVICE_STREAM"/>
     <elementParameter field="TEXT" name="HINT" value="&lt;b&gt;MSD_D_PERSON_SERVICE_STREAM&lt;/b&gt;&lt;br&gt;Update/Insert into MSD_D_PERSON_SERVICE_STREAM"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
@@ -3456,7 +3474,7 @@
     <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="context.msd_staging_schema"/>
     <elementParameter field="TEXT" name="USER" value="context.msd_staging_username"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:SRVvYElNcR/h3uPpCA5nTwc7MNTrmzVxIdH6hxYIO50vi5i/nEgTu3sq6Tr9HK04dFKndZDl9K0="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:DpTkKqGf9I4teE0E+Ir0BOEDzAlwPB5xlch2OipIdPIz8gC2zuxHaGtVtqYhHctkeyj0Ij2grek="/>
     <elementParameter field="TEXT" name="JDBC_URL" show="false" value="&quot;jdbc:oracle:oci:/@talend&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;STG_D_PRSN_PRSNL_CAPBLTY_TRNG&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
@@ -3512,6 +3530,7 @@
       <elementValue elementRef="TRIM" value="false"/>
     </elementParameter>
     <elementParameter field="CHECK" name="NO_NULL_VALUES" value="false"/>
+    <elementParameter field="CHECK" name="SUPPORT_NLS" value="false"/>
     <elementParameter field="TEXT" name="LABEL" value="tDBI_STG_D_PRSN_PRSNL_CAPBLTY_TRNG"/>
     <elementParameter field="TEXT" name="HINT" value="&lt;b&gt;STG_D_PRSN_PRSNL_CAPBLTY_TRNG&lt;/b&gt;&lt;br&gt;Read STG_D_PRSN_PRSNL_CAPBLTY_TRNG records"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
@@ -3548,7 +3567,7 @@
     <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="TABLESCHEMA" value="context.msd_misown_schema"/>
     <elementParameter field="TEXT" name="USER" value="context.msd_misown_username"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:hMZsNzzS04Z7qTCLqe6PbCIZuNdsnSjYObo8XHUJm+AoAY+udPFs/KNJ48TKuGwVw7oBi3Vv+Q=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:eJRh4exz683rp5XVoMsbOdfAsbTqCjEh1VxkmB77tdSJgqWXP0uRMxIJ8SAFTOs482/o+Das6A=="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;MSD_D_PRSN_PRSNL_CAPBLTY_TRNG&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="NONE"/>
     <elementParameter field="LABEL" name="NOTE" show="false" value="Warning : this component configuration will automatically generate a commit before data insert/update/delete"/>
@@ -3661,6 +3680,7 @@
     <elementParameter field="CHECK" name="SUPPORT_NULL_WHERE" value="false"/>
     <elementParameter field="CHECK" name="USE_TIMESTAMP_FOR_DATE_TYPE" value="true"/>
     <elementParameter field="CHECK" name="TRIM_CHAR" value="true"/>
+    <elementParameter field="CHECK" name="SUPPORT_NLS" value="false"/>
     <elementParameter field="TEXT" name="LABEL" value="tDBO_MSD_D_PRSN_PRSNL_CAPBLTY_TRNG"/>
     <elementParameter field="TEXT" name="HINT" value="&lt;b&gt;MSD_D_PRSN_PRSNL_CAPBLTY_TRNG&lt;/b&gt;&lt;br&gt;Update/Insert into MSD_D_PRSN_PRSNL_CAPBLTY_TRNG"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
@@ -3717,7 +3737,7 @@
     <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="context.msd_staging_schema"/>
     <elementParameter field="TEXT" name="USER" value="context.msd_staging_username"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:oI4PoPyOBA9PRo5ZKOOpI9pe29p4yZ6LEjvR/hFRML+HVwiVkoW/18L0za0AXyw4e0qqfmhyS4w="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:Mp/Ov8Hzb+UR1Su58xLJ8b5NlUOEyepc82g2vdJNg2Ibuz8QNBOKaMwUrUVk+sJTPg2J8re2RPQ="/>
     <elementParameter field="TEXT" name="JDBC_URL" show="false" value="&quot;jdbc:oracle:oci:/@talend&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;STG_D_PRSN_ROLE_CAPBLTY_TRNG&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
@@ -3769,6 +3789,7 @@
       <elementValue elementRef="TRIM" value="false"/>
     </elementParameter>
     <elementParameter field="CHECK" name="NO_NULL_VALUES" value="false"/>
+    <elementParameter field="CHECK" name="SUPPORT_NLS" value="false"/>
     <elementParameter field="TEXT" name="LABEL" value="tDBI_STG_D_PRSN_ROLE_CAPBLTY_TRNG"/>
     <elementParameter field="TEXT" name="HINT" value="&lt;b&gt;STG_D_PRSN_ROLE_CAPBLTY_TRNG&lt;/b&gt;&lt;br&gt;Read STG_D_PRSN_ROLE_CAPBLTY_TRNG records"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
@@ -3803,7 +3824,7 @@
     <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="TABLESCHEMA" value="context.msd_misown_schema"/>
     <elementParameter field="TEXT" name="USER" value="context.msd_misown_username"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:M1CwvL74XDe6g7L77CATppm4pqXXxGioRf0/65IfnaYSuJW7v8gnM/Gs4aG2Sj0YCT2rMD4GRw=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:0qIfAlJVrq1ZRj8ZyxDWNZvSUVl06dbLHiKIP+r7InMcI506hZ27UFo+i2HCHGSrMsje5N1SWw=="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;MSD_D_PRSN_ROLE_CAPBLTY_TRNG&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="NONE"/>
     <elementParameter field="LABEL" name="NOTE" show="false" value="Warning : this component configuration will automatically generate a commit before data insert/update/delete"/>
@@ -3906,6 +3927,7 @@
     <elementParameter field="CHECK" name="SUPPORT_NULL_WHERE" value="false"/>
     <elementParameter field="CHECK" name="USE_TIMESTAMP_FOR_DATE_TYPE" value="true"/>
     <elementParameter field="CHECK" name="TRIM_CHAR" value="true"/>
+    <elementParameter field="CHECK" name="SUPPORT_NLS" value="false"/>
     <elementParameter field="TEXT" name="LABEL" value="tDBO_MSD_D_PRSN_ROLE_CAPBLTY_TRNG"/>
     <elementParameter field="TEXT" name="HINT" value="&lt;b&gt;MSD_D_PRSN_ROLE_CAPBLTY_TRNG&lt;/b&gt;&lt;br&gt;Update/Insert into MSD_D_PRSN_ROLE_CAPBLTY_TRNG"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
@@ -3958,7 +3980,7 @@
     <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="context.msd_staging_schema"/>
     <elementParameter field="TEXT" name="USER" value="context.msd_staging_username"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:MjLw55W1YLLindHk09nPYU0R0uQgZMg2iAjlbTmxImIeEac1AEKjeDCUll02tW3yWOwsudOsWMo="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:yTEEl+j2BdDLPGlqqs5cbFjYJ151eteltUfKD0u0vOkrvnXSu8eRwPBZlvWxBCxXym2ixyCBzeA="/>
     <elementParameter field="TEXT" name="JDBC_URL" show="false" value="&quot;jdbc:oracle:oci:/@talend&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;STG_D_PRSN_SRV_CAPBLTY_TRNG&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
@@ -4008,6 +4030,7 @@
       <elementValue elementRef="TRIM" value="false"/>
     </elementParameter>
     <elementParameter field="CHECK" name="NO_NULL_VALUES" value="false"/>
+    <elementParameter field="CHECK" name="SUPPORT_NLS" value="false"/>
     <elementParameter field="TEXT" name="LABEL" value="tDBI_STG_D_PRSN_SRV_CAPBLTY_TRNG"/>
     <elementParameter field="TEXT" name="HINT" value="&lt;b&gt;STG_D_PRSN_SRV_CAPBLTY_TRNG&lt;/b&gt;&lt;br&gt;Read STG_D_PRSN_SRV_CAPBLTY_TRNG records"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
@@ -4041,7 +4064,7 @@
     <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="TABLESCHEMA" value="context.msd_misown_schema"/>
     <elementParameter field="TEXT" name="USER" value="context.msd_misown_username"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:zcMTbKqAnvHBGkeHtf9wCyO5YkdbFwLeiafSoAJotuvCSL8B1zDv+aleqQPan2AdrhAhlW4lIA=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:q35kFa7ffwmSiTR5k/cZTUNNmCbScbQcVjxuBjOZEmsylCErzAre5stTrZz3TqXw/3lAm0XyHA=="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;MSD_D_PRSN_SRV_CAPBLTY_TRNG&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="NONE"/>
     <elementParameter field="LABEL" name="NOTE" show="false" value="Warning : this component configuration will automatically generate a commit before data insert/update/delete"/>
@@ -4139,6 +4162,7 @@
     <elementParameter field="CHECK" name="SUPPORT_NULL_WHERE" value="false"/>
     <elementParameter field="CHECK" name="USE_TIMESTAMP_FOR_DATE_TYPE" value="true"/>
     <elementParameter field="CHECK" name="TRIM_CHAR" value="true"/>
+    <elementParameter field="CHECK" name="SUPPORT_NLS" value="false"/>
     <elementParameter field="TEXT" name="LABEL" value="tDBO_MSD_D_PRSN_SRV_CAPBLTY_TRNG"/>
     <elementParameter field="TEXT" name="HINT" value="&lt;b&gt;MSD_D_PRSN_SRV_CAPBLTY_TRNG&lt;/b&gt;&lt;br&gt;Update/Insert into MSD_D_PRSN_SRV_CAPBLTY_TRNG"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
@@ -4216,7 +4240,7 @@
     <elementParameter field="TEXT" name="SCHEMA_DB" value="context.msd_misown_schema"/>
     <elementParameter field="TEXT" name="TYPE" show="false" value="Oracle"/>
     <elementParameter field="TEXT" name="USER" value="context.msd_misown_username"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:d2UfEyoqO1ipxHNrXUKhp0nUnbEjvHep7qnOUPTJwNZfI95Zg5TwQKjsyT4Y1ueoxAzhIPqR6A=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:zoe3+nmXdp8j0D6RRVgEtAPmoFJ+0aQJDApykw4bR63DJxOlDo6EY90LbTAtIVu0IWIL024QWQ=="/>
     <elementParameter field="TEXT" name="SP_NAME" value="&quot;MIS_UPDATE_INT_HIST_START_TIME&quot;"/>
     <elementParameter field="CHECK" name="IS_FUNCTION" value="false"/>
     <elementParameter field="COLUMN_LIST" name="RETURN" show="false" value="LOAD_TYPE"/>
@@ -4250,6 +4274,7 @@
     <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
     <elementParameter field="CLOSED_LIST" name="NLS_LANGUAGE" value="NONE"/>
     <elementParameter field="CLOSED_LIST" name="NLS_TERRITORY" value="NONE"/>
+    <elementParameter field="CHECK" name="SUPPORT_NLS" value="false"/>
     <elementParameter field="TEXT" name="LABEL" value="tDBSP_MIS_UPDATE_INT_HIST_START_TIME"/>
     <elementParameter field="TEXT" name="HINT" value="&lt;b&gt;MIS_INTERFACE_HISTORY&lt;/b&gt;&lt;br&gt;Insert MIS_START_TIME into MIS_INTERFACE_HISTORY"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
@@ -4259,7 +4284,7 @@
       <column comment="" key="false" length="80" name="OWB_MAPPING_NAME" nullable="true" originalLength="80" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tRowGenerator" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="160" posY="2624">
+  <node componentName="tRowGenerator" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="160" posY="2752">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tRowGenerator_2"/>
     <elementParameter field="TEXT" name="NB_ROWS" show="false" value="1"/>
     <elementParameter field="TABLE" name="VALUES" show="false">
@@ -4276,7 +4301,7 @@
       </column>
     </metadata>
   </node>
-  <node componentName="tOracleSP" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="608" posY="2624">
+  <node componentName="tOracleSP" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="608" posY="2752">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBSP_2"/>
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" show="false" value=""/>
@@ -4290,7 +4315,7 @@
     <elementParameter field="TEXT" name="SCHEMA_DB" value="context.msd_misown_schema"/>
     <elementParameter field="TEXT" name="TYPE" show="false" value="Oracle"/>
     <elementParameter field="TEXT" name="USER" value="context.msd_misown_username"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:TqcbR6qgeSp1W1kUbVNGInwB+6HL+Y8iAN+BJlIf6cpwvDXaSJt/gEvivhmwuQNS3XndnY3HKw=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:oas1U81QMOx9QUXArowCsz6iYf3VxfKvfwPFnf8LBT4//phiQSpeDBPW1Hs0TtMolTAbailUvA=="/>
     <elementParameter field="TEXT" name="SP_NAME" value="&quot;MIS_UPDATE_INT_HIST_END_TIME&quot;"/>
     <elementParameter field="CHECK" name="IS_FUNCTION" value="false"/>
     <elementParameter field="COLUMN_LIST" name="RETURN" show="false" value="LOAD_TYPE"/>
@@ -4312,6 +4337,7 @@
     <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
     <elementParameter field="CLOSED_LIST" name="NLS_LANGUAGE" value="NONE"/>
     <elementParameter field="CLOSED_LIST" name="NLS_TERRITORY" value="NONE"/>
+    <elementParameter field="CHECK" name="SUPPORT_NLS" value="false"/>
     <elementParameter field="TEXT" name="LABEL" value="tDBSP_MIS_UPDATE_INT_HIST_END_TIME"/>
     <elementParameter field="TEXT" name="HINT" value="&lt;b&gt;MIS_INTERFACE_HISTORY&lt;/b&gt;&lt;br&gt;Update MIS_END_TIME into MIS_INTERFACE_HISTORY"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
@@ -4323,7 +4349,7 @@
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFileInputExcel_1"/>
     <elementParameter field="CHECK" name="VERSION_2007" value="true"/>
     <elementParameter field="FILE" name="FILENAME" value="context.msd_filepath+&quot;MSD_Context.xlsx&quot;"/>
-    <elementParameter field="PASSWORD" name="PASSWORD" value="enc:system.encryption.key.v1:MD5c/rS9WAfMXvuReftqr69AeEznDCOXP0rf5ANb1FCo+mw3bCq74/m1"/>
+    <elementParameter field="PASSWORD" name="PASSWORD" value="enc:system.encryption.key.v1:BYMwijkLR4pOG9eRLKtU20LI8iAUyrpeCHqZd5ABWnuTkgfAKTML+s36"/>
     <elementParameter field="CHECK" name="ALL_SHEETS" value="false"/>
     <elementParameter field="TABLE" name="SHEETLIST">
       <elementValue elementRef="SHEETNAME" value="&quot;MSD&quot;"/>
@@ -4363,6 +4389,8 @@
     <elementParameter field="CHECK" name="SUPPRESS_WARN" show="false" value="false"/>
     <elementParameter field="CLOSED_LIST" name="GENERATION_MODE" value="USER_MODE"/>
     <elementParameter field="CHECK" name="INCLUDE_PHONETICRUNS" show="false" value="true"/>
+    <elementParameter field="CHECK" name="CONFIGURE_INFLATION_RATIO" value="false"/>
+    <elementParameter field="TEXT" name="INFLATION_RATIO" show="false" value=""/>
     <elementParameter field="TEXT" name="LABEL" value="tFD_MSD_CONTEXT"/>
     <elementParameter field="TEXT" name="HINT" value="&lt;b&gt;MSD_CONTEXT&lt;/b&gt;&lt;br&gt;MSD_Context.xlsx"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
@@ -4408,7 +4436,7 @@
     <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="context.msd_staging_schema"/>
     <elementParameter field="TEXT" name="USER" value="context.msd_staging_username"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:TTRGSWE9U9nAF05TVLTx9wf1pD2RQSo4NPXZ+x4bvgn0Cwz6Dct1OgYAvf291B1Ly1LFv9Mw37w="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:Pzc3WbmoWo5HkJd0MZr7jAobnRTrTThzBcnzytOrs5yhOAoL58nWUt2MzOIY7Dqt2+0XR5dwkeM="/>
     <elementParameter field="TEXT" name="JDBC_URL" show="false" value="&quot;jdbc:oracle:oci:/@talend&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;STG_D_USER&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
@@ -4454,6 +4482,7 @@
       <elementValue elementRef="TRIM" value="false"/>
     </elementParameter>
     <elementParameter field="CHECK" name="NO_NULL_VALUES" value="false"/>
+    <elementParameter field="CHECK" name="SUPPORT_NLS" value="false"/>
     <elementParameter field="TEXT" name="LABEL" value="tDBI_STG_D_USER"/>
     <elementParameter field="TEXT" name="HINT" value="&lt;b&gt;STG_D_USER&lt;/b&gt;&lt;br&gt;Read STG_D_USER records"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
@@ -4485,7 +4514,7 @@
     <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="TABLESCHEMA" value="context.msd_misown_schema"/>
     <elementParameter field="TEXT" name="USER" value="context.msd_misown_username"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:l3ST/c8TRwn65aZaA9y1jzVWBwHvjmIiVOFljWaZx5l5CXJlw/XVI5POCx4ykniWoWvfXAgyvA=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:fb0QDAetLen0YSojzvFycXqrMqvSLGCdjOKNcodtLq6ibq7lOJ81Z6nEDwS8NOuq2robk5sFKw=="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;MSD_D_USER&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="NONE"/>
     <elementParameter field="LABEL" name="NOTE" show="false" value="Warning : this component configuration will automatically generate a commit before data insert/update/delete"/>
@@ -4573,6 +4602,7 @@
     <elementParameter field="CHECK" name="SUPPORT_NULL_WHERE" value="false"/>
     <elementParameter field="CHECK" name="USE_TIMESTAMP_FOR_DATE_TYPE" value="true"/>
     <elementParameter field="CHECK" name="TRIM_CHAR" value="true"/>
+    <elementParameter field="CHECK" name="SUPPORT_NLS" value="false"/>
     <elementParameter field="TEXT" name="LABEL" value="tDBO_MSD_D_USER"/>
     <elementParameter field="TEXT" name="HINT" value="&lt;b&gt;MSD_D_USER&lt;/b&gt;&lt;br&gt;Update/Insert into MSD_D_USER"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
@@ -4601,6 +4631,179 @@
       <column comment="" key="false" length="0" name="MSD_LAST_UPDATED_ON" nullable="true" pattern="&quot;dd/mm/yyyy hh:mi:ss&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true"/>
       <column comment="" key="false" length="20" name="MSD_LAST_UPDATED_BY" nullable="true" originalLength="20" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="3" name="MSD_ASSESSMENT_PROVIDER_ID" nullable="true" originalLength="3" pattern="" precision="0" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" originalLength="-1" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" originalLength="-1" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tOracleInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="160" posY="2624">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBInput_3"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" show="false" value=""/>
+    <elementParameter field="CLOSED_LIST" name="CONNECTION_TYPE" value="ORACLE_SERVICE_NAME"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="ORACLE_18"/>
+    <elementParameter field="TEXT" name="RAC_URL" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="HOST" value="context.msd_staging_host"/>
+    <elementParameter field="TEXT" name="TYPE" show="false" value="Oracle"/>
+    <elementParameter field="TEXT" name="PORT" value="context.msd_staging_port"/>
+    <elementParameter field="TEXT" name="DBNAME" value="context.msd_staging_database"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" value="context.msd_staging_schema"/>
+    <elementParameter field="TEXT" name="USER" value="context.msd_staging_username"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:G5AKQqVa4LdWTkTWZFWkum2SF17B0II6kzfRS7Z/6z3Ph9TfVRpEkyFR8Pr/V96b5etkEY1WEmY="/>
+    <elementParameter field="TEXT" name="JDBC_URL" show="false" value="&quot;jdbc:oracle:oci:/@talend&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE" value="&quot;STG_D_PERSONAL_CAPABILITY&quot;"/>
+    <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
+    <elementParameter field="GUESS_SCHEMA" name="GUESS_SCHEMA" value="&quot;&quot;"/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;SELECT&#13;&#10;   STG_PERSONAL_CAPABILITY_ID MSD_PERSONAL_CAPABILITY_ID,&#13;&#10;   STG_PERSON_ID MSD_PERSON_ID,&#13;&#10;   STG_CAPABILITY_ID MSD_CAPABILITY_ID,&#13;&#10;   STG_CREATED_ON MSD_CREATED_ON,&#13;&#10;   STG_CREATED_BY MSD_CREATED_BY,&#13;&#10;   STG_LAST_UPDATED_ON MSD_LAST_UPDATED_ON,&#13;&#10;   STG_LAST_UPDATED_BY MSD_LAST_UPDATED_BY&#13;&#10;From&#13;&#10;   &quot;+context.msd_staging_schema+&quot;.STG_D_PERSONAL_CAPABILITY&quot;"/>
+    <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime"/>
+    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="MAPPING_TYPE" name="MAPPING" show="false" value="oracle_id"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value=""/>
+    <elementParameter field="LABEL" name="NOTE" value="*Note: Example for Additional JDBC Parameters: &quot;parameterName1=value1&amp;&amp;parameterName2=value2&quot;"/>
+    <elementParameter field="CHECK" name="IS_CONVERT_XMLTYPE" value="false"/>
+    <elementParameter field="TABLE" name="CONVERT_XMLTYPE" show="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="USE_CURSOR" value="false"/>
+    <elementParameter field="TEXT" name="CURSOR_SIZE" show="false" value="1000"/>
+    <elementParameter field="CHECK" name="TRIM_ALL_COLUMN" value="false"/>
+    <elementParameter field="TABLE" name="TRIM_COLUMN">
+      <elementValue elementRef="SCHEMA_COLUMN" value="MSD_PERSONAL_CAPABILITY_ID"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="MSD_PERSON_ID"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="MSD_CAPABILITY_ID"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="MSD_CREATED_ON"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="MSD_CREATED_BY"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="MSD_LAST_UPDATED_ON"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="MSD_LAST_UPDATED_BY"/>
+      <elementValue elementRef="TRIM" value="false"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="NO_NULL_VALUES" value="false"/>
+    <elementParameter field="CHECK" name="SUPPORT_NLS" value="false"/>
+    <elementParameter field="TEXT" name="LABEL" value="tDBI_STG_D_PERSONAL_CAPABILITY"/>
+    <elementParameter field="TEXT" name="HINT" value="&lt;b&gt;STG_D_USER&lt;/b&gt;&lt;br&gt;Read STG_D_USER records"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tDBInput_3">
+      <column comment="" key="false" length="38" name="MSD_PERSONAL_CAPABILITY_ID" nullable="true" originalLength="38" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="38" name="MSD_PERSON_ID" nullable="true" originalLength="38" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="38" name="MSD_CAPABILITY_ID" nullable="true" originalLength="38" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="MSD_CREATED_ON" nullable="true" originalLength="-1" pattern="&quot;dd/mm/yyyy hh:mi:ss&quot;" precision="-1" sourceType="DATE" type="id_Date" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="MSD_CREATED_BY" nullable="true" originalLength="20" pattern="" precision="-1" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="MSD_LAST_UPDATED_ON" nullable="true" originalLength="-1" pattern="&quot;dd/mm/yyyy hh:mi:ss&quot;" precision="-1" sourceType="DATE" type="id_Date" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="MSD_LAST_UPDATED_BY" nullable="true" originalLength="20" pattern="" precision="-1" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tOracleOutput" componentVersion="0.102" offsetLabelX="-20" offsetLabelY="-5" posX="576" posY="2624">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBOutput_19"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" show="false" value=""/>
+    <elementParameter field="CLOSED_LIST" name="CONNECTION_TYPE" value="ORACLE_SERVICE_NAME"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="ORACLE_18"/>
+    <elementParameter field="TEXT" name="RAC_URL" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="HOST" value="context.msd_misown_host"/>
+    <elementParameter field="TEXT" name="PORT" value="context.msd_misown_port"/>
+    <elementParameter field="TEXT" name="TYPE" show="false" value="Oracle"/>
+    <elementParameter field="TEXT" name="DBNAME" value="context.msd_misown_database"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="TABLESCHEMA" value="context.msd_misown_schema"/>
+    <elementParameter field="TEXT" name="USER" value="context.msd_misown_username"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:aZoeN3FuDLywZ9Hyow+jdyr2uhBVRlH+Dn7KMf52eGIrhu1Dhf0EpZk7SEkzoWtEvb4kjTWT+g=="/>
+    <elementParameter field="DBTABLE" name="TABLE" value="&quot;MSD_D_PERSONAL_CAPABILITY&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="NONE"/>
+    <elementParameter field="LABEL" name="NOTE" show="false" value="Warning : this component configuration will automatically generate a commit before data insert/update/delete"/>
+    <elementParameter field="CLOSED_LIST" name="DATA_ACTION" value="UPDATE_OR_INSERT"/>
+    <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime"/>
+    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="true"/>
+    <elementParameter field="MAPPING_TYPE" name="MAPPING" show="false" value="oracle_id"/>
+    <elementParameter field="TEXT" name="JDBC_URL" show="false" value="&quot;jdbc:oracle:oci:/@talend&quot;"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value=""/>
+    <elementParameter field="LABEL" name="NOTE" value="*Note: Example for Additional JDBC Parameters: &quot;parameterName1=value1&amp;&amp;parameterName2=value2&quot;"/>
+    <elementParameter field="CHECK" name="USE_ALTERNATE_SCHEMA" show="false" value="false"/>
+    <elementParameter field="TEXT" name="ALTERNATE_SCHEMA" show="false" value="&quot;&quot;"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="TEXT" name="COMMIT_EVERY" value="10000"/>
+    <elementParameter field="TABLE" name="ADD_COLS"/>
+    <elementParameter field="CHECK" name="USE_FIELD_OPTIONS" value="false"/>
+    <elementParameter field="TABLE" name="FIELD_OPTIONS" show="false">
+      <elementValue elementRef="SCHEMA_COLUMN" value="MSD_PERSONAL_CAPABILITY_ID"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="MSD_PERSON_ID"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="MSD_CAPABILITY_ID"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="MSD_CREATED_ON"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="MSD_CREATED_BY"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="MSD_LAST_UPDATED_ON"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="MSD_LAST_UPDATED_BY"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="USE_HINT_OPTIONS" value="false"/>
+    <elementParameter field="TABLE" name="HINT_OPTIONS" show="false"/>
+    <elementParameter field="CHECK" name="CONVERT_COLUMN_TABLE_TO_UPPERCASE" value="false"/>
+    <elementParameter field="CHECK" name="CONTAIN_BLOB_FROM_OTHER_DB" value="false"/>
+    <elementParameter field="CHECK" name="ENABLE_DEBUG_MODE" value="false"/>
+    <elementParameter field="CHECK" name="USE_BATCH_SIZE" show="false" value="true"/>
+    <elementParameter field="CHECK" name="USE_BATCH_AND_USE_CONN" show="false" value="false"/>
+    <elementParameter field="TEXT" name="BATCH_SIZE" show="false" value="10000"/>
+    <elementParameter field="CHECK" name="SUPPORT_NULL_WHERE" value="false"/>
+    <elementParameter field="CHECK" name="USE_TIMESTAMP_FOR_DATE_TYPE" value="true"/>
+    <elementParameter field="CHECK" name="TRIM_CHAR" value="true"/>
+    <elementParameter field="CHECK" name="SUPPORT_NLS" value="false"/>
+    <elementParameter field="TEXT" name="LABEL" value="tDBO_MSD_D_PERSONAL_CAPABILITY "/>
+    <elementParameter field="TEXT" name="HINT" value="&lt;b&gt;MSD_D_USER&lt;/b&gt;&lt;br&gt;Update/Insert into MSD_D_USER"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tDBOutput_19">
+      <column comment="" key="true" length="38" name="MSD_PERSONAL_CAPABILITY_ID" nullable="true" originalLength="38" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="38" name="MSD_PERSON_ID" nullable="true" originalLength="38" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="38" name="MSD_CAPABILITY_ID" nullable="true" originalLength="38" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="MSD_CREATED_ON" nullable="true" originalLength="-1" pattern="&quot;dd/mm/yyyy hh:mi:ss&quot;" precision="-1" sourceType="DATE" type="id_Date" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="MSD_CREATED_BY" nullable="true" originalLength="20" pattern="" precision="-1" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="MSD_LAST_UPDATED_ON" nullable="true" originalLength="-1" pattern="&quot;dd/mm/yyyy hh:mi:ss&quot;" precision="-1" sourceType="DATE" type="id_Date" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="MSD_LAST_UPDATED_BY" nullable="true" originalLength="20" pattern="" precision="-1" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+    </metadata>
+    <metadata connector="REJECT" name="REJECT">
+      <column comment="" key="true" length="38" name="MSD_PERSONAL_CAPABILITY_ID" nullable="true" originalLength="38" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="38" name="MSD_PERSON_ID" nullable="true" originalLength="38" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="38" name="MSD_CAPABILITY_ID" nullable="true" originalLength="38" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="MSD_CREATED_ON" nullable="true" originalLength="-1" pattern="&quot;dd/mm/yyyy hh:mi:ss&quot;" precision="-1" sourceType="DATE" type="id_Date" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="MSD_CREATED_BY" nullable="true" originalLength="20" pattern="" precision="-1" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="MSD_LAST_UPDATED_ON" nullable="true" originalLength="-1" pattern="&quot;dd/mm/yyyy hh:mi:ss&quot;" precision="-1" sourceType="DATE" type="id_Date" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="MSD_LAST_UPDATED_BY" nullable="true" originalLength="20" pattern="" precision="-1" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
       <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" originalLength="-1" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
       <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" originalLength="-1" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
     </metadata>
@@ -4818,11 +5021,44 @@
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="ln_STG_D_USER"/>
   </connection>
-  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tDBInput_1" offsetLabelX="0" offsetLabelY="0" source="tDBInput_1" target="tRowGenerator_2">
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tDBInput_1" offsetLabelX="0" offsetLabelY="0" source="tDBInput_1" target="tDBInput_3">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnSubjobOk21"/>
     <elementParameter field="CHECK" name="RESUMING_CHECKPOINT" value="true"/>
     <elementParameter field="TEXT" name="RESUMLABEL" value="End Time Restart"/>
     <elementParameter field="MEMO" name="FAILURE_INSTRUCTIONS" value="Restart the Job"/>
+  </connection>
+  <connection connectorName="FLOW" label="ln_STG_D_PERSONAL_CAPABILITY" lineStyle="0" metaname="tDBInput_3" offsetLabelX="0" offsetLabelY="0" source="tDBInput_3" target="tDBOutput_19">
+    <elementParameter field="TABLE" name="TRACES_CONNECTION_FILTER" show="false">
+      <elementValue elementRef="TRACE_COLUMN" value="MSD_ASSESSMENT_PROVIDER_ID"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="MSD_CREATED_BY"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="MSD_CAPABILITY_ID"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="MSD_LAST_UPDATED_BY"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="MSD_CREATED_ON"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="MSD_PERSON_ID"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="MSD_LAST_UPDATED_ON"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="MSD_PERSONAL_CAPABILITY_ID"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="ln_STG_D_PERSONAL_CAPABILITY"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tDBInput_3" offsetLabelX="0" offsetLabelY="0" source="tDBInput_3" target="tRowGenerator_2">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnSubjobOk22"/>
   </connection>
   <note opaque="true" posX="768" posY="128" sizeHeight="97" sizeWidth="481" text="Developer: Shaili Bakshi&#13;&#10;Date: 09-Oct-2019&#13;&#10;JIRA: BM-3873&#13;&#10;Description: Extract MSD Staging Data and insert into EDW MSD Tables.">
     <elementParameter field="RADIO" name="NOTETXT_LEFT" value="true"/>
@@ -4830,7 +5066,7 @@
     <elementParameter field="RADIO" name="NOTELABEL_CENTER" value="false"/>
     <elementParameter field="RADIO" name="NOTETXT_TOP" value="true"/>
   </note>
-  <note opaque="true" posX="768" posY="256" sizeHeight="289" sizeWidth="481" text="Developer: Shaili Bakshi&#13;&#10;Date: 02-Mar-2021&#13;&#10;JIRA: BM-6907&#13;&#10;Description: Change the interface between STG_D_ROLE_CAPABILITY and MSD_D_ROLE_CAPABILITY to ignore updates to nullify MSD_MED_TEAM_LDR_PERSON_ID&#13;&#10;&#13;&#10;Developer: Shaili Bakshi&#13;&#10;Date: 27-Jul-2022&#13;&#10;JIRA: BM-8247&#13;&#10;Description: Added new field MSD_ASSESSMENT_PROVIDER_ID in MSD_D_PERSON&#13;&#10;&#13;&#10;Developer: Shaili Bakshi&#13;&#10;Date: 03-Aug-2022&#13;&#10;JIRA: BM-8251&#13;&#10;Description: Added new table MSD_D_USER">
+  <note opaque="true" posX="768" posY="256" sizeHeight="769" sizeWidth="481" text="Developer: Shaili Bakshi&#13;&#10;Date: 02-Mar-2021&#13;&#10;JIRA: BM-6907&#13;&#10;Description: Change the interface between STG_D_ROLE_CAPABILITY and MSD_D_ROLE_CAPABILITY to ignore updates to nullify MSD_MED_TEAM_LDR_PERSON_ID&#13;&#10;&#13;&#10;Developer: Shaili Bakshi&#13;&#10;Date: 27-Jul-2022&#13;&#10;JIRA: BM-8247&#13;&#10;Description: Added new field MSD_ASSESSMENT_PROVIDER_ID in MSD_D_PERSON&#13;&#10;&#13;&#10;&#13;&#10;Developer: Shaili Bakshi&#13;&#10;Date: 03-Aug-2022&#13;&#10;JIRA: BM-8251&#13;&#10;Description: Added new table MSD_D_USER&#13;&#10;&#13;&#10;Developer: Dharmendra Jagjivan&#13;&#10;Date: 12-Mar-2025&#13;&#10;JIRA: BM-12515&#13;&#10;Description: Added new table MSD_D_PERSONAL_CAPAPBILITY&#13;&#10;">
     <elementParameter field="RADIO" name="NOTETXT_LEFT" value="true"/>
     <elementParameter field="RADIO" name="NOTETXT_CENTER" value="false"/>
     <elementParameter field="RADIO" name="NOTELABEL_CENTER" value="false"/>
@@ -4983,13 +5219,20 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="192;192;192"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_8db0cd3f-a643-4584-b7c2-1a9af8548a19"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>Hhhqo/2FafTYYMgra08zlwmxS5uEqFt4oplImZRhDAIk7Il6nGQLIzmjtkM7URFzywReGzq7LyGV&#13;
-uttATHebbA==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_646b44fb-0375-411e-8d48-df49ed3345f7"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>/ZUikzeJ1by7aqeJUDGE01m3GuMpWiK0wmyA+Tz6WPMFJYDIGEdyo4NGzPmPCzadHcacOefut9Tg&#13;
-lY1U9qHfow==</DigestValue></Reference></SignedInfo><SignatureValue>Dc145s9xKDFKkw4a2hHHapW6cfaMuJQ8DVV39yffwQQ7dqzRhWSZlo/V9hqwqnRFKlLFgU/oBaFW&#13;
-tzeogE9pOWAXAt2jKfAKkTZlXu5Az4EIatwVUid4fn0hecTlLS8Eifs/g+zkqBmIsAO0x43o/BKR&#13;
-tUgAF2tH/ygG34m2im7+wipQuNEMIi+jDbytDLlPp1Gr5a5o00hO0PqHISHZr9FHxUBV2FkeaL+h&#13;
-Kr3WwU6Nwv5/ZXdcf065W/E/Hk6qBuijSPd3mCWZ0I87X/NX/7XAWs6nHgsYy9rcy4blXKgsIPQN&#13;
-n1Yz6hEbvJS0ggCOakRm52MFtPUoVR5FhIksRA==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+  <subjob>
+    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBInput_3"/>
+    <elementParameter field="TEXT" name="SUBJOB_TITLE" value="Insert STG_D_PERSONAL_CAPABILITY data into MSD_D_PERSONAL_CAPABILITY"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="192;192;192"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_82fe0217-0685-4973-878e-37f4fbd102de"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>greZwKJCFyD2JkB9sZdqoS+5FRgNnD9fYdL5U6xgqAfWFPiA7fAKs5OVClULZanEgGCy7V3ecELS&#13;
+6ITy8UJBWA==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_a2a60feb-1f06-4cb9-8cde-fc0917573867"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>nqmBl3Gs1BHJ6iIwIpgnHVhIMkW3m8jd79k+d5FMoErpBo+ZAZum5J85cLMKHXMMBsNLstg/XwFy&#13;
+b4lbjk6Heg==</DigestValue></Reference></SignedInfo><SignatureValue>kN8NUwWszbyCUFbfFFHuxAXuuR9YvF2uoko87rsDJlYFOCa2lgiKGYKhe889LvlLEbB4fTewnTGp&#13;
+q6Ls3AGQjRXqdZ4QrLcOA/jQlOP60G/rBdn5JlitBOuIJnXItFRm6+kogVKeyR2ze3F1hmZfefnY&#13;
+CJfDcpQ0eYA35vy5mbrbqD6zWhkT2lVXhmsvLFXwtVqZ4m4djWMDqSF8QVhbUZl5nLxKx9pAUYiH&#13;
+mrwTdutP1QLe+bdnPACJPGo5sWQzLwS2OoHjpClrIxO0VjV2s5puNNKV774n8Czy9pawvxjTw/WU&#13;
+UCb3IkQhDoIH6dZBuyie5JVlSod67oXbdn0cvQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
@@ -5011,4 +5254,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_646b44fb-0375-411e-8d48-df49ed3345f7" Target="#_8db0cd3f-a643-4584-b7c2-1a9af8548a19"><Timestamp>2024-06-12 14:28:17</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_a2a60feb-1f06-4cb9-8cde-fc0917573867" Target="#_82fe0217-0685-4973-878e-37f4fbd102de"><Timestamp>2025-03-14 12:28:21</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
