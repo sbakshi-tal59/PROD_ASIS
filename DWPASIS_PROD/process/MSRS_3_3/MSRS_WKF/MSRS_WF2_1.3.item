@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?><talendfile:ProcessType xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmlns:xmi="http://www.omg.org/XMI" defaultContext="Default" jobType="Standard" xmi:version="2.0">
-  <context confirmationNeeded="false" name="Default">
+  <context confirmationNeeded="false" hide="false" name="Default">
     <contextParameter comment="" internalId="_28o3AAACEeyozLjaWVAw7g" name="msrs_filepath" prompt="msrs_filepath?" promptNeeded="false" repositoryContextId="_oYgZ4OkyEeuR09Vtbvcs5g" type="id_Directory" value="D:\ASIS\Contexts\PROD\MSRS\"/>
     <contextParameter comment="" internalId="_28o3AQACEeyozLjaWVAw7g" name="msrs_misown_database" prompt="msrs_misown_database?" promptNeeded="false" repositoryContextId="_oYgZ4OkyEeuR09Vtbvcs5g" type="id_String" value="DMISI1"/>
     <contextParameter comment="" internalId="_28o3AgACEeyozLjaWVAw7g" name="msrs_misown_host" prompt="msrs_misown_host?" promptNeeded="false" repositoryContextId="_oYgZ4OkyEeuR09Vtbvcs5g" type="id_String" value="10.96.132.211"/>
@@ -63,7 +63,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:5QueqkW2CQMmpMTtqzcK3s52h4Z/klERk9+HRyUR"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:/KSlkE0nz4UXQcSethA9z7HYJvm4SnMTez2IwH1c"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
@@ -78,7 +78,7 @@
     <elementParameter field="CHECK" name="ON_METERCATCHER_FLAG" value="false"/>
     <elementParameter field="CHECK" name="ON_CONSOLE_FLAG" show="false" value="false"/>
     <elementParameter field="CHECK" name="ON_FILES_FLAG" show="false" value="false"/>
-    <elementParameter field="DIRECTORY" name="FILE_PATH" show="false" value="&quot;D:/ASIS/Workspace/.metadata&quot;"/>
+    <elementParameter field="DIRECTORY" name="FILE_PATH" show="false" value="&quot;D:/ASIS/ASIS_Workspace/.metadata&quot;"/>
     <elementParameter field="TEXT" name="FILENAME_STATS" show="false" value="&quot;stats_file.txt&quot;"/>
     <elementParameter field="TEXT" name="FILENAME_LOGS" show="false" value="&quot;logs_file.txt&quot;"/>
     <elementParameter field="TEXT" name="FILENAME_METTER" show="false" value="&quot;meter_file.txt&quot;"/>
@@ -98,7 +98,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:GDEmFvWfB6A66/dfN6px5xSo/aXxG6g8UYdNRqOo"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:wCWfoql0tnLfoGQLm1CAXVDUJk+8aW+klUYWyZtj"/>
     <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" show="false" value="&quot;&quot;"/>
@@ -117,16 +117,6 @@
     <elementParameter field="TEXT" name="FOOTER_LIBRARY" show="false" value=""/>
     <elementParameter field="TEXT" name="FOOTER_CODE" show="false" value=""/>
     <elementParameter field="TEXT" name="FOOTER_IMPORT" show="false" value=""/>
-    <routinesParameter id="_-sXZoOVlEeu73vnn6vWu4g" name="DataOperation"/>
-    <routinesParameter id="_-t2nYOVlEeu73vnn6vWu4g" name="Mathematical"/>
-    <routinesParameter id="_-vWcMOVlEeu73vnn6vWu4g" name="Numeric"/>
-    <routinesParameter id="_-w_a8OVlEeu73vnn6vWu4g" name="Relational"/>
-    <routinesParameter id="_-piIEuVlEeu73vnn6vWu4g" name="SQLike"/>
-    <routinesParameter id="_-yeosOVlEeu73vnn6vWu4g" name="StringHandling"/>
-    <routinesParameter id="_-z92cOVlEeu73vnn6vWu4g" name="TalendDataGenerator"/>
-    <routinesParameter id="_-15wIOVlEeu73vnn6vWu4g" name="TalendDate"/>
-    <routinesParameter id="_-44ysOVlEeu73vnn6vWu4g" name="TalendStringUtil"/>
-    <routinesParameter id="_-3Y94OVlEeu73vnn6vWu4g" name="TalendString"/>
   </parameters>
   <node componentName="tParallelize" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="128" posY="288">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tParallelize_1"/>
@@ -160,6 +150,7 @@
     <elementParameter field="TEXT" name="DYNAMIC_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="CHECK" name="USE_EXTRA_CLASSPATH" show="false" value="false"/>
     <elementParameter field="TEXT" name="EXTRA_CLASSPATH" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="LOAD_CONTEXT_FROM_FILE" show="false" value="false"/>
     <elementParameter field="TEXT" name="LABEL" value="tRJ_MSRS_VIEW_TO_STAGING_2"/>
     <elementParameter field="TEXT" name="HINT" value="&lt;b&gt;MSRS_VIEW_TO_STAGING_2&lt;/b&gt;&lt;br&gt;Insert data into STG from Source"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
@@ -188,6 +179,7 @@
     <elementParameter field="TEXT" name="DYNAMIC_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="CHECK" name="USE_EXTRA_CLASSPATH" show="false" value="false"/>
     <elementParameter field="TEXT" name="EXTRA_CLASSPATH" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="LOAD_CONTEXT_FROM_FILE" show="false" value="false"/>
     <elementParameter field="TEXT" name="LABEL" value="tRJ_MSRS_VIEW_TO_STAGING"/>
     <elementParameter field="TEXT" name="HINT" value="&lt;b&gt;MSRS_VIEW_TO_STAGING&lt;/b&gt;&lt;br&gt;Insert data into STG from Source"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
@@ -216,6 +208,7 @@
     <elementParameter field="TEXT" name="DYNAMIC_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="CHECK" name="USE_EXTRA_CLASSPATH" show="false" value="false"/>
     <elementParameter field="TEXT" name="EXTRA_CLASSPATH" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="LOAD_CONTEXT_FROM_FILE" show="false" value="false"/>
     <elementParameter field="TEXT" name="LABEL" value="tRJ_MSRS_EXAMINATION_ID_CHECK"/>
     <elementParameter field="TEXT" name="HINT" value="&lt;b&gt;MSRS_EXAMINATION_ID_CHECK&lt;/b&gt;&lt;br&gt;Insert Examination data into STG from Source"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
@@ -349,6 +342,7 @@
     <elementParameter field="TEXT" name="DYNAMIC_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="CHECK" name="USE_EXTRA_CLASSPATH" show="false" value="false"/>
     <elementParameter field="TEXT" name="EXTRA_CLASSPATH" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="LOAD_CONTEXT_FROM_FILE" show="false" value="false"/>
     <elementParameter field="TEXT" name="LABEL" value="tRJ_STAG_TO_DAT_18_ADDRESS"/>
     <elementParameter field="TEXT" name="HINT" value="&lt;b&gt;STAG_TO_DAT_18_ADDRESS&lt;/b&gt;&lt;br&gt;Insert data into MISOWN from STG"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
@@ -377,6 +371,7 @@
     <elementParameter field="TEXT" name="DYNAMIC_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="CHECK" name="USE_EXTRA_CLASSPATH" show="false" value="false"/>
     <elementParameter field="TEXT" name="EXTRA_CLASSPATH" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="LOAD_CONTEXT_FROM_FILE" show="false" value="false"/>
     <elementParameter field="TEXT" name="LABEL" value="tRJ_STAG_TO_DAT_01_CLIENT"/>
     <elementParameter field="TEXT" name="HINT" value="&lt;b&gt;STAG_TO_DAT_01_CLIENT&lt;/b&gt;&lt;br&gt;Insert data into MISOWN from STG"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
@@ -405,6 +400,7 @@
     <elementParameter field="TEXT" name="DYNAMIC_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="CHECK" name="USE_EXTRA_CLASSPATH" show="false" value="false"/>
     <elementParameter field="TEXT" name="EXTRA_CLASSPATH" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="LOAD_CONTEXT_FROM_FILE" show="false" value="false"/>
     <elementParameter field="TEXT" name="LABEL" value="tRJ_STAG_TO_DAT_02_BACK_OFFICE"/>
     <elementParameter field="TEXT" name="HINT" value="&lt;b&gt;STAG_TO_DAT_02_BACK_OFFICE&lt;/b&gt;&lt;br&gt;Insert data into MISOWN from STG"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
@@ -433,6 +429,7 @@
     <elementParameter field="TEXT" name="DYNAMIC_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="CHECK" name="USE_EXTRA_CLASSPATH" show="false" value="false"/>
     <elementParameter field="TEXT" name="EXTRA_CLASSPATH" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="LOAD_CONTEXT_FROM_FILE" show="false" value="false"/>
     <elementParameter field="TEXT" name="LABEL" value="tRJ_STAG_TO_DAT_03_CUSTOMER_OFFICE"/>
     <elementParameter field="TEXT" name="HINT" value="&lt;b&gt;STAG_TO_DAT_03_CUSTOMER_OFFICE&lt;/b&gt;&lt;br&gt;Insert data into MISOWN from STG"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
@@ -496,6 +493,7 @@
     <elementParameter field="TEXT" name="DYNAMIC_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="CHECK" name="USE_EXTRA_CLASSPATH" show="false" value="false"/>
     <elementParameter field="TEXT" name="EXTRA_CLASSPATH" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="LOAD_CONTEXT_FROM_FILE" show="false" value="false"/>
     <elementParameter field="TEXT" name="LABEL" value="tRJ_STAG_TO_DAT_04_CASE"/>
     <elementParameter field="TEXT" name="HINT" value="&lt;b&gt;STAG_TO_DAT_04_CASE&lt;/b&gt;&lt;br&gt;Insert data into MISOWN from STG"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
@@ -533,6 +531,7 @@
     <elementParameter field="TEXT" name="DYNAMIC_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="CHECK" name="USE_EXTRA_CLASSPATH" show="false" value="false"/>
     <elementParameter field="TEXT" name="EXTRA_CLASSPATH" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="LOAD_CONTEXT_FROM_FILE" show="false" value="false"/>
     <elementParameter field="TEXT" name="LABEL" value="tRJ_STAG_TO_DAT_05_REFERRAL"/>
     <elementParameter field="TEXT" name="HINT" value="&lt;b&gt;STAG_TO_DAT_05_REFERRAL&lt;/b&gt;&lt;br&gt;Insert data into MISOWN from STG"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
@@ -561,6 +560,7 @@
     <elementParameter field="TEXT" name="DYNAMIC_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="CHECK" name="USE_EXTRA_CLASSPATH" show="false" value="false"/>
     <elementParameter field="TEXT" name="EXTRA_CLASSPATH" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="LOAD_CONTEXT_FROM_FILE" show="false" value="false"/>
     <elementParameter field="TEXT" name="LABEL" value="tRJ_STAG_TO_DAT_06_PRACTITIONER"/>
     <elementParameter field="TEXT" name="HINT" value="&lt;b&gt;STAG_TO_DAT_06_PRACTITIONER&lt;/b&gt;&lt;br&gt;Insert data into MISOWN from STG"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
@@ -589,6 +589,7 @@
     <elementParameter field="TEXT" name="DYNAMIC_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="CHECK" name="USE_EXTRA_CLASSPATH" show="false" value="false"/>
     <elementParameter field="TEXT" name="EXTRA_CLASSPATH" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="LOAD_CONTEXT_FROM_FILE" show="false" value="false"/>
     <elementParameter field="TEXT" name="LABEL" value="tRJ_STAG_TO_DAT_07_MEC"/>
     <elementParameter field="TEXT" name="HINT" value="&lt;b&gt;STAG_TO_DAT_07_MEC&lt;/b&gt;&lt;br&gt;Insert data into MISOWN from STG"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
@@ -617,6 +618,7 @@
     <elementParameter field="TEXT" name="DYNAMIC_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="CHECK" name="USE_EXTRA_CLASSPATH" show="false" value="false"/>
     <elementParameter field="TEXT" name="EXTRA_CLASSPATH" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="LOAD_CONTEXT_FROM_FILE" show="false" value="false"/>
     <elementParameter field="TEXT" name="LABEL" value="tRJ_STAG_TO_DAT_08_APP_REQ"/>
     <elementParameter field="TEXT" name="HINT" value="&lt;b&gt;STAG_TO_DAT_08_APP_REQ&lt;/b&gt;&lt;br&gt;Insert data into MISOWN from STG"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
@@ -645,6 +647,7 @@
     <elementParameter field="TEXT" name="DYNAMIC_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="CHECK" name="USE_EXTRA_CLASSPATH" show="false" value="false"/>
     <elementParameter field="TEXT" name="EXTRA_CLASSPATH" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="LOAD_CONTEXT_FROM_FILE" show="false" value="false"/>
     <elementParameter field="TEXT" name="LABEL" value="tRJ_STAG_TO_DAT_09_MEC_APP"/>
     <elementParameter field="TEXT" name="HINT" value="&lt;b&gt;STAG_TO_DAT_09_MEC_APP&lt;/b&gt;&lt;br&gt;Insert data into MISOWN from STG"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
@@ -673,6 +676,7 @@
     <elementParameter field="TEXT" name="DYNAMIC_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="CHECK" name="USE_EXTRA_CLASSPATH" show="false" value="false"/>
     <elementParameter field="TEXT" name="EXTRA_CLASSPATH" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="LOAD_CONTEXT_FROM_FILE" show="false" value="false"/>
     <elementParameter field="TEXT" name="LABEL" value="tRJ_STAG_TO_DAT_10_PRACT_QUAL"/>
     <elementParameter field="TEXT" name="HINT" value="&lt;b&gt;STAG_TO_DAT_10_PRACT_QUAL&lt;/b&gt;&lt;br&gt;Insert data into MISOWN from STG"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
@@ -701,6 +705,7 @@
     <elementParameter field="TEXT" name="DYNAMIC_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="CHECK" name="USE_EXTRA_CLASSPATH" show="false" value="false"/>
     <elementParameter field="TEXT" name="EXTRA_CLASSPATH" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="LOAD_CONTEXT_FROM_FILE" show="false" value="false"/>
     <elementParameter field="TEXT" name="LABEL" value="tRJ_STAG_TO_DAT_11_DV_ALLOC"/>
     <elementParameter field="TEXT" name="HINT" value="&lt;b&gt;STAG_TO_DAT_11_DV_ALLOC&lt;/b&gt;&lt;br&gt;Insert data into MISOWN from STG"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
@@ -729,6 +734,7 @@
     <elementParameter field="TEXT" name="DYNAMIC_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="CHECK" name="USE_EXTRA_CLASSPATH" show="false" value="false"/>
     <elementParameter field="TEXT" name="EXTRA_CLASSPATH" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="LOAD_CONTEXT_FROM_FILE" show="false" value="false"/>
     <elementParameter field="TEXT" name="LABEL" value="tRJ_STAG_TO_DAT_20_FME_CONTACT"/>
     <elementParameter field="TEXT" name="HINT" value="&lt;b&gt;STAG_TO_DAT_20_FME_CONTACT&lt;/b&gt;&lt;br&gt;Insert data into MISOWN from STG"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
@@ -757,6 +763,7 @@
     <elementParameter field="TEXT" name="DYNAMIC_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="CHECK" name="USE_EXTRA_CLASSPATH" show="false" value="false"/>
     <elementParameter field="TEXT" name="EXTRA_CLASSPATH" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="LOAD_CONTEXT_FROM_FILE" show="false" value="false"/>
     <elementParameter field="TEXT" name="LABEL" value="tRJ_STAG_TO_DAT_19_DV_APPOINTMENT"/>
     <elementParameter field="TEXT" name="HINT" value="&lt;b&gt;STAG_TO_DAT_19_DV_APPOINTMENT&lt;/b&gt;&lt;br&gt;Insert data into MISOWN from STG"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
@@ -785,6 +792,7 @@
     <elementParameter field="TEXT" name="DYNAMIC_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="CHECK" name="USE_EXTRA_CLASSPATH" show="false" value="false"/>
     <elementParameter field="TEXT" name="EXTRA_CLASSPATH" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="LOAD_CONTEXT_FROM_FILE" show="false" value="false"/>
     <elementParameter field="TEXT" name="LABEL" value="tRJ_STAG_TO_DAT_13_EXAMINATION"/>
     <elementParameter field="TEXT" name="HINT" value="&lt;b&gt;STAG_TO_DAT_13_EXAMINATION&lt;/b&gt;&lt;br&gt;Insert data into MISOWN from STG"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
@@ -822,6 +830,7 @@
     <elementParameter field="TEXT" name="DYNAMIC_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="CHECK" name="USE_EXTRA_CLASSPATH" show="false" value="false"/>
     <elementParameter field="TEXT" name="EXTRA_CLASSPATH" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="LOAD_CONTEXT_FROM_FILE" show="false" value="false"/>
     <elementParameter field="TEXT" name="LABEL" value="tRJ_STAG_TO_DAT_12_MED_EVIDENCE"/>
     <elementParameter field="TEXT" name="HINT" value="&lt;b&gt;STAG_TO_DAT_12_MED_EVIDENCE&lt;/b&gt;&lt;br&gt;Insert data into MISOWN from STG"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
@@ -850,6 +859,7 @@
     <elementParameter field="TEXT" name="DYNAMIC_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="CHECK" name="USE_EXTRA_CLASSPATH" show="false" value="false"/>
     <elementParameter field="TEXT" name="EXTRA_CLASSPATH" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="LOAD_CONTEXT_FROM_FILE" show="false" value="false"/>
     <elementParameter field="TEXT" name="LABEL" value="tRJ_STAG_TO_DAT_14_MED_OUTPUT"/>
     <elementParameter field="TEXT" name="HINT" value="&lt;b&gt;STAG_TO_DAT_14_MED_OUTPUT&lt;/b&gt;&lt;br&gt;Insert data into MISOWN from STG"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
@@ -878,6 +888,7 @@
     <elementParameter field="TEXT" name="DYNAMIC_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="CHECK" name="USE_EXTRA_CLASSPATH" show="false" value="false"/>
     <elementParameter field="TEXT" name="EXTRA_CLASSPATH" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="LOAD_CONTEXT_FROM_FILE" show="false" value="false"/>
     <elementParameter field="TEXT" name="LABEL" value="tRJ_STAG_TO_DAT_16_ELEMENT_REF"/>
     <elementParameter field="TEXT" name="HINT" value="&lt;b&gt;STAG_TO_DAT_16_ELEMENT_REF&lt;/b&gt;&lt;br&gt;Insert data into MISOWN from STG"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
@@ -906,6 +917,7 @@
     <elementParameter field="TEXT" name="DYNAMIC_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="CHECK" name="USE_EXTRA_CLASSPATH" show="false" value="false"/>
     <elementParameter field="TEXT" name="EXTRA_CLASSPATH" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="LOAD_CONTEXT_FROM_FILE" show="false" value="false"/>
     <elementParameter field="TEXT" name="LABEL" value="tRJ_STAG_TO_DAT_17_REF_MAP"/>
     <elementParameter field="TEXT" name="HINT" value="&lt;b&gt;STAG_TO_DAT_17_ELEMENT_REF&lt;/b&gt;&lt;br&gt;Insert data into MISOWN from STG"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
@@ -934,6 +946,7 @@
     <elementParameter field="TEXT" name="DYNAMIC_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="CHECK" name="USE_EXTRA_CLASSPATH" show="false" value="false"/>
     <elementParameter field="TEXT" name="EXTRA_CLASSPATH" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="LOAD_CONTEXT_FROM_FILE" show="false" value="false"/>
     <elementParameter field="TEXT" name="LABEL" value="tRJ_STAG_TO_DAT_21_LETTER"/>
     <elementParameter field="TEXT" name="HINT" value="&lt;b&gt;STAG_TO_DAT_21_LETTER&lt;/b&gt;&lt;br&gt;Insert data into MISOWN from STG"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
@@ -962,6 +975,7 @@
     <elementParameter field="TEXT" name="DYNAMIC_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="CHECK" name="USE_EXTRA_CLASSPATH" show="false" value="false"/>
     <elementParameter field="TEXT" name="EXTRA_CLASSPATH" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="LOAD_CONTEXT_FROM_FILE" show="false" value="false"/>
     <elementParameter field="TEXT" name="LABEL" value="tRJ_STAG_TO_DAT_29_POSTCODE_AREA"/>
     <elementParameter field="TEXT" name="HINT" value="&lt;b&gt;STAG_TO_DAT_29_POSTCODE_AREA&lt;/b&gt;&lt;br&gt;Insert data into MISOWN from STG"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
@@ -990,6 +1004,7 @@
     <elementParameter field="TEXT" name="DYNAMIC_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="CHECK" name="USE_EXTRA_CLASSPATH" show="false" value="false"/>
     <elementParameter field="TEXT" name="EXTRA_CLASSPATH" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="LOAD_CONTEXT_FROM_FILE" show="false" value="false"/>
     <elementParameter field="TEXT" name="LABEL" value="tRJ_STAG_TO_DAT_23_USER"/>
     <elementParameter field="TEXT" name="HINT" value="&lt;b&gt;STAG_TO_DAT_23_USER&lt;/b&gt;&lt;br&gt;Insert data into MISOWN from STG"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
@@ -1018,6 +1033,7 @@
     <elementParameter field="TEXT" name="DYNAMIC_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="CHECK" name="USE_EXTRA_CLASSPATH" show="false" value="false"/>
     <elementParameter field="TEXT" name="EXTRA_CLASSPATH" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="LOAD_CONTEXT_FROM_FILE" show="false" value="false"/>
     <elementParameter field="TEXT" name="LABEL" value="tRJ_STAG_TO_DAT_24_WORKFLOW"/>
     <elementParameter field="TEXT" name="HINT" value="&lt;b&gt;STAG_TO_DAT_24_WORKFLOW&lt;/b&gt;&lt;br&gt;Insert data into MISOWN from STG"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
@@ -1046,6 +1062,7 @@
     <elementParameter field="TEXT" name="DYNAMIC_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="CHECK" name="USE_EXTRA_CLASSPATH" show="false" value="false"/>
     <elementParameter field="TEXT" name="EXTRA_CLASSPATH" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="LOAD_CONTEXT_FROM_FILE" show="false" value="false"/>
     <elementParameter field="TEXT" name="LABEL" value="tRJ_STAG_TO_DAT_25_WORK_LIST_ENTRY"/>
     <elementParameter field="TEXT" name="HINT" value="&lt;b&gt;STAG_TO_DAT_25_WORK_LIST_ENTRY&lt;/b&gt;&lt;br&gt;Insert data into MISOWN from STG"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
@@ -1074,6 +1091,7 @@
     <elementParameter field="TEXT" name="DYNAMIC_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="CHECK" name="USE_EXTRA_CLASSPATH" show="false" value="false"/>
     <elementParameter field="TEXT" name="EXTRA_CLASSPATH" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="LOAD_CONTEXT_FROM_FILE" show="false" value="false"/>
     <elementParameter field="TEXT" name="LABEL" value="tRJ_STAG_TO_DAT_26_ACTION_PROMPT"/>
     <elementParameter field="TEXT" name="HINT" value="&lt;b&gt;STAG_TO_DAT_26_ACTION_PROMPT&lt;/b&gt;&lt;br&gt;Insert data into MISOWN from STG"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
@@ -1102,6 +1120,7 @@
     <elementParameter field="TEXT" name="DYNAMIC_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="CHECK" name="USE_EXTRA_CLASSPATH" show="false" value="false"/>
     <elementParameter field="TEXT" name="EXTRA_CLASSPATH" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="LOAD_CONTEXT_FROM_FILE" show="false" value="false"/>
     <elementParameter field="TEXT" name="LABEL" value="tRJ_STAG_TO_DAT_27_CHANGE_OF_CIRCS"/>
     <elementParameter field="TEXT" name="HINT" value="&lt;b&gt;STAG_TO_DAT_27_CHANGE_OF_CIRCS&lt;/b&gt;&lt;br&gt;Insert data into MISOWN from STG"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
@@ -1165,6 +1184,7 @@
     <elementParameter field="TEXT" name="DYNAMIC_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="CHECK" name="USE_EXTRA_CLASSPATH" show="false" value="false"/>
     <elementParameter field="TEXT" name="EXTRA_CLASSPATH" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="LOAD_CONTEXT_FROM_FILE" show="false" value="false"/>
     <elementParameter field="TEXT" name="LABEL" value="tRJ_STAG_TO_DAT_28_DASHBOARD_MAP"/>
     <elementParameter field="TEXT" name="HINT" value="&lt;b&gt;STAG_TO_DAT_28_DASHBOARD_MAP&lt;/b&gt;&lt;br&gt;Insert data into MISOWN from STG"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
@@ -1193,6 +1213,7 @@
     <elementParameter field="TEXT" name="DYNAMIC_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="CHECK" name="USE_EXTRA_CLASSPATH" show="false" value="false"/>
     <elementParameter field="TEXT" name="EXTRA_CLASSPATH" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="LOAD_CONTEXT_FROM_FILE" show="false" value="false"/>
     <elementParameter field="TEXT" name="LABEL" value="tRJ_STAG_TO_DAT_31_CLIENT_CONTACT"/>
     <elementParameter field="TEXT" name="HINT" value="&lt;b&gt;STAG_TO_DAT_31_CLIENT_CONTACT&lt;/b&gt;&lt;br&gt;Insert data into MISOWN from STG"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
@@ -1221,6 +1242,7 @@
     <elementParameter field="TEXT" name="DYNAMIC_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="CHECK" name="USE_EXTRA_CLASSPATH" show="false" value="false"/>
     <elementParameter field="TEXT" name="EXTRA_CLASSPATH" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="LOAD_CONTEXT_FROM_FILE" show="false" value="false"/>
     <elementParameter field="TEXT" name="LABEL" value="tRJ_STAG_TO_DAT_32_APPOINTEE"/>
     <elementParameter field="TEXT" name="HINT" value="&lt;b&gt;STAG_TO_DAT_32_APPOINTEE&lt;/b&gt;&lt;br&gt;Insert data into MISOWN from STG"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
@@ -1459,6 +1481,7 @@
     <elementParameter field="TEXT" name="DYNAMIC_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="CHECK" name="USE_EXTRA_CLASSPATH" show="false" value="false"/>
     <elementParameter field="TEXT" name="EXTRA_CLASSPATH" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="LOAD_CONTEXT_FROM_FILE" show="false" value="false"/>
     <elementParameter field="TEXT" name="LABEL" value="tRJ_DIM_LOOKUP_UPDATE"/>
     <elementParameter field="TEXT" name="HINT" value="&lt;b&gt;DIM_LOOKUP_UPDATE&lt;/b&gt;&lt;br&gt;Update lookup tables"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
@@ -1487,6 +1510,7 @@
     <elementParameter field="TEXT" name="DYNAMIC_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="CHECK" name="USE_EXTRA_CLASSPATH" show="false" value="false"/>
     <elementParameter field="TEXT" name="EXTRA_CLASSPATH" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="LOAD_CONTEXT_FROM_FILE" show="false" value="false"/>
     <elementParameter field="TEXT" name="LABEL" value="tRJ_MSRS_STAGING_TO_AUDIT"/>
     <elementParameter field="TEXT" name="HINT" value="&lt;b&gt;MSRS_STAGING_TO_AUDIT&lt;/b&gt;&lt;br&gt;Insert data into AUD from STG"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
@@ -1515,6 +1539,7 @@
     <elementParameter field="TEXT" name="DYNAMIC_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="CHECK" name="USE_EXTRA_CLASSPATH" show="false" value="false"/>
     <elementParameter field="TEXT" name="EXTRA_CLASSPATH" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="LOAD_CONTEXT_FROM_FILE" show="false" value="false"/>
     <elementParameter field="TEXT" name="LABEL" value="tRJ_MSRS_STAGING_TO_AUDIT_2"/>
     <elementParameter field="TEXT" name="HINT" value="&lt;b&gt;MSRS_STAGING_TO_AUDIT_2&lt;/b&gt;&lt;br&gt;Insert data into AUD from STG"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
@@ -1554,41 +1579,6 @@
     <elementParameter field="TEXT" name="HINT" value="&lt;b&gt;MIS_SMART_LOAD_COMPLETE&lt;/b&gt;&lt;br&gt;Call MIS_SMART_LOAD_COMPLETE stored procedure"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tDBSP_2"/>
-  </node>
-  <node componentName="tOracleSP" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="1152" posY="1792">
-    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBSP_13"/>
-    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
-    <elementParameter field="COMPONENT_LIST" name="CONNECTION" show="false" value=""/>
-    <elementParameter field="CLOSED_LIST" name="CONNECTION_TYPE" value="ORACLE_SERVICE_NAME"/>
-    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="ORACLE_11"/>
-    <elementParameter field="TEXT" name="RAC_URL" show="false" value="&quot;&quot;"/>
-    <elementParameter field="TEXT" name="HOST" value="context.msrs_misown_host"/>
-    <elementParameter field="TEXT" name="PORT" value="context.msrs_misown_port"/>
-    <elementParameter field="TEXT" name="DBNAME" value="context.msrs_misown_database"/>
-    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="&quot;&quot;"/>
-    <elementParameter field="TEXT" name="SCHEMA_DB" value="context.msrs_misown_schema"/>
-    <elementParameter field="TEXT" name="TYPE" show="false" value="Oracle"/>
-    <elementParameter field="TEXT" name="USER" value="context.msrs_misown_username"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:BeD9dIRtbJk7uilJUwTKYr1dosRCAnspyV7z+GTl94XVVP2Nu0EQyXV1wCD5TQ0k0+VnAkHG5/c="/>
-    <elementParameter field="TEXT" name="SP_NAME" value="&quot;CREATE_PRE_PROC_STIM&quot;"/>
-    <elementParameter field="CHECK" name="IS_FUNCTION" value="false"/>
-    <elementParameter field="COLUMN_LIST" name="RETURN" show="false" value=""/>
-    <elementParameter field="CLOSED_LIST" name="RETURN_BDTYPE" show="false" value="AUTOMAPPING"/>
-    <elementParameter field="TABLE" name="SP_ARGS"/>
-    <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime"/>
-    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false"/>
-    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" show="false" value="&quot;&quot;"/>
-    <elementParameter field="TEXT" name="PROPERTIES" value="&quot;&quot;"/>
-    <elementParameter field="LABEL" name="NOTE" value="*Note: Example for Additional JDBC Parameters: &quot;parameterName1=value1&amp;&amp;parameterName2=value2&quot;"/>
-    <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
-    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
-    <elementParameter field="CLOSED_LIST" name="NLS_LANGUAGE" value="NONE"/>
-    <elementParameter field="CLOSED_LIST" name="NLS_TERRITORY" value="NONE"/>
-    <elementParameter field="CHECK" name="SUPPORT_NLS" show="false" value="false"/>
-    <elementParameter field="TEXT" name="LABEL" value="tDBSP_CREATE_PRE_PROC_STIM"/>
-    <elementParameter field="TEXT" name="HINT" value="&lt;b&gt;CREATE_PRE_PROC_STIM&lt;/b&gt;&lt;br&gt;Call CREATE_PRE_PROC_STIM stored procedure"/>
-    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <metadata connector="FLOW" name="tDBSP_13"/>
   </node>
   <node componentName="tFileInputExcel" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="96" posY="32">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFileInputExcel_1"/>
@@ -1634,6 +1624,8 @@
     <elementParameter field="CHECK" name="SUPPRESS_WARN" show="false" value="false"/>
     <elementParameter field="CLOSED_LIST" name="GENERATION_MODE" value="USER_MODE"/>
     <elementParameter field="CHECK" name="INCLUDE_PHONETICRUNS" show="false" value="true"/>
+    <elementParameter field="CHECK" name="CONFIGURE_INFLATION_RATIO" value="false"/>
+    <elementParameter field="TEXT" name="INFLATION_RATIO" show="false" value=""/>
     <elementParameter field="TEXT" name="LABEL" value="tFD_MSRS_CONTEXT"/>
     <elementParameter field="TEXT" name="HINT" value="&lt;b&gt;MSRS_CONTEXT&lt;/b&gt;&lt;br&gt;MSRS_Context.xlsx"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
@@ -1723,6 +1715,7 @@
     <elementParameter field="TEXT" name="DYNAMIC_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="CHECK" name="USE_EXTRA_CLASSPATH" show="false" value="false"/>
     <elementParameter field="TEXT" name="EXTRA_CLASSPATH" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="LOAD_CONTEXT_FROM_FILE" show="false" value="false"/>
     <elementParameter field="TEXT" name="LABEL" value="tRJ_STAG_TO_DAT_33_LOT_AP_MAP"/>
     <elementParameter field="TEXT" name="HINT" value="&lt;b&gt;STAG_TO_DAT_32_APPOINTEE&lt;/b&gt;&lt;br&gt;Insert data into MISOWN from STG"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
@@ -1751,6 +1744,7 @@
     <elementParameter field="TEXT" name="DYNAMIC_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="CHECK" name="USE_EXTRA_CLASSPATH" show="false" value="false"/>
     <elementParameter field="TEXT" name="EXTRA_CLASSPATH" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="LOAD_CONTEXT_FROM_FILE" show="false" value="false"/>
     <elementParameter field="TEXT" name="LABEL" value="tRJ_STAG_TO_DAT_34_AUDIT_HISTORY"/>
     <elementParameter field="TEXT" name="HINT" value="&lt;b&gt;STAG_TO_DAT_34_AUDIT_HISTORY&lt;/b&gt;&lt;br&gt;Insert data into MISOWN from STG"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
@@ -2005,12 +1999,6 @@
     <elementParameter field="TEXT" name="RESUMLABEL" value="Stg Daily Count Restart"/>
     <elementParameter field="MEMO" name="FAILURE_INSTRUCTIONS" value="Restart the Job"/>
   </connection>
-  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tDBSP_12" offsetLabelX="0" offsetLabelY="0" source="tDBSP_12" target="tDBSP_13">
-    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnSubjobOk43"/>
-    <elementParameter field="CHECK" name="RESUMING_CHECKPOINT" value="true"/>
-    <elementParameter field="TEXT" name="RESUMLABEL" value="Create Pre Proc Stim Restart"/>
-    <elementParameter field="MEMO" name="FAILURE_INSTRUCTIONS" value="Restart the Job"/>
-  </connection>
   <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tRunJob_34" offsetLabelX="0" offsetLabelY="0" source="tRunJob_34" target="tDBSP_11">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnSubjobOk39"/>
     <elementParameter field="CHECK" name="RESUMING_CHECKPOINT" value="true"/>
@@ -2057,7 +2045,7 @@
     <elementParameter field="TEXT" name="RESUMLABEL" value="Lot AP Map Restart"/>
     <elementParameter field="MEMO" name="FAILURE_INSTRUCTIONS" value="Restart the Job"/>
   </connection>
-  <note opaque="true" posX="480" posY="0" sizeHeight="225" sizeWidth="513" text="Developer: James Adams&#13;&#10;Date: 18-Aug-2021&#13;&#10;JIRA: BM-5005&#13;&#10;Description: MSRS MISOWN Incremental Load Process Flow.&#13;&#10;&#13;&#10;Developer: Shaili Bakshi&#13;&#10;Date: 26-Jul-2022&#13;&#10;JIRA: BM-8416&#13;&#10;Description: Added new subjob STAG_TO_DAT_33_LOT_AP_MAP&#13;&#10;&#13;&#10;Developer: Stuart Smith 24/11/2022 BM-8749 CR308&#13;&#10;Description: Add Run Job component STAG_TO_DAT_33_AUDIT_HISTORY&#13;&#10;&#13;&#10;Developer: Stuart Smith 16/03/2023 BM-9593 CR332&#13;&#10;Description: Renamed Job component STAG_TO_DAT_33_AUDIT_HISTORY to STAG_TO_DAT_34_AUDIT_HISTORY due to conflict in numbers from CR283 changes"/>
+  <note opaque="true" posX="480" posY="0" sizeHeight="225" sizeWidth="513" text="Developer: James Adams&#13;&#10;Date: 18-Aug-2021&#13;&#10;JIRA: BM-5005&#13;&#10;Description: MSRS MISOWN Incremental Load Process Flow.&#13;&#10;&#13;&#10;Developer: Shaili Bakshi&#13;&#10;Date: 26-Jul-2022&#13;&#10;JIRA: BM-8416&#13;&#10;Description: Added new subjob STAG_TO_DAT_33_LOT_AP_MAP&#13;&#10;&#13;&#10;Developer: Stuart Smith 24/11/2022 BM-8749 CR308&#13;&#10;Description: Add Run Job component STAG_TO_DAT_33_AUDIT_HISTORY&#13;&#10;&#13;&#10;Developer: Stuart Smith 16/03/2023 BM-9593 CR332&#13;&#10;Description: Renamed Job component STAG_TO_DAT_33_AUDIT_HISTORY to STAG_TO_DAT_34_AUDIT_HISTORY due to conflict in numbers from CR283 changes&#13;&#10;&#13;&#10;Developer: Stuart Smith 05/09/2025 BM-11507&#13;&#10;Description: Remove tDBSP_CREATE_PRE_PROC_STIM component"/>
   <subjob>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tParallelize_1"/>
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
@@ -2309,11 +2297,6 @@
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
   <subjob>
-    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBSP_13"/>
-    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
-    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
-  </subjob>
-  <subjob>
     <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFileInputExcel_1"/>
     <elementParameter field="TEXT" name="SUBJOB_TITLE" value="Import MSRS_Context.xlsx"/>
@@ -2335,13 +2318,13 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_21ce5989-11c3-4d35-a058-2bcfe2e9c2ec"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>iQGH/UR2REDkXrReCYoSgwBPeZHtizFpQqxezkQnrIt0DRfrQYzDEYMiOXNqt1c224ZSAOU6uiko&#13;
-KbIHflPPrw==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_d1eb850d-ba68-4592-958f-f2388b0fb240"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>Q6NB1D8LPngt7CeJUSkkfKHaC/5mDXUchgJDJGW3/rFdQz/gg4BtfyZbCD0EbG22d1buIjOUIIEy&#13;
-oisamPPKxw==</DigestValue></Reference></SignedInfo><SignatureValue>kJEEjmtkeK1NnKaacaQNm0gZHx9dENNYC0eP1UOqsQ7bKLy58FPOck01+4jEuGQ9Yn1utXYOrJ8d&#13;
-kAn7/6OCVMYylvbT0qKS/iR7AhkuwdDrxhh7oCPpBO/PiXw4ucXW6Z0/cpojzo4dXKSnSSOIi5ly&#13;
-S7v9w2nooVwE5KWU12XyB9Pt6ZllVmve8KXBSE1mFUcnZ8pGWW2Uc3ZwszsASSbj0ZcLb4oZVACL&#13;
-vnOZ0G5KhakMRCnLsUCvbXpoe15ZKFoEiFj2dJl0xMmOOCshlcPBDJpbo0Lb0rxBkJ3Nn/H3BvJs&#13;
-jCEqj9dJEQP4faEcmuF5k2MinXyIH/tHTebhHw==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_cc68bc15-baf8-4d55-a696-24634482891b"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>P5vNztEMOgkc7GHNFrlQxRNQuEa/nAH6QWDbCkCYi1x8KLJ7j1McP4O2XU4rmEk90gXxcA5qFVED&#13;
+Ods7coAgCA==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_7c859cd3-8b62-4734-9747-a952fe0b7940"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>ndud8XLOGcMznVCx8riGCdnI/QrtrPTeUzI7URwtGASSKXlybaJfSJP5JYaEZ94KyNd75O8p7xiL&#13;
+9jDfzn8n9w==</DigestValue></Reference></SignedInfo><SignatureValue>IHodHCfNpQm3t/HUx9iVjX8u3P3wgtvbh0NmY0jnjIrJcyZMwvZvvbHIDSXKSktXjSs4SwBM7tVl&#13;
+YkQJV8odJzMkLE6CItErDmOXbDzREo0s2mV3Yx8DQSjJ3XptkfEDdlI4uwEAmm7X5/uISTb6RyoY&#13;
+51B6f4sWZmfRw0RZa/9//T4VRqZ/uPebyXLAGyV4SYDRAnPVYheoHjdIb4VAX6TWcHcS96ueyfkM&#13;
+WRbN9M6Nc6ygC1uETxfTh8cx0fIfu3L55N4iRXSt9G1//omt3AWX/uTsDjRmAwNkPUWiJngENM9j&#13;
+r7vFeRB/dHCEASGqEJQ5YpjImGH1W3UHuJAoXA==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
@@ -2363,4 +2346,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_d1eb850d-ba68-4592-958f-f2388b0fb240" Target="#_21ce5989-11c3-4d35-a058-2bcfe2e9c2ec"><Timestamp>2024-06-12 14:35:33</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_7c859cd3-8b62-4734-9747-a952fe0b7940" Target="#_cc68bc15-baf8-4d55-a696-24634482891b"><Timestamp>2025-10-03 13:00:00</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
